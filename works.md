@@ -35,9 +35,8 @@ One Line is a sound performance that explores the body and movement as a continu
 When the rest of the point-body in motion on the plane is destroyed, it moves in space, giving rise to the line. One Line represents the simplest and purest performative form which, at the same time, can be dynamic and varied. In this performance, the boundaries are blurred and the periphery becomes a contour and its container.
 
 <div class="video-container">
-<video class="wp-video-shortcode" id="video-1593-1" width="760" height="428" loop="1" preload="metadata" controls="controls">
-    <source type="video/mp4" src="img/portfolio/oneline-video.mp4"></source>
-</video>
+    <!-- Replace "your_video.mp4" with the actual path to your local video file -->
+    <iframe src="img/portfolio/oneline-video.mp4" frameborder="0" allowfullscreen sandbox></iframe>
 </div>
 
 Idea, general concept and device design: Ezequiel Abregu
@@ -239,6 +238,8 @@ Chrysalis intends to carry out, from the perspective of art, a reflexive look on
 - Sustainability, postulating us as part of a generation that acts to satisfy their needs in a conscious and sustainable way.
 
 ![crisalida-3](img/portfolio/crisalida-3.jpg)
+
+[**Poster & Technical Aspects**](https://lac.linuxaudio.org/2018/pdf/9-poster.pdf)
 
 &nbsp;
 &nbsp;

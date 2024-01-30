@@ -614,6 +614,11 @@ a:visited {
     margin-top: 1.4em;
 }
 
+#markdown-content h2 {
+    margin-top: 100px; /* adjust margin to add space between sections */
+    margin-bottom: 20px; /* adjust margin as needed */
+}
+
 #markdown-content p {
     margin-bottom: 1.4em;
 }
