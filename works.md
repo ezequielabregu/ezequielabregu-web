@@ -34,12 +34,11 @@ One Line is a sound performance that explores the body and movement as a continu
 
 When the rest of the point-body in motion on the plane is destroyed, it moves in space, giving rise to the line. One Line represents the simplest and purest performative form which, at the same time, can be dynamic and varied. In this performance, the boundaries are blurred and the periphery becomes a contour and its container.
 
-
+<div class="video-container">
 <video class="wp-video-shortcode" id="video-1593-1" width="760" height="428" loop="1" preload="metadata" controls="controls">
     <source type="video/mp4" src="img/portfolio/oneline-video.mp4"></source>
 </video>
-
-&nbsp;
+</div>
 
 Idea, general concept and device design: Ezequiel Abregu
 Performance: Ezequiel Abregu, Florencia Staldecker
@@ -60,7 +59,7 @@ Performance: Ezequiel Abregu, Florencia Staldecker
 
 Constanza (Mexico, 1990) has a house in her head. And it is not exactly that of Sáenz Peña Street 1041 in Zárate, the one that her great-grandparents built and where her mother grew up before her grandparents’ exile.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+<div class="video-container">
     <iframe src="https://www.youtube.com/embed/-jrTA1fqlc0" title="Los Abuelos Artificiales (2018) Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
@@ -186,19 +185,15 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 
 &nbsp;
 
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/185746862?h=7c69bb315c" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 </div>
 
-&nbsp;
-
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe width="627" height="353" src="https://www.youtube.com/embed/sMELZXPBYAE" title="500K Album ::: Making of" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-&nbsp;
-
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe width="627" height="353" src="https://www.youtube.com/embed/ZXymU_PsINk" title="500K B Trailer I HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -230,13 +225,10 @@ Chrysalis is an Interactive Sound Sculpture that relates sustainability, the hum
 
 Chrysalis consists of a sculpture elaborated, for the most part, using a lot of e-waste. From a symbolic point of view, it proposes a critical and reflective position on the treatment of e-waste, encouraging spectators to reflect on environment problems and sustainability from art. In this framework, the work proposes a symbolic projection of the existing problem between humans and their technological waste, thus revealing a space of direct correlation between the contemporary urban environment and its dumps. The excessive consumption of high-tech devices, the cultural evolution dependent on technology, the programmed obsolescence strategies and the lack of controls and policies on the treatment of technological waste generate a new taboo in urban societies: technological dumps. Due to the exponential increase of these sites we have, as a consequence, the expansion of their limits, progressively invading our urban space.
 
-&nbsp;
-
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe width="627" height="353" src="https://www.youtube.com/embed/NIfb89eeNsI" title="CRISALIDA (metamorfosis)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-&nbsp;
 
 Chrysalis intends to carry out, from the perspective of art, a reflexive look on this problem, concentrating on three main topics:
 
@@ -262,7 +254,7 @@ Chrysalis intends to carry out, from the perspective of art, a reflexive look on
 
 The actress is searching for the bodies of biographical-fictional representations of the past in her memory. Through an extreme physical journey that begins with breathing, the bodies of the past appear and update to the present. Far away explores how to inhabit an empty space and rid the body of certain memory, in an attempt to transform the mechanisms of representation and to experiment some autonomy.
 
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/124265742?h=f0650bf4a8" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 </div>
 
@@ -290,7 +282,7 @@ Sarmiento's Journeys
 
 Four women travel through different landscapes of their memory through a pulse that builds their own cartography. They constellate spectra and landscapes that recover the voices from the stones that the books name as desert. The physical and emotional experience of Sarmiento’s Journeys opens the possibility of inventing a communal, visceral and mestizo body anchored in the present.
 
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/240777313?h=99c5d6dbee" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 </div>
 
@@ -312,7 +304,7 @@ Performers/Creatives: Florencia Bergallo, Cecilia Blanco, María Eugenia Roces, 
 &nbsp;
 ---
 
-## **Bowl of secrets**
+## **Bowl of Secrets**
 
 2013
 
@@ -320,7 +312,13 @@ Performers/Creatives: Florencia Bergallo, Cecilia Blanco, María Eugenia Roces, 
 
 Bowl of secrets is a generative sound installation created by Damián Anache, Ezequiel Abregu and Martín Matus, for the Nota al pie (Editorial Universidad Nacional de Quilme’s bookstore) opening, held on April 11, 2013.
 
+*Listen Bowl of Secrets*
+
+&nbsp;
+
 <div id="waveform"></div>
+
+&nbsp;
 
 The approach of the composition is based on the idea of generative music. A computational algorithm was designed in the Pure Data (a.k.a. PD) environment using a system of rules in order to create a structure or sound texture where the sound results are unique each time. Bowl of secrets uses an arrangement of 8 speakers with an uniform and circular distribution as a reproduction device. The work articulates textures typical of electroacoustic music and texts by Erik Satie, using aesthetic criteria typical of the ambient stream. In this aesthetic line, the sound discourse tries to satisfy the listener in two levels: it offers an environment of auditory comfort and, at the same time, it provides a subject of interest in a situation of attentive listening to music. Both conditions work simultaneously without conditioning one reception or another.
 
@@ -340,7 +338,7 @@ The approach of the composition is based on the idea of generative music. A comp
 
 In 2011, through the support of the music publishing company MELOS (Bs. As., Argentina), Ezequiel Abregu had the opportunity to work together with the Compañía Oblicua ensemble, directed by Mtro. Marcelo Delgado. From this collaboration emerged two instrumental ensemble pieces called “Instructions to get in touch with supra-physical worlds” and “Oceans have ears“. These pieces were premiered by the Compañía Oblicua (Oblique Company) on July 4, 2012, National Library auditorium (Buenos Aires, Argentina).
 
-<div style="display: flex; justify-content: center;">
+<div class="video-container">
 <iframe width="627" height="353" src="https://www.youtube.com/embed/IomWRTrQtNI" title="Two pieces for ensamble (2012) - Ezequiel Abregu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 

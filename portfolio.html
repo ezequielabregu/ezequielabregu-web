@@ -24,10 +24,10 @@
           <h4>EZEQUIEL ABREGU</h4>
         </a>
         <div id="fixed-navbar">
-          <a class="nav-item active" href="portfolio.html">works</a>
+          <a class="nav-item active" href="portfolio.html">WORKS</a>
           <a class="nav-item" href="about.html">bio</a>
           <a class="nav-item" href="audio.html">audio</a>
-          <a class="nav-item" href="research.html">research</a>
+          <a class="nav-item" href="research.html">papers</a>
           <a
             class="nav-item"
             href="https://github.com/ezequielabregu?tab=repositories"
@@ -54,7 +54,7 @@
         <div class="nav-content hideNav hidden">
           <ul class="nav-list vcenter">
             <li class="nav-item active">
-              <a class="item-anchor" href="portfolio.html">works</a>
+              <a class="item-anchor" href="portfolio.html">WORKS</a>
             </li>
             <li class="nav-item">
               <a class="item-anchor" href="about.html">bio</a>
@@ -63,7 +63,7 @@
               <a class="item-anchor" href="audio.html">audio</a>
             </li>
             <li class="nav-item">
-              <a class="item-anchor" href="research.html">research</a>
+              <a class="item-anchor" href="research.html">papers</a>
             </li>
             <li class="nav-item">
               <a
@@ -220,27 +220,30 @@
     </script>
 
 
-<!-- Wavesurfer script -->
-<script>
-   fetch('works.md')
-     .then(response => response.text())
-     .then(text => {
-       const html = marked(text, { sanitize: false });
-       document.getElementById('markdown-content').innerHTML = html;
- 
-       // Initialize WaveSurfer after the Markdown content has been loaded
-       var wavesurfer = WaveSurfer.create({
-         container: '#waveform',
-         waveColor: 'violet',
-         progressColor: 'purple'
-       });
- 
-       // Load an audio file
-       wavesurfer.load('audio/bucaro_mastered.mp3');
-     });
- </script>
-</script>
+   <!-- Wavesurfer script -->
+   <script>
+      fetch('works.md')
+      .then(response => response.text())
+      .then(text => {
+         const html = marked(text, { sanitize: false });
+         document.getElementById('markdown-content').innerHTML = html;
+   
+         // Initialize WaveSurfer after the Markdown content has been loaded
+         var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: 'violet',
+            progressColor: 'purple'
+         });
+   
+         // Load an audio file
+         wavesurfer.load('audio/bucaro_mastered.mp3');
 
+         // Add click event listener to the waveform
+         document.getElementById('waveform').addEventListener('click', function() {
+            wavesurfer.playPause();
+         });
+      });
+   </script>
 
    </body>
 </html>
