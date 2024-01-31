@@ -51,18 +51,6 @@ Follow these steps to get the website running on your local machine:
 
 3. Open `index.html` in your web browser to view the website.
 
-## Technical Details
-
-The website is built using HTML, CSS, and JavaScript. It uses the Bootstrap framework for responsive design and jQuery for functionality.
-
-The website is structured as a single-page application with multiple sections. Each section is contained in a separate HTML file in the root directory. The `index.html` file is the entry point of the website.
-
-The CSS files are located in the `css` directory. The `bootstrap.css` file contains the Bootstrap styles, and the `style.css` file contains custom styles for the website.
-
-The JavaScript files are located in the `js` directory. The `jquery.js` file contains the jQuery library, the `bootstrap.js` file contains the Bootstrap JavaScript, and the `menu-color.js` file contains JavaScript for the menu color.
-
-The website is designed to be responsive and should work on all modern web browsers.
-
 ## Contributing
 
 If you want to contribute to this project, please create a new branch, make your changes, and submit a pull request. All contributions are welcome!
