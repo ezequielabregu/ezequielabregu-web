@@ -221,6 +221,8 @@ a:visited {
     margin: 10px auto;
     text-align: center;
     color: #222;
+    padding-left: 10px; /* Adjust this value to match the padding of .item-anchor */
+    padding-right: 10px;
 }
 .nav-item a:link,
 .nav-item a:hover,
