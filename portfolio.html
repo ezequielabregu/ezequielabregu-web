@@ -211,7 +211,7 @@
     <!-- include Markdown file script-->
     <div id="markdown-content"></div>
     <script>
-      fetch('works.md')
+      fetch('content/works.md')
         .then(response => response.text())
         .then(text => {
           const html = marked(text, { sanitize: false });
