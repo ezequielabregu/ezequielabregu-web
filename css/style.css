@@ -678,6 +678,13 @@ a:visited {
     height: 100%;
 }
 
+/* Adjust styles for screens smaller than 600px */
+@media (max-width: 767px) {
+    .video-container {
+        padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+    }
+}
+
 /*scroll padding, to avoid markdown navigation colapse, added by me on 29.01.2024*/
 html {
     scroll-padding-top: 70px; /* adjust as needed */
