@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Eat to look inside</title>
+     <link rel="stylesheet" href="master.css">
+     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+     <script src="jquery.vide.js"></script>
+
+</head>
+<body data-vide-bg="video/gise" onclick="selectRandom1(); selectRandom2(); selectRandom3()">
+     <h1>Eat to look inside</h1>
+</body>
+</html>
+
+
+<audio id="audioplayer1" autoplay> </audio>
+<audio id="audioplayer2" autoplay> </audio>
+<audio id="audioplayer3" autoplay> </audio>
+
+<script>
+
+    var playlist = ["sounds/1.mp3", "sounds/2.mp3", "sounds/3.mp3", "sounds/4.mp3", "sounds/5.mp3", "sounds/6.mp3", "sounds/7.mp3", "sounds/8.mp3", "sounds/9.mp3", "sounds/10.mp3", "sounds/11.mp3", "sounds/12.mp3", "sounds/13.mp3", "sounds/14.mp3"]; // List of Songs
+
+    var lastSong1 = null;
+    var selection1 = null;
+    var lastSong2 = null;
+    var selection2 = null;
+    var lastSong3 = null;
+    var selection3 = null;
+
+    var player1 = document.getElementById("audioplayer1"); // Get Audio Element
+    player1.autoplay=true;
+    player1.addEventListener("ended", selectRandom1); // Run function when song ends
+
+    var player2 = document.getElementById("audioplayer2"); // Get Audio Element
+    player2.autoplay=true;
+    player2.addEventListener("ended", selectRandom2); // Run function when song ends
+
+    var player3 = document.getElementById("audioplayer3"); // Get Audio Element
+    player3.autoplay=true;
+    player3.addEventListener("ended", selectRandom3); // Run function when song ends
+
+    function selectRandom1(){
+        while(selection1 == lastSong1){ // Repeat until different song is selected
+            selection1 = Math.floor(Math.random() * playlist.length);
+        }
+        lastSong1 = selection1; // Remember last song
+        player1.src = playlist[selection1]; // Tell HTML the location of the new Song
+    }
+
+    function selectRandom2(){
+        while(selection2 == lastSong2){ // Repeat until different song is selected
+            selection2 = Math.floor(Math.random() * playlist.length);
+        }
+        lastSong2 = selection2; // Remember last song
+        player2.src = playlist[selection2]; // Tell HTML the location of the new Song
+    }
+
+    function selectRandom3(){
+        while(selection3 == lastSong3){ // Repeat until different song is selected
+            selection3 = Math.floor(Math.random() * playlist.length);
+        }
+        lastSong3 = selection3; // Remember last song
+        player3.src = playlist[selection3]; // Tell HTML the location of the new Song
+    }
+
+    // selectRandom1(); // Select initial song
+    // selectRandom2(); // Select initial song
+    // selectRandom3(); // Select initial song
+    player1.play(); // Start Song
+    player2.play(); // Start Song
+    player3.play(); // Start Song
+
+</script>
