@@ -185,7 +185,7 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 &nbsp;
 
 <div class="video-container">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/185746862?h=7c69bb315c" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/185746862?h=7c69bb315c" frameborder="0"    allowfullscreen></iframe>
 </div>
 
 <div class="video-container">
@@ -284,7 +284,7 @@ Sarmiento's Journeys
 Four women travel through different landscapes of their memory through a pulse that builds their own cartography. They constellate spectra and landscapes that recover the voices from the stones that the books name as desert. The physical and emotional experience of Sarmiento’s Journeys opens the possibility of inventing a communal, visceral and mestizo body anchored in the present.
 
 <div class="video-container">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/240777313?h=99c5d6dbee" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/240777313?h=99c5d6dbee" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Sound design, original music & live performance for Sarmiento’s Journeys, directed by Marina Sarmiento.
