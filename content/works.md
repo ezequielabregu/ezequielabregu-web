@@ -256,7 +256,7 @@ Chrysalis intends to carry out, from the perspective of art, a reflexive look on
 The actress is searching for the bodies of biographical-fictional representations of the past in her memory. Through an extreme physical journey that begins with breathing, the bodies of the past appear and update to the present. Far away explores how to inhabit an empty space and rid the body of certain memory, in an attempt to transform the mechanisms of representation and to experiment some autonomy.
 
 <div class="video-container">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/124265742?h=f0650bf4a8" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/124265742?h=f0650bf4a8" frameborder="0" allowfullscreen></iframe>
 </div>
 
 LEJOS is a multidisciplinary research, combining theater, performance, visual and sound arts. From the beginning of the creative process, the challenge consisted of working on the perceptive thresholds of breathing and silence, in the unfolding of the acoustic-stage space and the transition points where a symbol or sound can be a thing or another depending on the context. In particular, from the point of view of the sound treatment of the work, the idea of memory as noise was approached as a key concept for the composition of the sound space. In this framework, the treatment of silence and noise acts as a spatial and temporal framework (which also connects with the character’s past), constituting a crucial link between the symbolic aspect of the work and the fictional past of the actress.
