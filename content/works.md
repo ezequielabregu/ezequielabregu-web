@@ -185,7 +185,7 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 &nbsp;
 
 <div class="video-container">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/185746862?h=7c69bb315c" frameborder="0"    allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/185746862?h=7c69bb315c" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 <div class="video-container">
