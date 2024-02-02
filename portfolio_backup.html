@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Ezequiel Abregu</title>
+    <!-- Css -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/wavesurfer.js"></script> <!-- Wavesurfer library-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="col-md-12">
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+        <div class="nav"></div>
+        <a class="navbar-brand" href="index.html">
+          <!-- <img class="logo" src="img/logo.png" alt="logo"> -->
+          <h4>EZEQUIEL ABREGU</h4>
+        </a>
+        <div id="fixed-navbar">
+          <a class="nav-item active" href="portfolio.html">WORKS</a>
+          <a class="nav-item" href="about.html">about</a>
+          <a class="nav-item" href="audio.html">audio</a>
+          <a class="nav-item" href="research.html">papers</a>
+          <a class="nav-item" href="links.html">links</a>
+          <a
+            class="nav-item"
+            href="https://github.com/ezequielabregu?tab=repositories"
+            target="_blank"
+            >code</a
+          >
+        </div>
+      </nav>
+      <!-- Collapsed navbar -->
+      <nav id="collapsed-navbar" class="navbar navbar-default navbar-fixed-top">
+        <!-- Rest of the navbar code -->
+        <div class="container"></div>
+        <div class="nav">
+          <button class="btn-nav">
+            <span class="icon-bar inverted top"></span>
+            <span class="icon-bar inverted middle"></span>
+            <span class="icon-bar inverted bottom"></span>
+          </button>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <!-- <img class="logo" src="img/logo.png" alt="logo"> -->
+        </a>
+        <div class="nav-content hideNav hidden">
+          <ul class="nav-list vcenter">
+            <li class="nav-item active">
+              <a class="item-anchor" href="portfolio.html">WORKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="item-anchor" href="about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="item-anchor" href="audio.html">audio</a>
+            </li>
+            <li class="nav-item">
+              <a class="item-anchor" href="research.html">papers</a>
+            </li>
+            <li class="nav-item">
+               <a class="item-anchor" href="links.html">links</a>
+             </li>
+            <li class="nav-item">
+              <a
+                class="item-anchor"
+                href="https://github.com/ezequielabregu?tab=repositories"
+                target="_blank"
+                >code</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="portfolio">
+         <div class="container">
+            <ul class="portfolio-sorting list-inline text-center">
+               <li><a href="#" data-group="all" class="active">All</a>
+               </li>
+               <li><a href="#" data-group="sound">Sound</a>
+               </li>
+               <li><a href="#" data-group="music">Music</a>
+               </li>
+               <li><a href="#" data-group="performance">Performance</a>
+               </li>
+               <li><a href="#" data-group="digital">Digital</a>
+               </li>
+            </ul>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
+                     <ul class="portfolio-items list-unstyled" id="grid">
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["digital", "performance"]'>
+                           <!-- <a href="img/portfolio1.jpg" id="redirect-link" data-redirect="#work-1" data-lightbox="true"> -->
+                           <a href="#eat-to-look-inside" >
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/eattolookinside.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["performance", "sound"]'>
+                           <a href="#one-line">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/oneline.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["performance"]'>
+                           <a href="#the-artificial-grandparents">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/abuelos.png" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["music", "sound"]'>
+                           <a href="#urban-bosque">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/urbanbosque.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["music"]'>
+                           <a href="#mute">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/mute.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["music"]'>
+                           <a href="#500k">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/500k.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["sound"]'>
+                           <a href="#chrysalis"">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/crisalida.jpg" />
+                              </div>
+                           </a>
+                        </li>
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["performance"]'>
+                           <a href="#lejos">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/lejos.jpg" />
+                              </div>
+                           </a>
+                        </li>
+						<li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["performance"]'>
+                           <a href="#los-viajes-de-sarmiento">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/viajes.jpg" />
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["sound"]'>
+                           <a href="#bowl-of-secrets">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/bucaro.jpg" />
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["music"]'>
+                           <a href="#two-pieces-for-ensemble">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/oceanos.jpg" />
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" data-groups='["sound"]'>
+                           <a href="#imaginarios-de-barrio">
+                              <div class="background-image-holder">
+                                 <img alt="portfolio" class="background-image" src="img/gallery/imaginarios.jpg" />
+                              </div>
+                           </a>
+                        </li>
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+    </div>
+
+
+    <!-- script -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@2.0.0/marked.min.js"></script> <!-- Markdown marked library-->
+    <script src="https://unpkg.com/wavesurfer.js"></script> <!-- Wavesurfer library-->
+
+    <!-- include Markdown file script-->
+    <div id="markdown-content"></div>
+    <script>
+      fetch('content/works.md')
+        .then(response => response.text())
+        .then(text => {
+          const html = marked(text, { sanitize: false });
+          document.getElementById('markdown-content').innerHTML = html;
+        });
+    </script>
+
+
+   <!-- Wavesurfer script -->
+   <script>
+      fetch('content/works.md')
+      .then(response => response.text())
+      .then(text => {
+         const html = marked(text, { sanitize: false });
+         document.getElementById('markdown-content').innerHTML = html;
+   
+         // Initialize WaveSurfer after the Markdown content has been loaded
+         var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: 'violet',
+            progressColor: 'purple'
+         });
+   
+         // Load an audio file
+         wavesurfer.load('audio/bucaro_mastered.mp3');
+
+         // Add click event listener to the waveform
+         document.getElementById('waveform').addEventListener('click', function() {
+            wavesurfer.playPause();
+         });
+      });
+   </script>
+
+   </body>
+</html>
+
