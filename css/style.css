@@ -668,6 +668,7 @@ a:visited {
     padding-bottom: 56.25%; /* for 16:9 aspect ratio */
     margin-bottom: 40px; /* adjust as needed */
     height: 0;
+    overflow: hidden;
 }
 
 .video-container iframe {
