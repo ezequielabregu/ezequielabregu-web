@@ -683,7 +683,35 @@ a:visited {
     .video-container {
         padding-bottom: 75%;
     }
-} */
+}  */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .video-container {
+        padding-bottom: 70%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .video-container {
+        padding-bottom: 75%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .video-container {
+        padding-bottom: 80%;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .video-container {
+        padding-bottom: 85%;
+    }
+}
 
 /*scroll padding, to avoid markdown navigation colapse, added by me on 29.01.2024*/
 html {
