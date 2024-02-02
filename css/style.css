@@ -690,6 +690,6 @@ html {
     scroll-padding-top: 70px; /* adjust as needed */
 }
 /* smooth scroll added by me on 29.01.2024 */
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
