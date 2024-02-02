@@ -185,7 +185,7 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 &nbsp;
 
 <div class="video-container">
-<iframe src="https://player.vimeo.com/video/185746862?h=7c69bb315c&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/185746862?h=7c69bb315c&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
 </div>
 
 
@@ -258,7 +258,7 @@ Chrysalis intends to carry out, from the perspective of art, a reflexive look on
 The actress is searching for the bodies of biographical-fictional representations of the past in her memory. Through an extreme physical journey that begins with breathing, the bodies of the past appear and update to the present. Far away explores how to inhabit an empty space and rid the body of certain memory, in an attempt to transform the mechanisms of representation and to experiment some autonomy.
 
 <div class="video-container">
-<iframe src="https://player.vimeo.com/video/124265742?h=f0650bf4a8&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/124265742?h=f0650bf4a8&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
 </div>
 
 LEJOS is a multidisciplinary research, combining theater, performance, visual and sound arts. From the beginning of the creative process, the challenge consisted of working on the perceptive thresholds of breathing and silence, in the unfolding of the acoustic-stage space and the transition points where a symbol or sound can be a thing or another depending on the context. In particular, from the point of view of the sound treatment of the work, the idea of memory as noise was approached as a key concept for the composition of the sound space. In this framework, the treatment of silence and noise acts as a spatial and temporal framework (which also connects with the character’s past), constituting a crucial link between the symbolic aspect of the work and the fictional past of the actress.
@@ -286,7 +286,7 @@ Sarmiento's Journeys
 Four women travel through different landscapes of their memory through a pulse that builds their own cartography. They constellate spectra and landscapes that recover the voices from the stones that the books name as desert. The physical and emotional experience of Sarmiento’s Journeys opens the possibility of inventing a communal, visceral and mestizo body anchored in the present.
 
 <div class="video-container">
-<iframe src="https://player.vimeo.com/video/240777313?h=99c5d6dbee&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/240777313?h=99c5d6dbee&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
 </div>
 
 Sound design, original music & live performance for Sarmiento’s Journeys, directed by Marina Sarmiento.
