@@ -355,7 +355,7 @@ In 2011, through the support of the music publishing company MELOS (Bs. As., Arg
 
 ![imaginarios-1](img/portfolio/imaginarios-1.jpg)
 
-Imaginarios de <Barrio> (<Neighbourhood > imaginaries) is a generative sound installation performed within the framework of the Paternal Art and Politics 2013 call. It was originally presented in multi-channel surround audio system.
+Imaginarios de <Barrio> (< Neighbourhood > imaginaries) is a generative sound installation performed within the framework of the Paternal Art and Politics 2013 call. It was originally presented in multi-channel surround audio system.
 
 Imaginarios de <Barrio> (<Neighbourhood > imaginaries) proposes to rethink the concept of neighbourhood and individual experience in the place of belonging. Crossing elements of the collective imaginary with the staff creates a texture of symbols, anecdotes, emotion and experience.
 

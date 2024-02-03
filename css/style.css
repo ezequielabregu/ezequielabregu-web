@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import 'https://fonts.googleapis.com/css?family=Fauna+One';
+@import '../fonts/RobotoMono-Thin.ttf';
 
 /*---------- Global Style ----------*/
 
 body {
     color: #222;
     font-family: 'Fauna One', serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.8!important;
 }
 html {
@@ -26,9 +27,12 @@ h6 {
 }
 
 p {
-    font-family: 'Fauna One', serif;
+    /* font-family: 'Fauna One', serif; */
+    font-family: 'Roboto Mono', monospace;
     font-weight: 300;
     margin-top: 1px;
+    /* space between letters */
+    letter-spacing: -1px;
 }
 p,
 ul,
@@ -217,7 +221,8 @@ a:visited {
     transition: all 1s ease;
 }
 .nav-item {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
     margin: 10px auto;
     text-align: center;
     color: #222;
@@ -513,7 +518,8 @@ a:visited {
 }
 .portfolio-sorting {
     padding-left: 15px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
 }
 .portfolio-sorting li a:hover,
 .portfolio-sorting li a.active {
@@ -549,7 +555,8 @@ a:visited {
     text-decoration: none;
     color: #333;
     margin-left: 10px;
-    font-family: 'Open Sans', sans-serif; /* This will set the font to Open Sans */
+    /* font-family: 'Open Sans', sans-serif;  */
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -595,15 +602,22 @@ a:visited {
 /* [css/style.css](css/style.css) added by me on 29.02.2024 */
 
 #markdown-content {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
     color: #333;
     line-height: 1.6;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     width: 100%; 
     margin: auto;
+}
+/* Adjust width for screens larger than 768px */
+@media (min-width: 768px) {
+    #markdown-content {
+        width: 80%;
+    }
 }
 
 #markdown-content h1,
