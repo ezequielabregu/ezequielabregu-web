@@ -112,3 +112,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
+// Change the section indicator based on the current section (added by me on 2020-04-20)
+window.addEventListener('scroll', function() {
+  var indicator = document.getElementById('section-indicator');
+  var sections = document.querySelectorAll('h2');
+  var currentSection = indicator.textContent;
+
+  for (var i = 0; i < sections.length; i++) {
+      var rect = sections[i].getBoundingClientRect();
+      if (rect.top >= 0 && rect.top < window.innerHeight) {
+          currentSection = sections[i].id;
+          break;
+      }
+  }
+
+  // Replace dashes with spaces and capitalize the first letter of each word
+  currentSection = currentSection.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+  indicator.textContent = currentSection;
+});

@@ -738,4 +738,8 @@ html {
     scroll-behavior: smooth;
 } */
 
-
+#section-indicator {
+    position: absolute;
+    font-size: 10px;  /* Adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+}
