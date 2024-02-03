@@ -740,6 +740,7 @@ html {
 
 #section-indicator {
     position: absolute;
+    top: 40px; /* Adjust as needed */
     font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
