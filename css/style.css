@@ -743,3 +743,27 @@ html {
     font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
+
+
+/* Footer added by me on 03.02.2024 */
+#fixed-footer {
+    position: fixed;
+    bottom: 0px;
+    right: -5px; 
+    height: 25px; /* Adjust this value to make the footer narrower */
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-color: transparent;
+    width: 100%;
+}
+
+#fixed-footer a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+#fixed-footer i {
+    font-size: 16px; /* Adjust this value to change the size of the icons */
+}
