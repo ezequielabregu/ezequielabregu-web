@@ -781,16 +781,16 @@ html {
 #fixed-footer p {
     text-decoration: none;
     color: #333;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 13px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0px;
-    font-size: 8px
+    font-size: 10px
 }
 
 #fixed-footer i {
     font-size: 14px; /* Adjust this value to change the icons size*/
-    margin-right: 15px; /* Add this line */
+    margin-right: 25px; /* Add this line */
 }
 
 
@@ -805,7 +805,7 @@ html {
 /* ------------------------------------------------------------------------------- */
 
 
-
+/* added by me --> ::after to create the text, and the :hover to show the text when the mouse pointer is over the navbar item*/
 .nav-item {
     position: relative; /* Needed for the absolute positioning of the ::after pseudo-element */
 }
@@ -824,3 +824,4 @@ html {
 #fixed-navbar:hover .nav-item::after {
     opacity: 1; /* Opacity is set to 1 on hover, making the text visible */
 }
+/* ------------------------------------------------------------------------------- */
