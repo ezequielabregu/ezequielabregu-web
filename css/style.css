@@ -37,6 +37,7 @@ p {
 p,
 ul,
 li {
+    font-family: 'Roboto Mono', monospace;
     color: #666;
 }
 section {
