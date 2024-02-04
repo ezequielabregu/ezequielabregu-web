@@ -793,3 +793,14 @@ html {
     margin-right: 15px; /* Add this line */
 }
 
+
+/*adjust the distance beetwee the navbar and the page content / container, both on desktop and mobile  */
+.container {
+    margin-top: -100px; /* Default for small screens, adjust as needed */
+}
+
+#collapsed-navbar {
+    margin-top: 95px; /* This will push the navbar down, reducing the space */
+}
+/* ------------------------------------------------------------------------------- */
+

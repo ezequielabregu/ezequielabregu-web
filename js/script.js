@@ -133,3 +133,7 @@ window.addEventListener('scroll', function() {
 
   indicator.textContent = currentSection;
 });
+
+
+
+
