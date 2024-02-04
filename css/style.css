@@ -750,10 +750,11 @@ html {
 #fixed-footer {
     position: fixed;
     bottom: 0px;
-    right: -5px; 
+    right: 35px; 
     height: 25px; /* Adjust this value to make the footer narrower */
     display: flex;
     align-items: center;
+    justify-content: flex-end; /* justified totaly to the rigth */
     background-color: #fff;
     border-color: transparent;
     width: 100%;
