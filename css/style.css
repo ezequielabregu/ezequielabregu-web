@@ -742,10 +742,17 @@ html {
 #section-indicator {
     position: absolute;
     top: 40px; /* Adjust as needed */
+    left: 60px; /* Adjust as needed */
     font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
 
+#page-indicator {
+    position: absolute;
+    top: 40px; /* Adjust as needed */
+    font-size: 11px;  /* Adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+}
 
 /* Footer added by me on 03.02.2024 */
 #fixed-footer {
