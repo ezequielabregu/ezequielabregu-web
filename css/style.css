@@ -750,7 +750,7 @@ html {
 #fixed-footer {
     position: fixed;
     bottom: 0px;
-    right: 35px; 
+    right: 0px; 
     height: 25px; /* Adjust this value to make the footer narrower */
     display: flex;
     align-items: center;
@@ -758,12 +758,13 @@ html {
     background-color: #fff;
     border-color: transparent;
     width: 100%;
+
 }
 
 #fixed-footer a {
     text-decoration: none;
     color: #333;
-    margin-left: 10px;
+    margin-left: 5px; /* spacing the icons */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: -1px;
 }
@@ -772,12 +773,13 @@ html {
     text-decoration: none;
     color: #333;
     margin-left: 10px;
-    margin-top: 10px; /* Add this line */
+    margin-top: 10px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: -1px;
     font-size: 10px
 }
 
 #fixed-footer i {
-    font-size: 16px; /* Adjust this value to change the size of the icons */
+    font-size: 16px; /* Adjust this value to change the icons size*/
+    margin-right: 15px; /* Add this line */
 }
