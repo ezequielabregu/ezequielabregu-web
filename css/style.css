@@ -743,14 +743,14 @@ html {
     position: absolute;
     top: 40px; /* Adjust as needed */
     left: 60px; /* Adjust as needed */
-    font-size: 11px;  /* Adjust as needed */
+    font-size: 12px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
 
 #page-indicator {
     position: absolute;
     top: 40px; /* Adjust as needed */
-    font-size: 11px;  /* Adjust as needed */
+    font-size: 12px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -804,3 +804,23 @@ html {
 }
 /* ------------------------------------------------------------------------------- */
 
+
+
+.nav-item {
+    position: relative; /* Needed for the absolute positioning of the ::after pseudo-element */
+}
+
+.nav-item::after {
+    content: attr(data-text); /* Content is taken from the data-text attribute of the .nav-item */
+    position: absolute;
+    top: -20px; /* Position the text below the icon */
+    right: 0; /* Position the text to the right of the icon */
+    opacity: 0; /* Default opacity is 0, making the text invisible */
+    font-size: 12px;  /* Adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+    transition: opacity 0.3s; /* Transition effect for the opacity */
+}
+
+#fixed-navbar:hover .nav-item::after {
+    opacity: 1; /* Opacity is set to 1 on hover, making the text visible */
+}
