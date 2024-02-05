@@ -989,7 +989,7 @@ html {
   }
   
   #myModal {
-    animation: fadeIn 1s;
+    animation: fadeIn 0.7s;
   }
   
   .modal-content h1,
