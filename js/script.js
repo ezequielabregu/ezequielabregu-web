@@ -184,6 +184,7 @@ imgs.forEach(img => {
     closeButton.addEventListener('touchstart', closeModal);
 
     function closeModal(event) {
+      event.preventDefault();
       event.stopPropagation();
       modal.style.display = "none";
       // Remove the event listeners to avoid multiple event handlers being attached
