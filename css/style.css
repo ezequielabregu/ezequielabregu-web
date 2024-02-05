@@ -963,15 +963,15 @@ html {
 
 .close-button {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
-    width: 50px;  /* adjust as needed */
-    height: 50px; /* adjust as needed */
+    width: 80px;  /* adjust as needed */
+    height: 80px; /* adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transform: translateY(25px); /* adjust as needed */
+    transform: translateY(15px); 
 }
   
 .close {
