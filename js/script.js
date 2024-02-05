@@ -181,14 +181,14 @@ imgs.forEach(img => {
 
     // When the user clicks or touches on <div> (x), close the modal
     closeButton.addEventListener('click', closeModal);
-    closeButton.addEventListener('touchend', closeModal);
+    closeButton.addEventListener('touchstart', closeModal);
 
     function closeModal(event) {
       event.stopPropagation();
       modal.style.display = "none";
       // Remove the event listeners to avoid multiple event handlers being attached
       closeButton.removeEventListener('click', closeModal);
-      closeButton.removeEventListener('touchend', closeModal);
+      closeButton.removeEventListener('touchstart', closeModal);
     }
   }
 });
