@@ -759,7 +759,7 @@ html {
     position: fixed;
     bottom: 0px;
     right: 0px; 
-    height: 16px; /* Adjust this value to make the footer narrower */
+    height: 20px; /* Adjust this value to make the footer narrower */
     display: flex;
     align-items: center;
     justify-content: flex-end; /* justified totaly to the rigth */
@@ -785,11 +785,11 @@ html {
     margin-top: 13px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0px;
-    font-size: 10px
+    font-size: 12px
 }
 
 #fixed-footer i {
-    font-size: 14px; /* Adjust this value to change the icons size*/
+    font-size: 16px; /* Adjust this value to change the icons size*/
     margin-right: 25px; /* Add this line */
 }
 
