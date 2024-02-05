@@ -742,15 +742,15 @@ html {
 #section-indicator {
     position: absolute;
     top: 40px; /* Adjust as needed */
-    left: 60px; /* Adjust as needed */
-    font-size: 12px;  /* Adjust as needed */
+    /* left: 10px; */
+    font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
 
 #page-indicator {
     position: absolute;
-    top: 40px; /* Adjust as needed */
-    font-size: 12px;  /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -782,7 +782,7 @@ html {
     text-decoration: none;
     color: #333;
     margin-left: 20px;
-    margin-top: 13px; /* move icons horinzontally */
+    margin-top: 12px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0px;
     font-size: 12px
@@ -814,9 +814,10 @@ html {
     content: attr(data-text); /* Content is taken from the data-text attribute of the .nav-item */
     position: absolute;
     top: -20px; /* Position the text below the icon */
-    right: 0; /* Position the text to the right of the icon */
-    opacity: 0; /* Default opacity is 0, making the text invisible */
-    font-size: 12px;  /* Adjust as needed */
+    left: 50%; /* Move the text to the center of the icon */
+    transform: translateX(-50%); /* Shift the text to the left by half its width */
+    opacity: 0.5; /* Default opacity is 0, making the text invisible */
+    font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
     transition: opacity 0.3s; /* Transition effect for the opacity */
 }
