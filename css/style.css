@@ -477,7 +477,8 @@ a:visited {
 /*---------- Portfolio ----------*/
 
 #portfolio {
-    padding-top: 185px;
+/*     padding-top: 185px; */
+    padding-top: 240px; 
 }
 .background-image-holder {
     background-attachment: scroll;

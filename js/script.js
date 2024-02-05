@@ -184,13 +184,7 @@ imgs.forEach(img => {
     closeButton.addEventListener('touchend', closeModal);
 
     function closeModal(event) {
-      function closeModal(event) {
-        event.stopPropagation(); // add this line
-        modal.style.display = "none";
-        // Remove the event listeners to avoid multiple event handlers being attached
-        closeButton.removeEventListener('click', closeModal);
-        closeButton.removeEventListener('touchend', closeModal);
-      }
+      event.stopPropagation();
       modal.style.display = "none";
       // Remove the event listeners to avoid multiple event handlers being attached
       closeButton.removeEventListener('click', closeModal);
