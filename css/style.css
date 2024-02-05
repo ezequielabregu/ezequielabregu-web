@@ -964,19 +964,20 @@ html {
 
 .close-button {
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 0;
-    width: 80px;  /* adjust as needed */
-    height: 80px; /* adjust as needed */
+    width: 30px;  /* adjust as needed */
+    height: 50px; /* adjust as needed */
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transform: translateY(15px); 
+    transform: translateY(20px);  
 }
   
 .close {
-    font-size: 50px; /* adjust as needed */
+    font-size: 40px; /* adjust as needed */
     color: #666; /* change to the color you want */
     opacity: 1; /* ensure no opacity */
 }
