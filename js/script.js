@@ -183,7 +183,14 @@ imgs.forEach(img => {
     closeButton.addEventListener('click', closeModal);
     closeButton.addEventListener('touchend', closeModal);
 
-    function closeModal() {
+    function closeModal(event) {
+      function closeModal(event) {
+        event.stopPropagation(); // add this line
+        modal.style.display = "none";
+        // Remove the event listeners to avoid multiple event handlers being attached
+        closeButton.removeEventListener('click', closeModal);
+        closeButton.removeEventListener('touchend', closeModal);
+      }
       modal.style.display = "none";
       // Remove the event listeners to avoid multiple event handlers being attached
       closeButton.removeEventListener('click', closeModal);
@@ -214,8 +221,6 @@ function getSectionContent(parent, selector) {
   }
   return sectionContent;
 }
-
-
 
 
 //--------------------------------------------------------------
