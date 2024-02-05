@@ -983,4 +983,34 @@ html {
 
 /*------------------------------------------------------------------------- */
 
-
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  #myModal {
+    animation: fadeIn 1s;
+  }
+  
+  .modal-content h1,
+  .modal-content h2,
+  .modal-content h3,
+  .modal-content h4,
+  .modal-content h5,
+  .modal-content h6 {
+      color: #333;
+      margin-top: 1.4em;
+  }
+  
+  .modal-content h2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .modal-content p {
+      margin-bottom: 1.4em;
+  }
+  
+  .modal-content a {
+      color: #3498db;
+  }
