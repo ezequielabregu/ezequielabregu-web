@@ -837,7 +837,7 @@ html {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 30px; /* Location of the box */
     left: 0px;
     top: 0px;
     width: 100%; /* Full width */
@@ -877,7 +877,7 @@ html {
 }
 
 .modal-content h2 {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -964,22 +964,21 @@ html {
 
 .close-button {
     position: absolute;
-    top: 0px;
-    right: 0;
-    width: 30px;  /* adjust as needed */
-    height: 50px; /* adjust as needed */
-    padding: 50px;
+    top: 30px; /* adjust as needed */
+    right: 10px; /* adjust as needed */
+    width: 30px;
+    height: 50px;
+    padding: 0; /* remove padding */
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transform: translateY(20px);  
 }
   
 .close {
-    font-size: 40px; /* adjust as needed */
-    color: #666; /* change to the color you want */
-    opacity: 1; /* ensure no opacity */
+    font-size: 30px;
+    color: #666;
+    opacity: 1;
 }
 
 /*------------------------------------------------------------------------- */
