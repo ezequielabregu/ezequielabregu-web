@@ -975,7 +975,7 @@ html {
 }
   
 .close {
-    font-size: 30px; /* adjust as needed */
+    font-size: 50px; /* adjust as needed */
     color: #666; /* change to the color you want */
     opacity: 1; /* ensure no opacity */
 }
