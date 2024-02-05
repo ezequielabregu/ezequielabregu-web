@@ -741,8 +741,8 @@ html {
 
 #section-indicator {
     position: absolute;
-    top: 40px; /* Adjust as needed */
-    /* left: 10px; */
+    top: 6px; /* Adjust as needed */
+    left: 60px; 
     font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
