@@ -112,9 +112,11 @@ Jael Díaz Vila – Graphic Design.
 
 URBAN BOSQUE was conceived of on three poetic points:
 
-- **Organicity**: understood as the extension of the body’s own gesture through sound discourse,
-- **Spontaneity**: taken as the matrix of artistic composition, generating stories that unite the pieces,
-- **Urban Environment**: considered influence of the contemporary city in an immersive sound context.
+**Organicity**: understood as the extension of the body’s own gesture through sound discourse,
+
+**Spontaneity**: taken as the matrix of artistic composition, generating stories that unite the pieces,
+
+**Urban Environment**: considered influence of the contemporary city in an immersive sound context.
 
 &nbsp;
 
@@ -231,11 +233,11 @@ Chrysalis consists of a sculpture elaborated, for the most part, using a lot of 
 
 Chrysalis intends to carry out, from the perspective of art, a reflexive look on this problem, concentrating on three main topics:
 
-- Art and technology, proposing a possible solution to the problem by reusing technological waste as materials for the realization of the sculpture,
-  
-- Critical reflection, reaffirming the values referring to the way of relating to the city, the natural environment and technology, and
-  
-- Sustainability, postulating us as part of a generation that acts to satisfy their needs in a conscious and sustainable way.
+**Art and technology**, proposing a possible solution to the problem by reusing technological waste as materials for the realization of the sculpture,
+
+**Critical reflection**, reaffirming the values referring to the way of relating to the city, the natural environment and technology, and
+
+**Sustainability**, postulating us as part of a generation that acts to satisfy their needs in a conscious and sustainable way.
 
 ![crisalida-3](img/portfolio/crisalida-3.jpg)
 

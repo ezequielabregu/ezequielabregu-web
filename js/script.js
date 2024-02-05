@@ -136,4 +136,87 @@ window.addEventListener('scroll', function() {
 
 
 
+//-----------------------------------------------------------------------------------
+
+
+//This is the script for the modal in portfolio.html (added by me 5/02/2024)
+//This will scroll the modal content to the top every time an image is clicked and the modal opens. 
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Fetch the content of the works.md file and convert it to HTML
+var html;
+fetch('content/works.md')
+  .then(response => response.text())
+  .then(text => {
+    html = marked(text, { sanitize: false });
+  });
+
+// Get all images and add onclick event to each
+var imgs = document.querySelectorAll('.myImg');
+imgs.forEach(img => {
+  img.onclick = function(){
+    modal.style.display = "block";
+    
+    // Get the href attribute value (the id of the section)
+    var sectionId = this.getAttribute('href').substring(1);
+    
+    // Parse the HTML
+    var parser = new DOMParser();
+    var doc = parser.parseFromString(html, 'text/html');
+    
+    // Get the content of the section
+    var sectionContent = getSectionContent(doc.body, 'h2[id="' + sectionId + '"]');
+    
+    // Insert the content into the modal
+    document.getElementById('modal-content').innerHTML = sectionContent;
+
+    // Delay the scroll to the top until after the new content is rendered
+    setTimeout(function() {
+      modal.scrollTop = 0;
+    }, 0);
+
+    // Get the <div> element that closes the modal
+    var closeButton = document.getElementsByClassName("close-button")[0];
+
+    // When the user clicks or touches on <div> (x), close the modal
+    closeButton.addEventListener('click', closeModal);
+    closeButton.addEventListener('touchend', closeModal);
+
+    function closeModal() {
+      modal.style.display = "none";
+      // Remove the event listeners to avoid multiple event handlers being attached
+      closeButton.removeEventListener('click', closeModal);
+      closeButton.removeEventListener('touchend', closeModal);
+    }
+  }
+});
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Function to get the content of a section
+function getSectionContent(parent, selector) {
+  var startElement = parent.querySelector(selector);
+  var endElement = startElement.nextElementSibling;
+  while (endElement && endElement.tagName !== 'H2') {
+    endElement = endElement.nextElementSibling;
+  }
+  var sectionContent = '';
+  var element = startElement;
+  while (element && element !== endElement) {
+    sectionContent += element.outerHTML;
+    element = element.nextElementSibling;
+  }
+  return sectionContent;
+}
+
+
+
+
+//--------------------------------------------------------------
 
