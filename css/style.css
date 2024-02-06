@@ -225,7 +225,8 @@ a:visited {
 .nav-item {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto Mono', monospace;
-    margin: 10px auto;
+    /* margin: 10px auto;  */
+    margin: 0 10px; /* adjust space between fixed navbar icons */
     text-align: center;
     color: #222;
     padding-left: 10px; /* Adjust this value to match the padding of .item-anchor */
