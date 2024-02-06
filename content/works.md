@@ -331,7 +331,7 @@ The approach of the composition is based on the idea of generative music. A comp
 &nbsp;
 ---
 
-## Two Pieces for Ensemble
+## **Two Pieces for Ensemble**
 
 2012
 

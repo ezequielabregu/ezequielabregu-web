@@ -1017,7 +1017,7 @@ html {
   }
 
     /*------------------------------------------------------------------------- */
-    /* Syle for image gallery in portfolio.html*/
+    /* Syle for image gallery captions in portfolio.html*/
   .image-caption {
     position: absolute;
     bottom: -15px; /* Adjust as needed */
