@@ -982,14 +982,14 @@ html {
 }
 
 /*------------------------------------------------------------------------- */
-
+/*Style for the fade in when a Model is opening*/
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
   }
   
   #myModal {
-    animation: fadeIn 0.7s;
+    animation: fadeIn 0.5s;
   }
   
   .modal-content h1,
@@ -1013,4 +1013,20 @@ html {
   
   .modal-content a {
       color: #3498db;
+  }
+
+    /*------------------------------------------------------------------------- */
+    /* Syle for image gallery in portfolio.html*/
+  .image-caption {
+    position: absolute;
+    bottom: -15px; /* Adjust as needed */
+    left: 0;
+    color: #666;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 2px; 
   }
