@@ -172,11 +172,11 @@ a:visited {
     background-color: #fff!important;
 }
 .btn-nav:hover .icon-bar {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     background-color: #555;
 }
 .nav-content {
@@ -185,7 +185,7 @@ a:visited {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.95); /* Change mobile menu color and opacity*/
     display: block;
     height: 100%;
     z-index: 9;
@@ -202,25 +202,26 @@ a:visited {
     position: relative;
     text-decoration: none;
     padding: 10px;
+    line-height: 3; /* Adjust vertical space beetween elements of mobile menu*/ 
 }
 .item-anchor:hover,
 .item-anchor:focus {
     color: #ffffff;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .item-anchor:hover:after,
 .item-anchor:focus:after {
     width: 100%;
     background: #f7f7f7;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .nav-item {
     /* font-family: 'Open Sans', sans-serif; */
@@ -257,11 +258,11 @@ a:visited {
     margin: 0 auto;
 }
 .icon-bar {
-    -webkit-transition: all .7s ease;
-    -moz-transition: all .7s ease;
-    -ms-transition: all .7s ease;
-    -o-transition: all .7s ease;
-    transition: all .7s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
     z-index: 999999;
 }
 .animated .icon-bar {
@@ -318,10 +319,10 @@ a:visited {
     }
 }
 .showNav {
-    -webkit-animation: showNav 1s ease forwards;
-    -moz-animation: showNav 1s ease forwards;
-    -o-animation: showNav 1s ease forwards;
-    animation: showNav 1s ease forwards;
+    -webkit-animation: showNav 0.5s ease forwards;
+    -moz-animation: showNav 0.5s ease forwards;
+    -o-animation: showNav 0.5s ease forwards;
+    animation: showNav 0.5s ease forwards;
 }
 @keyframes hideNav {
     from {
@@ -1031,3 +1032,5 @@ html {
     font-size: 9px;
     letter-spacing: 2px; 
   }
+
+     /*------------------------------------------------------------------------- */
