@@ -414,15 +414,19 @@
        setTimeout(function() {
          modal.scrollTop = 0;
    
-         // Initialize WaveSurfer after the #waveform element is added to the DOM
+         // Initialize WaveSurfer with the MediaElement backend
          var wavesurfer = WaveSurfer.create({
-           container: '#waveform',
-           waveColor: '#666',
-           progressColor: '#759784'
+            container: '#waveform',
+            waveColor: '#666',
+            progressColor: '#759784',
+            backend: 'MediaElement'
          });
-   
-         // Load an audio file
-         wavesurfer.load('audio/bucaro_mastered.mp3');
+
+         // Pre-generated peaks
+         var peaks = [0.5, -0.3, 1, -0.7, 0.6, -0.4, 0.8, -0.6, 0.7, -0.5];
+
+         // Load an audio file with pre-generated peaks
+         wavesurfer.load('audio/bucaro_mastered.mp3', peaks);
    
          // Add click event listener to the waveform
          document.getElementById('waveform').addEventListener('click', function() {
