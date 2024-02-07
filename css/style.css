@@ -737,10 +737,8 @@ a:visited {
 html {
     scroll-padding-top: 70px; /* adjust as needed */
 }
-/* smooth scroll added by me on 29.01.2024 */
-/* html {
-    scroll-behavior: smooth;
-} */
+
+/*------------------------------------------------------------------------------- */
 
 #section-indicator {
     position: absolute;
@@ -750,13 +748,24 @@ html {
     font-family: 'Roboto Mono', monospace;
 }
 
+/* page-inidcator display text on mobile ONLY*/
 #page-indicator {
+    display: none; /* Hide by default */
     position: absolute;
     top: 32px; /* Adjust as needed */
-    font-size: 11px;  /* Adjust as needed */
+    font-size: 11px; /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Show on screens smaller than 768px (mobile screens) */
+@media (max-width: 767px) {
+    #page-indicator {
+        display: block;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
 /* Footer added by me on 03.02.2024 */
 #fixed-footer {
     position: fixed;
