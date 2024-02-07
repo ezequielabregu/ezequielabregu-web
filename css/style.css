@@ -792,7 +792,7 @@ html {
 
 #fixed-footer p {
     text-decoration: none;
-    color: #333;
+    color: #666;
     margin-left: 20px;
     margin-top: 12px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
@@ -803,6 +803,7 @@ html {
 #fixed-footer i {
     font-size: 16px; /* Adjust this value to change the icons size*/
     margin-right: 25px; /* Add this line */
+    color: #666;
 }
 
 
