@@ -111,10 +111,10 @@ a:visited {
     z-index: 99999;
 }
 .navbar-fixed-top {
-    padding-top: 10px;
+    padding-top: 0px; /* Adjust menu bar vertical (Y) position*/
 }
 .navbar-brand {
-    padding-top: 10px;
+    padding-top: 12px; /* Adjust navbar-brand vertical (Y) position*/
 }
 .navbar-brand > img {
     max-width: 127px;
@@ -752,7 +752,7 @@ html {
 
 #page-indicator {
     position: absolute;
-    top: 6px; /* Adjust as needed */
+    top: 32px; /* Adjust as needed */
     font-size: 11px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
@@ -816,11 +816,11 @@ html {
 .nav-item::after {
     content: attr(data-text); /* Content is taken from the data-text attribute of the .nav-item */
     position: absolute;
-    top: -20px; /* Position the text below the icon */
+    top: 15px; /* Position the text below the icon */
     left: 50%; /* Move the text to the center of the icon */
     transform: translateX(-50%); /* Shift the text to the left by half its width */
     opacity: 0.5; /* Default opacity is 0, making the text invisible */
-    font-size: 11px;  /* Adjust as needed */
+    font-size: 12px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
     transition: opacity 0.3s; /* Transition effect for the opacity */
 }
