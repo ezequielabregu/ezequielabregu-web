@@ -768,13 +768,14 @@ html {
 /* ------------------------------------------------------------------------------- */
 /* Footer added by me on 03.02.2024 */
 #fixed-footer {
-    position: fixed;
+    position: relative; /* "fixed" for anchor footer allways on top */
     bottom: 0px;
     right: 0px; 
     height: 20px; /* Adjust this value to make the footer narrower */
     display: flex;
+    flex-direction: column; /* Add this line */
     align-items: center;
-    justify-content: flex-end; /* justified totaly to the rigth */
+    justify-content: center; /* justified totaly to the rigth ( use "flex-end" for totally to the rigth )*/
     background-color: #fff; 
     /*background-color: rgba(255, 255, 255, 0.7);*/ /* Adjust transparency */
     border-color: transparent;
@@ -785,26 +786,25 @@ html {
 #fixed-footer a {
     text-decoration: none;
     color: #333;
-    margin-left: 0px; /* spacing the icons */
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: -1px;
 }
 
 #fixed-footer p {
     text-decoration: none;
     color: #666;
-    margin-left: 20px;
-    margin-top: 12px; /* move icons horinzontally */
+    margin-top: 0px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0px;
     font-size: 12px
 }
 
 #fixed-footer i {
-    font-size: 16px; /* Adjust this value to change the icons size*/
-    margin-right: 25px; /* Add this line */
+    font-size: 20px; /* Adjust this value to change the icons size*/
     color: #666;
+    letter-spacing: 10px;
 }
+
+/* ------------------------------------------------------------------------------- */
 
 
 /*adjust the distance beetwee the navbar and the page content / container, both on desktop and mobile  */
