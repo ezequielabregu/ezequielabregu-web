@@ -6,11 +6,11 @@
 
 ![eattolookinside-1](img/portfolio/eattolookinside-1.jpg)
 
+[**Visit Eat to look inside**](content/eattolookinside/eat-to-look-inside.html)
+
 Eat to look inside (2020) is the first in a series of audiovisual performance actions that explore sound, images, and the symbolic potential the act of eating. This work proposes eating as a playful act to obtain information and inspect objects in a transdisciplinary way.
 
 Eat to look inside addresses a proposal for non-verbal communication and libidinal evolution, through which the relationship with an object is expressed and organized. This work proposes a distance through a single audiovisual stimulus, whose interaction occurs only at the perceptual level through the observation. You can access through this link:
-
-[**Visit Eat to look inside**](content/eattolookinside/eat-to-look-inside.html)
 
 Note: after accessing the link, click / tap on the screen.
 
@@ -315,11 +315,16 @@ Performers/Creatives: Florencia Bergallo, Cecilia Blanco, María Eugenia Roces, 
 
 Bowl of secrets is a generative sound installation created by Damián Anache, Ezequiel Abregu and Martín Matus, for the Nota al pie (Editorial Universidad Nacional de Quilme’s bookstore) opening, held on April 11, 2013.
 
-*Listen Bowl of Secrets*
+*Listen Bowl of Secrets (excerpt)*
 
-&nbsp;
 
-<div id="waveform"></div>
+<!-- <div id="waveform"></div> -->
+
+<audio controls>
+  <source src="audio/bucaro_mastered.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 
 &nbsp;
 
