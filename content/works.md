@@ -35,9 +35,10 @@ One Line is a sound performance that explores the body and movement as a continu
 When the rest of the point-body in motion on the plane is destroyed, it moves in space, giving rise to the line. One Line represents the simplest and purest performative form which, at the same time, can be dynamic and varied. In this performance, the boundaries are blurred and the periphery becomes a contour and its container.
 
 <div class="video-container">
-    <!-- Replace "your_video.mp4" with the actual path to your local video file -->
-    <iframe src="img/portfolio/oneline-video.mp4" frameborder="0" allowfullscreen sandbox></iframe>
+<iframe width="951" height="535" src="https://www.youtube.com/embed/QXQqDU_LcAE" title="One Line" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+https://youtu.be/QXQqDU_LcAE
 
 Idea, general concept and device design: Ezequiel Abregu
 Performance: Ezequiel Abregu, Florencia Staldecker
