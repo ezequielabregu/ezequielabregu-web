@@ -1,5 +1,36 @@
 # Works
 
+## **CAVE AQUAM**
+
+![CAVE AQUAM](img/portfolio/cava-2.png)
+
+CAVE AQUAM is the result of a research process that focuses on issues related to quarries and sulfurous water in the territory of Tivoli Guidonia. Around the quarries and water in the Tivoli and Guidonia territory. A territory that contains a multitude of actors, territorial and environmental issues, ecosystemic, bureaucratic, legal, economic, and extractive issues. Here is the general framework of the sample.
+
+<figure>
+<audio controls>
+  <source src="audio/cave_aquam_mastered.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  <figcaption style="font-style: italic;">Listen CAVE AQUAM</figcaption>
+</figure>
+
+CAVE AQUAM is a collaborative project born at the conclusion of the 2023 edition of the Master's in "Environmental Humanities - Environmental and Territorial Studies" (Roma Tre University).
+CAVE AQUAM is the narrative of places that contain a plurality of actors, territorial and environmental issues, ecosystemic, bureaucratic and legal, economic, and extractive issues.
+CAVE AQUAM aims to draw attention - as an urgency and emergency - to the events revolving around quarries and water in the Tivoli and Guidonia area.
+CAVE AQUAM is a multidisciplinary research group composed of cris martone, Paola Pietronave, Nasti Pelo, Arianna Cianetti, Davide Somatics, Cecilia Blanco, Laura Landi.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12178.102666390569!2d12.728132066672636!3d41.95189103973664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f79aac394ba51%3A0x982fab7898d52c50!2sCave%20di%20travertino%20di%20Tivoli!5e1!3m2!1sen!2sar!4v1707576537679!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+&nbsp;
+
+![CAVE AQUAM](img/portfolio/cava-1.png)
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+---
+
 ## **Eat to Look Inside**
 
 2020

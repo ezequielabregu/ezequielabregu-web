@@ -6,7 +6,7 @@
   });
 }); */
 
-// Toggle Menu Vanilla JS
+// Toggle collapsed Menu Vanilla JS
 window.addEventListener('load', function() {
   var btnNav = document.querySelector('.btn-nav');
   btnNav.addEventListener('click', function() {
