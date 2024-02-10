@@ -758,7 +758,7 @@ html {
 #page-indicator {
     display: none; /* Hide by default */
     position: absolute;
-    top: 32px; /* Adjust as needed */
+    top: 36px; /* Adjust as needed */
     font-size: 11px; /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
 }
