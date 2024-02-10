@@ -188,21 +188,23 @@ a:visited {
     position: fixed;
     top: -100%;
     bottom: 0;
-    left: 0;
+    /* left: 0; */ /* remove to justify to the right */
     right: 0;
     background-color: rgba(255, 255, 255, 0.95); /* Change mobile menu color and opacity*/
     display: block;
-    height: 100%;
+    width: 42%;
+    height: 100%;  /* Adjust mobile menu height */
     z-index: 9;
 }
 .nav-list {
     list-style: none;
     padding: 0;
     position: relative;
+    /* padding-top: 60px;  */
 }
 .item-anchor {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     position: relative;
     text-decoration: none;
