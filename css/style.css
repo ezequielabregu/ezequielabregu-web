@@ -190,7 +190,7 @@ a:visited {
     bottom: 0;
     /* left: 0; */ /* remove to justify to the right */
     right: 0;
-    background-color: rgba(255, 255, 255, 0.95); /* Change mobile menu color and opacity*/
+    background-color: rgba(255, 255, 255, 1); /* Change mobile menu color and opacity*/
     display: block;
     width: 42%;
     height: 100%;  /* Adjust mobile menu height */
@@ -203,7 +203,8 @@ a:visited {
     /* padding-top: 60px;  */
 }
 .item-anchor {
-    color: #fff;
+    /* color: #fff; */
+    color: #666 !important; /* Change this to the text mobile menu color (#fff original) */
     font-size: 16px;
     font-weight: 100;
     position: relative;
@@ -211,6 +212,7 @@ a:visited {
     padding: 10px;
     line-height: 3; /* Adjust vertical space beetween elements of mobile menu*/ 
 }
+
 .item-anchor:hover,
 .item-anchor:focus {
     color: #ffffff;
@@ -236,14 +238,15 @@ a:visited {
     /* margin: 10px auto;  */
     margin: 0 10px; /* adjust space between fixed navbar icons */
     text-align: center;
-    color: #222;
+    color: #222; /* #222; */
     padding-left: 10px; /* Adjust this value to match the padding of .item-anchor */
     padding-right: 10px;
 }
+
 .nav-item a:link,
 .nav-item a:hover,
 .nav-item a:focus {
-    color: #222;
+    color: #222; /* Change this to the text mobile menu color links (#222 original) */
 }
 .nav-item a:hover,
 .nav-item a:focus {
