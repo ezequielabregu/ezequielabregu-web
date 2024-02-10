@@ -1,13 +1,26 @@
 // Toggle Menu
-$(window).load(function() {
+/* $(window).load(function() {
   $(".btn-nav").on("click tap", function() {
     $(".nav-content").toggleClass("showNav hideNav").removeClass("hidden");
     $(this).toggleClass("animated");
   });
+}); */
+
+// Toggle Menu Vanilla JS
+window.addEventListener('load', function() {
+  var btnNav = document.querySelector('.btn-nav');
+  btnNav.addEventListener('click', function() {
+    var navContent = document.querySelector('.nav-content');
+    navContent.classList.toggle('showNav');
+    navContent.classList.toggle('hideNav');
+    navContent.classList.remove('hidden');
+    this.classList.toggle('animated');
+  });
 });
 
+//----------------------------------------------------------------------------------
 
-// Filtered Portfolio
+// Filtered Portfolio (I don't use this anymore, Delete it)
 
 var shuffleme = (function( $ ) {
   'use strict';
@@ -93,7 +106,7 @@ var shuffleme = (function( $ ) {
 
 $(document).ready(function()
 {
-  shuffleme.init(); //filter portfolio
+  //shuffleme.init(); //disable filter portfolio
 });
 
 
@@ -111,7 +124,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 });
 
-
+//----------------------------------------------------------------------------------
 
 // Change the section indicator based on the current section (added by me on 2020-04-20)
 window.addEventListener('scroll', function() {
