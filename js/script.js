@@ -109,7 +109,7 @@ $(document).ready(function()
   //shuffleme.init(); //disable filter portfolio
 });
 
-
+//----------------------------------------------------------------------------------
 
 // Redirect to another page after clicking on a link (added by me on 2020-04-20)
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -159,7 +159,7 @@ var modal = document.getElementById("myModal");
 
 // Fetch the content of the works.md file and convert it to HTML
 var html;
-fetch('content/works.md')
+fetch('../content/works.md')
   .then(response => response.text())
   .then(text => {
     html = marked(text, { sanitize: false });

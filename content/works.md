@@ -2,13 +2,13 @@
 
 ## **CAVE AQUAM**
 
-![CAVE AQUAM](img/portfolio/cava-2.png)
+![CAVE AQUAM](../img/portfolio/cava-2.png)
 
 CAVE AQUAM is the result of a research process that focuses on issues related to quarries and sulfurous water in the territory of Tivoli Guidonia. Around the quarries and water in the Tivoli and Guidonia territory. A territory that contains a multitude of actors, territorial and environmental issues, ecosystemic, bureaucratic, legal, economic, and extractive issues. Here is the general framework of the sample.
 
 <figure>
 <audio controls>
-  <source src="audio/cave_aquam_mastered.mp3" type="audio/mpeg">
+  <source src="../audio/cave_aquam_mastered.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
   <figcaption style="font-style: italic;">Listen CAVE AQUAM</figcaption>
@@ -23,7 +23,7 @@ CAVE AQUAM is a multidisciplinary research group composed of cris martone, Paola
 
 &nbsp;
 
-![CAVE AQUAM](img/portfolio/cava-1.png)
+![CAVE AQUAM](../img/portfolio/cava-1.png)
 
 &nbsp;
 &nbsp;
@@ -35,9 +35,9 @@ CAVE AQUAM is a multidisciplinary research group composed of cris martone, Paola
 
 2020
 
-![eattolookinside-1](img/portfolio/eattolookinside-1.jpg)
+![eattolookinside-1](../img/portfolio/eattolookinside-1.jpg)
 
-[**Visit Eat to look inside**](content/eattolookinside/eat-to-look-inside.html)
+[**Visit Eat to look inside**](../content/eattolookinside/eat-to-look-inside.html)
 
 Eat to look inside (2020) is the first in a series of audiovisual performance actions that explore sound, images, and the symbolic potential the act of eating. This work proposes eating as a playful act to obtain information and inspect objects in a transdisciplinary way.
 
@@ -45,7 +45,7 @@ Eat to look inside addresses a proposal for non-verbal communication and libidin
 
 Note: after accessing the link, click / tap on the screen.
 
-![eattolookinside-2](img/portfolio/eattolookinside-2.jpg)
+![eattolookinside-2](../img/portfolio/eattolookinside-2.jpg)
 
 &nbsp;
 &nbsp;
@@ -57,11 +57,11 @@ Note: after accessing the link, click / tap on the screen.
 
 2019
 
-![oneline-1](img/portfolio/oneline-1.jpg)
+![oneline-1](../img/portfolio/oneline-1.jpg)
 
 One Line is a sound performance that explores the body and movement as a continuous succession of points tracing a space that does not form a particular figure. The body interacts/intervenes/activates a beam of laser light that is curved by sound and expands as a set of points on the same plane. In this way, the body and the line become an indivisible entity.
 
-![oneline-2](img/portfolio/oneline-2.jpg)
+![oneline-2](../img/portfolio/oneline-2.jpg)
 
 When the rest of the point-body in motion on the plane is destroyed, it moves in space, giving rise to the line. One Line represents the simplest and purest performative form which, at the same time, can be dynamic and varied. In this performance, the boundaries are blurred and the periphery becomes a contour and its container.
 
@@ -69,12 +69,10 @@ When the rest of the point-body in motion on the plane is destroyed, it moves in
 <iframe width="951" height="535" src="https://www.youtube.com/embed/QXQqDU_LcAE" title="One Line" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-https://youtu.be/QXQqDU_LcAE
-
 Idea, general concept and device design: Ezequiel Abregu
 Performance: Ezequiel Abregu, Florencia Staldecker
 
-![oneline-3](img/portfolio/oneline-3.jpg)
+![oneline-3](../img/portfolio/oneline-3.jpg)
 
 &nbsp;
 &nbsp;
@@ -86,7 +84,7 @@ Performance: Ezequiel Abregu, Florencia Staldecker
 
 2018
 
-![abuelos-1](img/portfolio/abuelos-1.jpg)
+![abuelos-1](../img/portfolio/abuelos-1.jpg)
 
 Constanza (Mexico, 1990) has a house in her head. And it is not exactly that of Sáenz Peña Street 1041 in Zárate, the one that her great-grandparents built and where her mother grew up before her grandparents’ exile.
 
@@ -98,7 +96,7 @@ With the help of “artificial intelligence”, she believes that she can take a
 
 We accompany her to the door of the house today, but it seems to be more the architecture of another family memory. If memory builds and overwrites in other ways, generating other realities, what value does the truth actual resident in that house have?
 
-![abuelos-2](img/portfolio/abuelos-2.jpg)
+![abuelos-2](../img/portfolio/abuelos-2.jpg)
 
 **BODY INTERACTIVE LABORATORY**
 
@@ -113,7 +111,7 @@ Programming: Luciano Toledo TOLCH, Juan León Sarmiento
 Constanza Casamadrid
 Video: Ezequiel Steinman
 
-![abuelos-3](img/portfolio/abuelos-3.png)
+![abuelos-3](../img/portfolio/abuelos-3.png)
 
 **Laboratory equipment OPEN P TRACK + TOUCH DESIGNER**
 
@@ -140,7 +138,7 @@ Jael Díaz Vila – Graphic Design.
 
 2018
 
-![urban-1](img/portfolio/urbanbosque-1.jpg)
+![urban-1](../img/portfolio/urbanbosque-1.jpg)
 
 URBAN BOSQUE was conceived of on three poetic points:
 
@@ -160,11 +158,11 @@ URBAN BOSQUE was conceived of on three poetic points:
 
 The instruments chosen consist of a wide range of analog synthesizers, voices, electric guitar, zither and a variety of native wind instruments. URBAN BOSQUE tries to investigate the intrinsic organicity of electric-analogue sound and the dialogue produced by acoustic instruments.
 
-![urban-2](img/portfolio/urbanbosque-2.jpg)
+![urban-2](../img/portfolio/urbanbosque-2.jpg)
 
 URBAN BOSQUE intends to establish the relationship between electricity, as a generator of sound, and the energy (mechanical, wind, electric) that comes from the body that excites the various acoustic instruments.
 
-![urban-3](img/portfolio/urbanbosque-3.png)
+![urban-3](../img/portfolio/urbanbosque-3.png)
 
 &nbsp;
 &nbsp;
@@ -174,7 +172,7 @@ URBAN BOSQUE intends to establish the relationship between electricity, as a gen
 
 ## **MUTE**
 
-![mute-1](img/portfolio/mute-1.jpg)
+![mute-1](../img/portfolio/mute-1.jpg)
 
 MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezequiel Abregú and Martín Matus, where the construction of sound emerges from procedure and gesture. Our aesthetic has been influenced by many styles (contemporary, ambient, electronic and experimental noise), trying to make a personal and original proposal.
 
@@ -186,11 +184,11 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 
 &nbsp;
 
-![mute-2](img/portfolio/mute-2.jpg)
+![mute-2](../img/portfolio/mute-2.jpg)
 
 &nbsp;
 
-![mute-3](img/portfolio/mute-3.jpg)
+![mute-3](../img/portfolio/mute-3.jpg)
 
 &nbsp;
 &nbsp;
@@ -200,7 +198,7 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 
 ## **500k**
 
-![500k-1](img/portfolio/500k-1.jpg)
+![500k-1](../img/portfolio/500k-1.jpg)
 
 500k is a guitar duo composed by Ezequiel Abregú and Pablo Chimenti, where the construction of sound emerges from procedure and gesture. The project generates feedback saturating analog and digital processes as a basis for expansion and contraction of the timbrical texture. Improvisation, experimental music and composition melt into the performative experience.
 
@@ -232,11 +230,11 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 
 &nbsp;
 
-![500k-2](img/portfolio/500k-2.jpg)
+![500k-2](../img/portfolio/500k-2.jpg)
 
-![500k-3](img/portfolio/500k-3.jpg)
+![500k-3](../img/portfolio/500k-3.jpg)
 
-![500k-4](img/portfolio/500k-4.jpg)
+![500k-4](../img/portfolio/500k-4.jpg)
 
 &nbsp;
 
@@ -250,11 +248,11 @@ MUTE is an experimental music duo from Buenos Aires, Argentina, composed by Ezeq
 
 2016
 
-![crisalida-1](img/portfolio/crisalida-1.jpg)
+![crisalida-1](../img/portfolio/crisalida-1.jpg)
 
 Chrysalis is an Interactive Sound Sculpture that relates sustainability, the human link with its environment and the processes that it generates over time. The authors of the sculpture are Carla Colombini (sculptor), Ezequiel Abregú & Martín Matus (sound artists).
 
-![crisalida-2](img/portfolio/crisalida-2.jpg)
+![crisalida-2](../img/portfolio/crisalida-2.jpg)
 
 Chrysalis consists of a sculpture elaborated, for the most part, using a lot of e-waste. From a symbolic point of view, it proposes a critical and reflective position on the treatment of e-waste, encouraging spectators to reflect on environment problems and sustainability from art. In this framework, the work proposes a symbolic projection of the existing problem between humans and their technological waste, thus revealing a space of direct correlation between the contemporary urban environment and its dumps. The excessive consumption of high-tech devices, the cultural evolution dependent on technology, the programmed obsolescence strategies and the lack of controls and policies on the treatment of technological waste generate a new taboo in urban societies: technological dumps. Due to the exponential increase of these sites we have, as a consequence, the expansion of their limits, progressively invading our urban space.
 
@@ -271,7 +269,7 @@ Chrysalis intends to carry out, from the perspective of art, a reflexive look on
 
 **Sustainability**, postulating us as part of a generation that acts to satisfy their needs in a conscious and sustainable way.
 
-![crisalida-3](img/portfolio/crisalida-3.jpg)
+![crisalida-3](../img/portfolio/crisalida-3.jpg)
 
 [**Poster & Technical Aspects**](https://lac.linuxaudio.org/2018/pdf/9-poster.pdf)
 
@@ -285,7 +283,7 @@ Chrysalis intends to carry out, from the perspective of art, a reflexive look on
 
 2014
 
-![lejos-1](img/portfolio/lejos-1.jpg)
+![lejos-1](../img/portfolio/lejos-1.jpg)
 
 The actress is searching for the bodies of biographical-fictional representations of the past in her memory. Through an extreme physical journey that begins with breathing, the bodies of the past appear and update to the present. Far away explores how to inhabit an empty space and rid the body of certain memory, in an attempt to transform the mechanisms of representation and to experiment some autonomy.
 
@@ -295,7 +293,7 @@ The actress is searching for the bodies of biographical-fictional representation
 
 LEJOS is a multidisciplinary research, combining theater, performance, visual and sound arts. From the beginning of the creative process, the challenge consisted of working on the perceptive thresholds of breathing and silence, in the unfolding of the acoustic-stage space and the transition points where a symbol or sound can be a thing or another depending on the context. In particular, from the point of view of the sound treatment of the work, the idea of memory as noise was approached as a key concept for the composition of the sound space. In this framework, the treatment of silence and noise acts as a spatial and temporal framework (which also connects with the character’s past), constituting a crucial link between the symbolic aspect of the work and the fictional past of the actress.
 
-![lejos-2](img/portfolio/lejos-2.png)
+![lejos-2](../img/portfolio/lejos-2.png)
 
 **Credits**
 
@@ -313,7 +311,7 @@ Sarmiento's Journeys
 
 2016
 
-![viajes-1](img/portfolio/viajes-1.jpg)
+![viajes-1](../img/portfolio/viajes-1.jpg)
 
 Four women travel through different landscapes of their memory through a pulse that builds their own cartography. They constellate spectra and landscapes that recover the voices from the stones that the books name as desert. The physical and emotional experience of Sarmiento’s Journeys opens the possibility of inventing a communal, visceral and mestizo body anchored in the present.
 
@@ -325,9 +323,9 @@ Sound design, original music & live performance for Sarmiento’s Journeys, dire
 
 Sarmiento’s Journeys proposes a contemporary and bastard appropriation of the trips that D. F. Sarmiento made during the 19th century. Through an aesthetic contrast in a biographical and singular journey, Marina Sarmiento together with the dancer M. Eugenia Roces, the actresses Cecilia Blanco and Florencia Bergallo and the musician Ezequiel Abregú, seek on stage to put in tension the memory of the body and the landscape.
 
-![viajes-2](img/portfolio/viajes-2.jpg)
+![viajes-2](../img/portfolio/viajes-2.jpg)
 
-![viajes-4](img/portfolio/viajes-4.jpg)
+![viajes-4](../img/portfolio/viajes-4.jpg)
 
 **Credits**
 
@@ -343,7 +341,7 @@ Performers/Creatives: Florencia Bergallo, Cecilia Blanco, María Eugenia Roces, 
 
 2013
 
-![bucaro-1](img/portfolio/bucaro-1.png)
+![bucaro-1](../img/portfolio/bucaro-1.png)
 
 Bowl of secrets is a generative sound installation created by Damián Anache, Ezequiel Abregu and Martín Matus, for the Nota al pie (Editorial Universidad Nacional de Quilme’s bookstore) opening, held on April 11, 2013.
 
@@ -353,7 +351,7 @@ Bowl of secrets is a generative sound installation created by Damián Anache, Ez
 <!-- <div id="waveform"></div> -->
 
 <audio controls>
-  <source src="audio/bucaro_mastered.mp3" type="audio/mpeg">
+  <source src="../audio/bucaro_mastered.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -372,7 +370,7 @@ The approach of the composition is based on the idea of generative music. A comp
 
 2012
 
-![oceanos-1](img/portfolio/oceanos-1.jpg)
+![oceanos-1](../img/portfolio/oceanos-1.jpg)
 
 **Instructions to get in touch with supra-physical worlds /  Oceans have ears**
 
@@ -392,7 +390,7 @@ In 2011, through the support of the music publishing company MELOS (Bs. As., Arg
 
 2013
 
-![imaginarios-1](img/portfolio/imaginarios-1.jpg)
+![imaginarios-1](../img/portfolio/imaginarios-1.jpg)
 
 Imaginarios de <Barrio> (< Neighbourhood > imaginaries) is a generative sound installation performed within the framework of the Paternal Art and Politics 2013 call. It was originally presented in multi-channel surround audio system.
 
