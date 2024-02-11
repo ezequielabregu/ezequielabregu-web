@@ -157,55 +157,61 @@ window.addEventListener('scroll', function() {
 // Get the modal
 var modal = document.getElementById("myModal");
 
+// Create a new event
+var contentLoadedEvent = new Event('contentLoaded');
+
 // Fetch the content of the works.md file and convert it to HTML
 var html;
 fetch('../content/works.md')
   .then(response => response.text())
   .then(text => {
     html = marked(text, { sanitize: false });
+
+    // Get all images and add onclick event to each
+    var imgs = document.querySelectorAll('.myImg');
+    imgs.forEach(img => {
+      img.onclick = function(){
+        modal.style.display = "block";
+        
+        // Get the href attribute value (the id of the section)
+        var sectionId = this.getAttribute('href').substring(1);
+        
+        // Parse the HTML
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+        
+        // Get the content of the section
+        var sectionContent = getSectionContent(doc.body, 'h2[id="' + sectionId + '"]');
+        
+        // Insert the content into the modal
+        document.getElementById('modal-content').innerHTML = sectionContent;
+
+        // Delay the scroll to the top until after the new content is rendered
+        setTimeout(function() {
+          modal.scrollTop = 0;
+        }, 0);
+
+        // Get the <div> element that closes the modal
+        var closeButton = document.getElementsByClassName("close-button")[0];
+
+        // When the user clicks or touches on <div> (x), close the modal
+        closeButton.addEventListener('click', closeModal);
+        closeButton.addEventListener('touchstart', closeModal);
+
+        function closeModal(event) {
+          event.preventDefault();
+          event.stopPropagation();
+          modal.style.display = "none";
+          // Remove the event listeners to avoid multiple event handlers being attached
+          closeButton.removeEventListener('click', closeModal);
+          closeButton.removeEventListener('touchstart', closeModal);
+        }
+      }
+    });
+
+    // Dispatch the event
+    window.dispatchEvent(contentLoadedEvent);
   });
-
-// Get all images and add onclick event to each
-var imgs = document.querySelectorAll('.myImg');
-imgs.forEach(img => {
-  img.onclick = function(){
-    modal.style.display = "block";
-    
-    // Get the href attribute value (the id of the section)
-    var sectionId = this.getAttribute('href').substring(1);
-    
-    // Parse the HTML
-    var parser = new DOMParser();
-    var doc = parser.parseFromString(html, 'text/html');
-    
-    // Get the content of the section
-    var sectionContent = getSectionContent(doc.body, 'h2[id="' + sectionId + '"]');
-    
-    // Insert the content into the modal
-    document.getElementById('modal-content').innerHTML = sectionContent;
-
-    // Delay the scroll to the top until after the new content is rendered
-    setTimeout(function() {
-      modal.scrollTop = 0;
-    }, 0);
-
-    // Get the <div> element that closes the modal
-    var closeButton = document.getElementsByClassName("close-button")[0];
-
-    // When the user clicks or touches on <div> (x), close the modal
-    closeButton.addEventListener('click', closeModal);
-    closeButton.addEventListener('touchstart', closeModal);
-
-    function closeModal(event) {
-      event.preventDefault();
-      event.stopPropagation();
-      modal.style.display = "none";
-      // Remove the event listeners to avoid multiple event handlers being attached
-      closeButton.removeEventListener('click', closeModal);
-      closeButton.removeEventListener('touchstart', closeModal);
-    }
-  }
-});
 
 // Close the modal when clicking outside of it
 window.onclick = function(event) {
@@ -230,7 +236,18 @@ function getSectionContent(parent, selector) {
   return sectionContent;
 }
 
-
 //--------------------------------------------------------------
 
-
+// open a modal directly from the URL, I'll need to use JavaScript to parse the URL, 
+//extract the anchor link, and then programmatically open the corresponding modal.
+window.onload = function() {
+  window.addEventListener('contentLoaded', function() {
+      var hash = window.location.hash;
+      if (hash) {
+          var img = document.querySelector('.myImg[href="' + hash + '"]');
+          if (img) {
+              img.click();
+          }
+      }
+  });
+};
