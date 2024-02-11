@@ -2,7 +2,7 @@
 
 ## **CAVE AQUAM**
 
-![CAVE AQUAM](../img/portfolio/cava-2.png)
+![CAVE AQUAM](../img/portfolio/cava-2.jpg)
 
 CAVE AQUAM is the result of a research process that focuses on issues related to quarries and sulfurous water in the territory of Tivoli Guidonia. Around the quarries and water in the Tivoli and Guidonia territory. A territory that contains a multitude of actors, territorial and environmental issues, ecosystemic, bureaucratic, legal, economic, and extractive issues. Here is the general framework of the sample.
 
@@ -23,7 +23,7 @@ CAVE AQUAM is a multidisciplinary research group composed of cris martone, Paola
 
 &nbsp;
 
-![CAVE AQUAM](../img/portfolio/cava-1.png)
+![CAVE AQUAM](../img/portfolio/cava-1.jpg)
 
 &nbsp;
 &nbsp;
