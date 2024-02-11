@@ -2,33 +2,6 @@
 
 This repository contains the source code for the personal website of Ezequiel Abregu.
 
-## Website Structure
-
-The website is structured as follows:
-
-- `index.html`: The homepage of the website.
-- `about.html`: Contains information about Ezequiel Abregu.
-- `portfolio.html`: Showcases Ezequiel's portfolio.
-- `contact.html`: A page for visitors to contact Ezequiel.
-- `audio.html`: Contains audio files.
-- `research.html`: Contains Ezequiel's research work.
-- `works.md`: A markdown file containing information about Ezequiel's works.
-
-## CSS Files
-
-The website uses Bootstrap for styling. The main CSS files are:
-
-- `css/bootstrap.css`: The main Bootstrap CSS file.
-- `css/style.css`: Contains custom styles for the website.
-
-## JavaScript Files
-
-The website uses jQuery and Bootstrap for functionality. The main JavaScript files are:
-
-- `js/jquery.js`: The main jQuery file.
-- `js/bootstrap.js`: The main Bootstrap JavaScript file.
-- `js/menu-color.js`: Contains JavaScript for the menu color.
-
 ## Installation
 
 Follow these steps to get the website running on your local machine:
@@ -54,6 +27,12 @@ Follow these steps to get the website running on your local machine:
 ## Contributing
 
 If you want to contribute to this project, please create a new branch, make your changes, and submit a pull request. All contributions are welcome!
+
+## To Do
+
+- [ ] Remove wavesurfer.js and use peak.js for better waveform rendering.
+- [ ] Add CAVE AQUAM and Bow of secrets to audio.html
+- [ ] Add Sound Performance article to text.html  
 
 ## License
 
