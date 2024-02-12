@@ -278,23 +278,20 @@ function initializeWaveSurfer() {
       wavesurfer.load('../audio/bucaro_mastered.mp3', data.data);
     });
 
-    // Get the audio element
-    var audioElement = document.querySelector('audio');
 
-    // Sync the play/pause button of the audio element with the WaveSurfer instance
-    audioElement.onplay = function() {
-      wavesurfer.play();
-    };
-    audioElement.onpause = function() {
-      wavesurfer.pause();
-    };
-
-    // Sync the time position of the audio element with the WaveSurfer instance
-    audioElement.ontimeupdate = function() {
-      var currentTime = this.currentTime;
-      var duration = this.duration;
-      wavesurfer.seekTo(currentTime / duration);
-    };
+    //Interaction with the play/pause button
+    // Add event listener to the play/pause button
+    var playPauseButton = document.getElementById('playPauseButton');
+    var playPauseIcon = document.getElementById('playPauseIcon');
+    playPauseButton.addEventListener('click', function() {
+      if (wavesurfer.isPlaying()) {
+        wavesurfer.pause();
+        playPauseIcon.className = 'bi bi-play-fill'; // Change to play icon
+      } else {
+        wavesurfer.play();
+        playPauseIcon.className = 'bi bi-pause-fill'; // Change to pause icon
+      }
+    });
   }
 }
 
