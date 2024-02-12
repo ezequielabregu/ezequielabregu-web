@@ -7,7 +7,7 @@
 CAVE AQUAM is the result of a research process that focuses on issues related to quarries and sulfurous water in the territory of Tivoli Guidonia. Around the quarries and water in the Tivoli and Guidonia territory. A territory that contains a multitude of actors, territorial and environmental issues, ecosystemic, bureaucratic, legal, economic, and extractive issues. Here is the general framework of the sample.
 
 <div style="display: flex; align-items: center;">
-  <button id="playPauseButton" class="btn btn-outline-secondary btn-sm" style="margin-right: 10px;">
+  <button id="playPauseButton" class="btn btn-outline-secondary " style="margin-right: 10px;">
     <i id="playPauseIcon" class="bi bi-play-fill"></i>
   </button>
   <div style="position: relative; flex-grow: 1;">
