@@ -259,6 +259,7 @@ window.onload = function() {
 
 //Wavesurfer script
 //This function is called inside the script for modals. Delete if not needed into the modal script
+// Use pre generated audio peaks. More info: https://wavesurfer.xyz/faq/
 function initializeWaveSurfer() {
   // Check if the #waveform element exists
   var waveformDiv = document.getElementById('waveform');
@@ -271,8 +272,11 @@ function initializeWaveSurfer() {
       backend: 'MediaElement'
     });
 
-    // Load the audio file and the peaks file
-    wavesurfer.load('../audio/bucaro_mastered.mp3', '../audio/bucaro.json');
+    fetch('../audio/bucaro.json')
+    .then(response => response.json())
+    .then(data => {
+      wavesurfer.load('../audio/bucaro_mastered.mp3', data.data);
+    });
 
     // Get the audio element
     var audioElement = document.querySelector('audio');
