@@ -11,10 +11,9 @@
     <link href="../css/bootstrap.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
     <link href="../css/lightbox.css" rel="stylesheet" type="text/css" media="all" />
-    <script src="https://unpkg.com/wavesurfer.js"></script> <!-- Wavesurfer library-->
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    <script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
    </head>
   <body>
     <div class="col-md-12">
@@ -368,7 +367,7 @@
     <script src="../js/modernizr.js"></script>
     <script src="../js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked@2.0.0/marked.min.js"></script> <!-- Markdown marked library-->
-    <script src="https://unpkg.com/wavesurfer.js"></script> <!-- Wavesurfer library-->
+    <!-- <script src="https://unpkg.com/wavesurfer.js"></script>  -->
 
     <!-- include Markdown file script-->
     <!-- <div id="markdown-content"></div> -->
@@ -380,123 +379,6 @@
           document.getElementById('markdown-content').innerHTML = html;
         });
     </script> -->
-
-
-   <!-- Wavesurfer legacy script, works ok when I display the wavesurfer on portfolio.hmtl. It doesn't work with modals -->
-<!--    <script>
-      fetch('content/works.md')
-      .then(response => response.text())
-      .then(text => {
-         const html = marked(text, { sanitize: false });
-         document.getElementById('markdown-content').innerHTML = html;
-   
-         // Initialize WaveSurfer after the Markdown content has been loaded
-         var wavesurfer = WaveSurfer.create({
-            container: '#waveform',
-            waveColor: '#666',
-            progressColor: '#759784'
-         });
-   
-         // Load an audio file
-         wavesurfer.load('audio/bucaro_mastered.mp3');
-
-         // Add click event listener to the waveform
-         document.getElementById('waveform').addEventListener('click', function() {
-            wavesurfer.playPause();
-         });
-      });
-   </script> -->
-
-<!-- Wavesurfer script for modals-->
-<!--This is the prompt to get this: I have a markdown file (works.md) that contains sections with h2 tags and id attributes. Each section contains a #waveform element. I'm using images with href attributes to open a modal and display the content of a section. The href attribute value of an image corresponds to the id of the section that should be displayed in the modal. I want to initialize WaveSurfer when a modal is opened, and the #waveform element is added to the DOM. How can I modify my script to achieve this? -->
-<script>
-   // Get all images and add onclick event to each
-   var imgs = document.querySelectorAll('.myImg');
-   imgs.forEach(img => {
-     img.onclick = function(){
-       var modal = document.getElementById("myModal");
-       modal.style.display = "block";
-       
-       // Get the href attribute value (the id of the section)
-       var sectionId = this.getAttribute('href').substring(1);
-       
-       // Parse the HTML
-       var parser = new DOMParser();
-       var doc = parser.parseFromString(html, 'text/html');
-       
-       // Get the content of the section
-       var sectionContent = getSectionContent(doc.body, 'h2[id="' + sectionId + '"]');
-       
-       // Insert the content into the modal
-       document.getElementById('modal-content').innerHTML = sectionContent;
-   
-       // Delay the scroll to the top until after the new content is rendered
-       setTimeout(function() {
-         modal.scrollTop = 0;
-   
-         // Initialize WaveSurfer with the MediaElement backend
-         var wavesurfer = WaveSurfer.create({
-            container: '#waveform',
-            waveColor: '#666',
-            progressColor: '#759784',
-            backend: 'MediaElement'
-         });
-
-         // Pre-generated peaks
-         var peaks = [0.5, -0.3, 1, -0.7, 0.6, -0.4, 0.8, -0.6, 0.7, -0.5];
-
-         // Load an audio file with pre-generated peaks
-         wavesurfer.load('../audio/bucaro_mastered.mp3', peaks);
-   
-         // Add click event listener to the waveform
-         document.getElementById('waveform').addEventListener('click', function() {
-           wavesurfer.playPause();
-         });
-       }, 0);
-   
-       // Get the <div> element that closes the modal
-       var closeButton = document.getElementsByClassName("close-button")[0];
-   
-       // When the user clicks or touches on <div> (x), close the modal
-       closeButton.addEventListener('click', closeModal);
-       closeButton.addEventListener('touchstart', closeModal);
-   
-       function closeModal(event) {
-         event.preventDefault();
-         event.stopPropagation();
-         modal.style.display = "none";
-         // Remove the event listeners to avoid multiple event handlers being attached
-         closeButton.removeEventListener('click', closeModal);
-         closeButton.removeEventListener('touchstart', closeModal);
-       }
-     }
-   });
-   
-   // Close the modal when clicking outside of it
-   window.onclick = function(event) {
-     if (event.target == modal) {
-       modal.style.display = "none";
-     }
-   }
-   
-   // Function to get the content of a section
-   function getSectionContent(parent, selector) {
-     var startElement = parent.querySelector(selector);
-     var endElement = startElement.nextElementSibling;
-     while (endElement && endElement.tagName !== 'H2') {
-       endElement = endElement.nextElementSibling;
-     }
-     var sectionContent = '';
-     var element = startElement;
-     while (element && element !== endElement) {
-       sectionContent += element.outerHTML;
-       element = element.nextElementSibling;
-     }
-     return sectionContent;
-   }
-   </script>
-
-
    </body>
 
    <div id="fixed-footer">

@@ -348,13 +348,12 @@ Bowl of secrets is a generative sound installation created by Damián Anache, Ez
 *Listen Bowl of Secrets (excerpt)*
 
 
-<!-- <div id="waveform"></div> -->
+<div id="waveform"></div>
 
 <audio controls>
   <source src="../audio/bucaro_mastered.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
-
 
 &nbsp;
 

@@ -842,7 +842,7 @@ html {
     left: 50%; /* Move the text to the center of the icon */
     transform: translateX(-50%); /* Shift the text to the left by half its width */
     opacity: 1; /* Default opacity is 0, making the text invisible */
-    font-size: 14px;  /* Adjust as needed */
+    font-size: 12px;  /* Adjust as needed */
     font-family: 'Roboto Mono', monospace;
     transition: opacity 0.3s; /* Transition effect for the opacity */
 }
@@ -1070,9 +1070,10 @@ html {
         width: 100%;
         max-width: 100%; /* The audio player won't get wider than 600px */
         margin: 20px auto; /* 20px vertical margin, and auto horizontal margin to center the player */
-        background-color: rgba(117, 151, 132, 0.5);
+        background-color: rgba(227, 226, 226, 0.5);
         border: 1px solid #666;
         border-radius: 5px;
         padding: 5px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); /* A subtle shadow effect */
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7); /* A subtle shadow effect */
       }
+

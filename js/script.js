@@ -186,6 +186,9 @@ fetch('../content/works.md')
         // Insert the content into the modal
         document.getElementById('modal-content').innerHTML = sectionContent;
 
+        // ---IMPORTANT---: Initialize WaveSurfer if the waveform div exists in the modal content
+        initializeWaveSurfer();
+
         // Delay the scroll to the top until after the new content is rendered
         setTimeout(function() {
           modal.scrollTop = 0;
@@ -251,3 +254,43 @@ window.onload = function() {
       }
   });
 };
+
+//--------------------------------------------------------------------------------
+
+//Wavesurfer script
+//This function is called inside the script for modals. Delete if not needed into the modal script
+function initializeWaveSurfer() {
+  // Check if the #waveform element exists
+  var waveformDiv = document.getElementById('waveform');
+  if (waveformDiv) {
+    // Initialize WaveSurfer
+    var wavesurfer = WaveSurfer.create({
+      container: '#waveform',
+      waveColor: '#666',
+      progressColor: '#759784',
+      backend: 'MediaElement'
+    });
+
+    // Load the audio file and the peaks file
+    wavesurfer.load('../audio/bucaro_mastered.mp3', '../peaks/bucaro.json');
+
+    // Get the audio element
+    var audioElement = document.querySelector('audio');
+
+    // Sync the play/pause button of the audio element with the WaveSurfer instance
+    audioElement.onplay = function() {
+      wavesurfer.play();
+    };
+    audioElement.onpause = function() {
+      wavesurfer.pause();
+    };
+
+    // Sync the time position of the audio element with the WaveSurfer instance
+    audioElement.ontimeupdate = function() {
+      var currentTime = this.currentTime;
+      var duration = this.duration;
+      wavesurfer.seekTo(currentTime / duration);
+    };
+  }
+}
+
