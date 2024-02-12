@@ -272,14 +272,18 @@ function initializeWaveSurfer() {
       backend: 'MediaElement'
     });
 
-    fetch('../audio/bucaro.json')
+    // Get the JSON file path from the data-json attribute
+    var jsonFilePath = waveformDiv.getAttribute('data-json');
+        // Get the AUDIO file path from the audiofile attribute
+        var audiofilePath = waveformDiv.getAttribute('audiofile');
+
+    fetch(jsonFilePath)
     .then(response => response.json())
     .then(data => {
-      wavesurfer.load('../audio/bucaro_mastered.mp3', data.data);
+      wavesurfer.load(audiofilePath, data.data);
     });
 
-
-    //Interaction with the play/pause button
+    // Interaction with the play/pause button
     // Add event listener to the play/pause button
     var playPauseButton = document.getElementById('playPauseButton');
     var playPauseIcon = document.getElementById('playPauseIcon');
@@ -294,4 +298,3 @@ function initializeWaveSurfer() {
     });
   }
 }
-

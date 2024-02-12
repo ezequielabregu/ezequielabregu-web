@@ -6,13 +6,16 @@
 
 CAVE AQUAM is the result of a research process that focuses on issues related to quarries and sulfurous water in the territory of Tivoli Guidonia. Around the quarries and water in the Tivoli and Guidonia territory. A territory that contains a multitude of actors, territorial and environmental issues, ecosystemic, bureaucratic, legal, economic, and extractive issues. Here is the general framework of the sample.
 
-<figure>
-<audio controls>
-  <source src="../audio/cave_aquam_mastered.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-  <figcaption style="font-style: italic;">Listen CAVE AQUAM</figcaption>
-</figure>
+<div id="waveform" data-json="../audio/cave.json" audiofile="../audio/cave_mastered.mp3">
+</div>
+
+<br>
+
+<button id="playPauseButton" class="btn btn-outline-dark">
+  <i id="playPauseIcon" class="bi bi-play-fill"></i>
+</button>
+
+&nbsp;
 
 CAVE AQUAM is a collaborative project born at the conclusion of the 2023 edition of the Master's in "Environmental Humanities - Environmental and Territorial Studies" (Roma Tre University).
 CAVE AQUAM is the narrative of places that contain a plurality of actors, territorial and environmental issues, ecosystemic, bureaucratic and legal, economic, and extractive issues.
@@ -348,9 +351,11 @@ Bowl of secrets is a generative sound installation created by Damián Anache, Ez
 *Listen Bowl of Secrets (excerpt)*
 
 
-<div id="waveform"></div>
+<div id="waveform" data-json="../audio/bucaro.json" audiofile="../audio/bucaro_mastered.mp3"></div>
+
 <br>
-<button id="playPauseButton" class="btn btn-outline-dark btn-sm">
+
+<button id="playPauseButton" class="btn btn-outline-dark">
   <i id="playPauseIcon" class="bi bi-play-fill"></i>
 </button>
 
