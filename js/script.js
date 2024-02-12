@@ -272,7 +272,7 @@ function initializeWaveSurfer() {
     });
 
     // Load the audio file and the peaks file
-    wavesurfer.load('../audio/bucaro_mastered.mp3', '../peaks/bucaro.json');
+    wavesurfer.load('../audio/bucaro_mastered.mp3', '../audio/bucaro.json');
 
     // Get the audio element
     var audioElement = document.querySelector('audio');
