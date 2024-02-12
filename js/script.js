@@ -267,21 +267,38 @@ function initializeWaveSurfer() {
     // Initialize WaveSurfer
     var wavesurfer = WaveSurfer.create({
       container: '#waveform',
-      waveColor: '#666',
-      progressColor: '#759784',
-      backend: 'MediaElement'
+      waveColor: 'rgba(0, 0, 0, 1)',
+      progressColor: 'rgba(0, 0, 0, 0.3)',
+      backend: 'MediaElement',
+    
+      barWidth: 1, // Set a bar width
+      barGap: 1,  // Optionally, specify the spacing between bars
+      barRadius: 2,// And the bar radius
     });
 
     // Get the JSON file path from the data-json attribute
     var jsonFilePath = waveformDiv.getAttribute('data-json');
-        // Get the AUDIO file path from the audiofile attribute
-        var audiofilePath = waveformDiv.getAttribute('audiofile');
+    // Get the AUDIO file path from the audiofile attribute
+    var audiofilePath = waveformDiv.getAttribute('audiofile');
 
     fetch(jsonFilePath)
     .then(response => response.json())
     .then(data => {
       wavesurfer.load(audiofilePath, data.data);
     });
+
+    // Current time & duration
+    const formatTime = (seconds) => {
+      const minutes = Math.floor(seconds / 60)
+      const secondsRemainder = Math.round(seconds) % 60
+      const paddedSeconds = `0${secondsRemainder}`.slice(-2)
+      return `${minutes}:${paddedSeconds}`
+    }
+
+    const timeEl = document.querySelector('#time')
+    const durationEl = document.querySelector('#duration')
+    wavesurfer.on('audioprocess', (currentTime) => (timeEl.textContent = formatTime(currentTime)))
+    wavesurfer.on('ready', (duration) => (durationEl.textContent = formatTime(wavesurfer.getDuration())))
 
     // Interaction with the play/pause button
     // Add event listener to the play/pause button
@@ -298,3 +315,7 @@ function initializeWaveSurfer() {
     });
   }
 }
+
+
+
+
