@@ -47,6 +47,7 @@ If you want to contribute to this project, please create a new branch, make your
 
 ## To Do
 
+- [ ] Add Multilanguage (EN, ES, DE). Use Json method.
 - [ ] Add CAVE AQUAM and Bow of secrets to audio.html
 - [ ] Add Sound Performance article to text.html  
 

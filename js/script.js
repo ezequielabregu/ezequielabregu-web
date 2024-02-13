@@ -1,10 +1,3 @@
-// Toggle Menu
-/* $(window).load(function() {
-  $(".btn-nav").on("click tap", function() {
-    $(".nav-content").toggleClass("showNav hideNav").removeClass("hidden");
-    $(this).toggleClass("animated");
-  });
-}); */
 
 // Toggle collapsed Menu Vanilla JS
 window.addEventListener('load', function() {
@@ -109,20 +102,6 @@ $(document).ready(function()
   //shuffleme.init(); //disable filter portfolio
 });
 
-//----------------------------------------------------------------------------------
-
-// Redirect to another page after clicking on a link (added by me on 2020-04-20)
-document.addEventListener('DOMContentLoaded', (event) => {
-  const links = document.querySelectorAll('[data-redirect]');
-  links.forEach(link => {
-      link.addEventListener('click', function(e) {
-          e.preventDefault();
-          setTimeout(function() {
-              window.location.href = link.getAttribute('data-redirect');
-          }, 1000); // Delay of 1 second
-      });
-  });
-});
 
 //----------------------------------------------------------------------------------
 
@@ -241,7 +220,7 @@ function getSectionContent(parent, selector) {
 
 //--------------------------------------------------------------
 
-// open a modal directly from the URL, I'll need to use JavaScript to parse the URL, 
+// open a modal directly from the URL, to use JavaScript to parse the URL, 
 //extract the anchor link, and then programmatically open the corresponding modal.
 window.onload = function() {
   window.addEventListener('contentLoaded', function() {
@@ -315,7 +294,7 @@ function initializeWaveSurfer() {
     });
   }
 }
-
+//--------------------------------------------------------------------------------
 
 
 
