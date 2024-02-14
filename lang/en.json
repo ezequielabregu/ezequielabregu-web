@@ -1,0 +1,98 @@
+{
+  "menu":{
+    "works": "works",
+    "about": "about",
+    "audio": "audio",
+    "text": "text",
+    "links": "links",
+    "code": "code"
+  },
+
+  "about":{
+    "short-bio":{
+      "title": "Short Bio",
+      "text": "(Buenos Aires, Argentina) Sound artist, composer, multi-instrumentalist and researcher based in Berlin. His works include sound recordings, audio installations, performances, sound sculpture, sound design and scores for chamber music, choreography and theatre. His artistic interest focuses on the interaction among music, performance, sound art, live electronics, auditory and visual perception, interactive media and technology applied to art. He also holds a Ph.D. on the relationship between the visual and auditory perception in Sound Art. Degree in Composition with Electroacoustic Media (at UNQ). He is professor at the University of Quilmes (Computing Applied to Music area), at the National University of Arts (Multimedia Arts area) and at the University of Tres de Febrero (Electronic Arts area)."
+    },
+    "programming":{
+      "title": "Programming",
+      "text": "Passionate about programming and digital applications in audio, my exploration of the programming world began two decades ago, encompassing languages like C, C++, Python, Pure Data and more. Advocating the open-source philosophy, I'm at home with Linux and host all my projects on publicly accessible repositories. Proficient in hardware development using microcontrollers and Single Board Computers, I bring a hands-on approach to my work. Recently, I've delved into web applications and cloud tools, particularly those integrating AI and ML into audio. Eager to contribute and collaborate in the ever-evolving landscape of audio programming, I am driven by a passion to push boundaries and explore innovative solutions."
+    },
+    "music":{
+      "title": "Music",
+      "text": "My musical journey kicked off when I was just a kid, tinkering with instruments like the flute, piano, classical and electric guitar, French horn, and synthesizers. As time rolled on, I found myself drawn to the world of composing music, diving into various genres including classical, contemporary, electroacoustic, jazz, tango, and the vibrant sounds of Argentine folklore. I'm captivated by the magic of blending different instruments, crafting arrangements for groups that resonate, and immersing myself in the intriguing complexities of modern harmony."
+    },
+    "research":{
+      "title": "Research",
+      "text": "My interdisciplinary research gathers scientific, art and musical knowledge, devising new cognitive and compositional tools, conducting original research in the areas of psychophysics and sound art to contribute to sound production. In my doctoral research, the study of AudioVisual Distance Perception (AVDP), both in sound art and psychophysics, involves a lot of cues not yet studied in depth. I am the co-author of a broad range of publications related to AVDP. Primarily, I have been focused on how the role of vision in auditory distance perception is. Multidisciplinary interaction is an important strategy for improving the detection of stimuli of different nature and reducing the variability of response."
+    },
+    "teaching":{
+      "title": "Teaching",
+      "text": "I have a broad range of teaching experience, from extensive tutoring to teaching undergraduate and postgraduate courses. I am especially interested in teaching courses in technology, sound and art. At the undergraduate level, I have taught courses in computing applied to music, sound synthesis, sound and multimedia workshops, sound post-production and digital signal processing. I am also comfortable working as a team with other professors to develop a highly collaborative and interdisciplinary educative environment that could discuss technology, music, sonic arts and science in the context of different artistic applications."
+    },
+    "creation":{
+      "title": "Creation",
+      "text": "Exploring the intricacies of sound art, I delve into unique realms beyond traditional confines. Within this creative sphere, sound design transforms into a dynamic playground, pushing boundaries and sculpting distinctive auditory experiences. Expanding further, my artistic motivations lead me into the world of sound installations, where crafted spaces amplify storytelling through sound. My fascination extends to soundscape works, weaving an interplay of sonic textures from natural and urban environments. Collaborating with choreography and performance, my compositions integrate with bodies, movement, and narrative, transforming the performative realm into an immersive and interconnected multisensory experience."
+    },
+    "keywords":{
+      "title": "Keywords",
+      "text": "Sound, Art, Music, Audio, Technology, Code, Research, PhD, Experimental"
+    }
+  },
+
+  "audio":{
+    "aproximacion":{
+      "title": "Aproximación / 500k",
+      "text": "500k Abregu / Chimenti APROXIMACION is available on all streaming platforms. Released August 9, 2019 por Chancho Discos (AR) y LeRockPsicophonique (CL). Produced in all its stages by 500k / Cover photo ® Ximena Martínez / 500k, Buenos Aires, 2019"
+    },
+    "2nd-body":{
+      "title": "2nd Body / URBAN BOSQUE",
+      "text": "2nd Body is available on all streaming platforms. Released in May, 2018 by Silent Flow Netlabel. Credits / Artistic Production by Ezequiel Abregú & Vera Nois / Ezequiel Abregú: Analog Synths, Guitar, Vocals, Percussion & Flute / Vera Nois: Analog Synths, Vocals, Percussion & Sitar / Recorded at Urban Bosque Studio by Ezequiel Abregú and Vera Nois in January 2016 / Mixed by Marco Bailo at Templo Limón Studio / Mastered by Daniel Ovie at Ovie Mastering Studio/ Cover design by Urban Bosque / High dynamic range audio."
+    },
+    "mute":{
+      "title": "MUTE / MUTE",
+      "text": "MUTE is available on all streaming platforms. Released in February 18, 2017 by Zenapolae Net Label. Credits / Artistic Production Ezequiel Abregú & Martín Matus Lerner / Recorded at Urban Bosque Studio by Ezequiel Abregú and Martín Matus Lerner between January-March 2016 / Mixed by Marco Bailo at Templo Limón Studio / Mastered by Daniel Ovie at Ovie Mastering Studio / Cover by Mariana Rojas / High dynamic range audio / Thanks to: Vera Nois – Universidad Nacional de Quilmes – Escuela Universitaria de Artes."
+    },
+    "500k":{
+      "title": "500K / 500K",
+      "text": "500k is available on all streaming platforms. Released October 5, 2016 by Chancho Discos. Credits / Artistic Production Abregú & Chimenti / Recorded at Taller Paternópolis and Urban Bosque Studio by Ezequiel Abregu and Pablo Chimenti between January-March 2016 / Mixed by Marco Bailo at Templo Limón Studio / Mastered by Daniel Ovie at Ovie Mastering Studio / Cover ‘State of Time’ by Pablo Ziccarello / High dynamic range audio / Thanks to: Ximena Martínez y Vera Nois"
+    },
+    "imaginarios-de-barrio":{
+      "title": "Imaginarios de <barrio>",
+      "text": "Released January 1, 2014. Créditos / Sound design & programing: Ezequiel Abregú & Martín Matus Lerner / Interviews: Heliana Vera"
+    }
+  },
+
+  "text":{
+    "research": {
+      "title": "Research",
+      "text": ""
+    },
+    "thesis": {
+      "title": "Doctoral Thesis",
+      "text": "One of his main interests is to study the cues (acoustic and non-acoustic) involved in audiovisual distance perception (ADP / VDP) in humans. In the artistic field, there are few examples where the parameter of the ADP / VDP has been used as an organizer of sound elements, building a space in which the listener is able, for example, to recognize patterns of trajectories or different textures and planes in depth. The general objective of this work focuses on conducting an investigation with a double perspective: to study how the visual and auditory modalities interact to modulate the distance perception in humans,to apply the results obtained in the research as a compositional alternative applicable to the sound production."
+    }
+  },
+
+  "links":{
+    "email": {
+      "title": "Email",
+      "text": ""
+    },
+    "social": {
+      "title": "Social",
+      "text": ""
+    },
+    "donations": {
+      "title": "Donations",
+      "text": ""
+    },
+    "license": {
+      "title": "License",
+      "text": ""
+    }
+
+  }
+
+
+
+}

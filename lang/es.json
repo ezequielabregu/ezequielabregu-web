@@ -1,0 +1,86 @@
+{
+  "menu": {
+    "works": "obras",
+    "about": "info",
+    "audio": "audio",
+    "text": "texto",
+    "links": "enlaces",
+    "code": "código"
+  },
+  "about": {
+    "short-bio": {
+      "title": "Bio breve",
+      "text": "(Buenos Aires, Argentina) Artista de sonido, compositor, multi-instrumentista e investigador radicado en Berlín. Sus obras incluyen grabaciones de sonido, instalaciones de audio, performances, escultura sonora, diseño sonoro y partituras para música de cámara, coreografía y teatro. Su interés artístico se centra en la interacción entre música, performance, arte sonoro, electrónica en vivo, percepción auditiva y visual, medios interactivos y tecnología aplicada al arte. También posee un doctorado sobre la relación entre la percepción visual y auditiva en el arte sonoro. Licenciado en Composición con Medios Electroacústicos (en la UNQ). Es profesor en la Universidad de Quilmes (área de Computación Aplicada a la Música), en la Universidad Nacional de las Artes (área de Artes Multimediales) y en la Universidad de Tres de Febrero (área de Artes Electrónicas)."
+    },
+    "programming": {
+      "title": "Programación",
+      "text": "Apasionado por la programación y las aplicaciones digitales en audio, mi exploración del mundo de la programación comenzó hace dos décadas, abarcando lenguajes como C, C++, Python, Pure Data y más. Abogando por la filosofía de código abierto, me siento cómodo con Linux y alojo todos mis proyectos en repositorios de acceso público. Experto en desarrollo de hardware utilizando microcontroladores y computadoras de placa única, adopto un enfoque práctico en mi trabajo. Recientemente, me he adentrado en aplicaciones web y herramientas en la nube, particularmente aquellas que integran IA y ML en audio. Ansioso por contribuir y colaborar en el siempre cambiante panorama de la programación de audio, me impulsa una pasión por empujar límites y explorar soluciones innovadoras."
+    },
+    "music": {
+      "title": "Música",
+      "text": "Mi viaje musical comenzó cuando era apenas un niño, experimentando con instrumentos como la flauta, el piano, la guitarra clásica y eléctrica, el corno francés y sintetizadores. Con el tiempo, me vi atraído por el mundo de la composición musical, sumergiéndome en diversos géneros que incluyen clásico, contemporáneo, electroacústico, jazz, tango y los vibrantes sonidos del folclore argentino. Me cautiva la magia de mezclar diferentes instrumentos, creando arreglos para grupos que resuenan, y sumergirme en las intrigantes complejidades de la armonía moderna."
+    },
+    "research": {
+      "title": "Investigación",
+      "text": "Mi investigación interdisciplinaria reúne conocimientos científicos, artísticos y musicales, ideando nuevas herramientas cognitivas y compositivas, realizando investigaciones originales en las áreas de psicofísica y arte sonoro para contribuir a la producción de sonido. En mi investigación doctoral, el estudio de la Percepción de Distancia AudioVisual (ADP / VDP), tanto en el arte sonoro como en psicofísica, involucra muchas señales aún no estudiadas en profundidad. Soy coautor de una amplia gama de publicaciones relacionadas con ADP / VDP. Principalmente, me he centrado en el papel de la visión en la percepción auditiva de la distancia. La interacción multidisciplinaria es una estrategia importante para mejorar la detección de estímulos de diferente naturaleza y reducir la variabilidad de la respuesta."
+    },
+    "teaching": {
+      "title": "Enseñanza",
+      "text": "Tengo una amplia experiencia docente, desde tutorías extensas hasta la enseñanza de cursos de pregrado y posgrado. Me interesa especialmente impartir cursos en tecnología, sonido y arte. A nivel de pregrado, he enseñado cursos de informática aplicada a la música, síntesis de sonido, talleres de sonido y multimedia, postproducción de sonido y procesamiento digital de señales. También me siento cómodo trabajando en equipo con otros profesores para desarrollar un entorno educativo altamente colaborativo e interdisciplinario que pueda discutir tecnología, música, artes sonoras y ciencia en el contexto de diferentes aplicaciones artísticas."
+    },
+    "creation": {
+      "title": "Creación",
+      "text": "Explorando las complejidades del arte sonoro, me sumerjo en reinos únicos más allá de los confines tradicionales. Dentro de esta esfera creativa, el diseño de sonido se transforma en un patio de recreo dinámico, empujando límites y esculpiendo experiencias auditivas distintivas. Expandiéndome aún más, mis motivaciones artísticas me llevan al mundo de las instalaciones sonoras, donde los espacios elaborados amplifican la narrativa a través del sonido. Mi fascinación se extiende a obras de paisaje sonoro, tejiendo una interacción de texturas sonoras de entornos naturales y urbanos. Colaborando con coreografía y performance, mis composiciones se integran con cuerpos, movimiento y narrativa, transformando el ámbito performativo en una experiencia multisensorial inmersiva e interconectada."
+    },
+    "keywords": {
+      "title": "Palabras claves",
+      "text": "Sonido, Arte, Música, Audio, Tecnología, Código, Investigación, Doctorado, Experimental"
+    }
+  },
+  "audio": {
+    "aproximacion": {
+      "title": "Aproximación / 500k",
+      "text": "500k Abregu / Chimenti APROXIMACION está disponible en todas las plataformas de streaming. Lanzado el 9 de agosto de 2019 por Chancho Discos (AR) y LeRockPsicophonique (CL). Producido en todas sus etapas por 500k / Foto de portada ® Ximena Martínez / 500k, Buenos Aires, 2019"
+    },
+    "2nd-body": {
+      "title": "2nd Body / URBAN BOSQUE",
+      "text": "2nd Body está disponible en todas las plataformas de streaming. Lanzado en mayo de 2018 por Silent Flow Netlabel. Créditos / Producción artística de Ezequiel Abregú y Vera Nois / Ezequiel Abregú: Sintetizadores analógicos, guitarra, voces, percusión y flauta / Vera Nois: Sintetizadores analógicos, voces, percusión y sitar / Grabado en Urban Bosque Studio por Ezequiel Abregú y Vera Nois en enero de 2016 / Mezclado por Marco Bailo en Templo Limón Studio / Masterizado por Daniel Ovie en Ovie Mastering Studio / Diseño de portada por Urban Bosque / Audio de alto rango dinámico."
+    },
+    "mute": {
+      "title": "MUTE / MUTE",
+      "text": "MUTE está disponible en todas las plataformas de streaming. Lanzado el 18 de febrero de 2017 por Zenapolae Net Label. Créditos / Producción artística de Ezequiel Abregú y Martín Matus Lerner / Grabado en Urban Bosque Studio por Ezequiel Abregú y Martín Matus Lerner entre enero y marzo de 2016 / Mezclado por Marco Bailo en Templo Limón Studio / Masterizado por Daniel Ovie en Ovie Mastering Studio / Diseño de portada por Mariana Rojas / Audio de alto rango dinámico / Gracias a: Vera Nois – Universidad Nacional de Quilmes – Escuela Universitaria de Artes."
+    },
+    "500k": {
+      "title": "500K / 500K",
+      "text": "500k está disponible en todas las plataformas de streaming. Lanzado el 5 de octubre de 2016 por Chancho Discos. Créditos / Producción artística Abregú y Chimenti / Grabado en Taller Paternópolis y Urban Bosque Studio por Ezequiel Abregu y Pablo Chimenti entre enero y marzo de 2016 / Mezclado por Marco Bailo en Templo Limón Studio / Masterizado por Daniel Ovie en Ovie Mastering Studio / Portada ‘State of Time’ por Pablo Ziccarello / Audio de alto rango dinámico / Gracias a: Ximena Martínez y Vera Nois"
+    },
+    "imaginarios-de-barrio": {
+      "title": "Imaginarios de <barrio>",
+      "text": "Lanzado el 1 de enero de 2014. Créditos / Diseño de sonido y programación: Ezequiel Abregú y Martín Matus Lerner / Entrevistas: Heliana Vera"
+    }
+  },
+  "text": {
+    "research": {
+      "title": "Investigación",
+      "text": ""
+    },
+    "thesis": {
+      "title": "Tesis Doctoral",
+      "text": "Uno de sus principales intereses es estudiar las señales (acústicas y no acústicas) involucradas en la percepción de distancia audiovisual (ADP / VDP) en humanos. En el ámbito artístico, hay pocos ejemplos donde el parámetro de ADP / VDP se haya utilizado como organizador de elementos sonoros, construyendo un espacio en el que el oyente pueda, por ejemplo, reconocer patrones de trayectorias o diferentes texturas y planos en profundidad. El objetivo general de este trabajo se centra en llevar a cabo una investigación con una doble perspectiva: estudiar cómo interactúan las modalidades visual y auditiva para modular la percepción de distancia en los humanos, aplicar los resultados obtenidos en la investigación como una alternativa compositiva aplicable a la producción de sonido."
+    }
+  },
+  "links": {
+    "email": {
+      "title": "Correo"
+    },
+    "social": {
+      "title": "Redes"
+    },
+    "donations": {
+      "title": "Donaciones"
+    },
+    "license": {
+      "title": "Licencia"
+    }
+  }
+}

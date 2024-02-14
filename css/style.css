@@ -584,7 +584,8 @@ a:visited {
 /* Show the fixed text navbar only on screens wider than 768px */
 @media (min-width: 768px) {
     #fixed-navbar {
-        display: block;
+        display: flex; /* Moved from the bottom */
+        justify-content: space-between; /* Align the language switch */
     }
 }
 
@@ -596,9 +597,6 @@ a:visited {
     #collapsed-navbar {
         display: block;
     }
-}
-
-@media (max-width: 767px) {
     .btn-nav {
         padding: 15px;
     }
@@ -846,6 +844,17 @@ html {
     font-family: 'Roboto Mono', monospace;
     transition: opacity 0.3s; /* Transition effect for the opacity */
 }
+
+/* under nacbar icons style*/
+.nav-text {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+  }
 
 #fixed-navbar:hover .nav-item::after {
     opacity: 1; /* Opacity is set to 1 on hover, making the text visible */
@@ -1095,3 +1104,11 @@ html {
       #duration {
         right: 0;
       }
+
+/* ------------------------------------------------------------------------------- */
+/* Style for the dropdown menu buttom*/
+.btn-light.dropdown-toggle.btn-sm {
+    font-family: 'Roboto Mono', monospace;
+    /* font-size: 12px; */
+}
+

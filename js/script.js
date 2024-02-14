@@ -211,3 +211,38 @@ function initializeWaveSurfer() {
 
 // Language switcher
 
+function loadTranslations(lang) {
+  fetch(`../lang/${lang}.json`)
+    .then(response => response.json())
+    .then(translations => {
+      document.querySelectorAll('[data-translate]').forEach(element => {
+        const keys = element.dataset.translate.split(':');
+        let text = translations;
+        keys.forEach(key => {
+          text = text[key];
+        });
+        element.textContent = text;
+      });
+      // Show the content after the translations have been loaded
+      document.body.style.visibility = 'visible';
+    });
+}
+
+document.querySelectorAll('.dropdown-item').forEach(item => {
+  item.addEventListener('click', event => {
+    event.preventDefault();
+    const lang = event.target.dataset.lang;
+    loadTranslations(lang);
+    document.getElementById('dropdownMenuButtonDesktop').textContent = event.target.textContent;
+    document.getElementById('dropdownMenuButtonMobile').textContent = event.target.textContent;
+    localStorage.setItem('selectedLanguage', lang);
+  });
+});
+
+// Hide the content until the translations have been loaded
+document.body.style.visibility = 'hidden';
+
+const selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+loadTranslations(selectedLanguage);
+document.getElementById('dropdownMenuButtonDesktop').textContent = selectedLanguage.toUpperCase();
+document.getElementById('dropdownMenuButtonMobile').textContent = selectedLanguage.toUpperCase();

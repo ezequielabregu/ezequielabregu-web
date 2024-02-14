@@ -25,18 +25,34 @@
             <div id="page-indicator">LINKS</div> 
             </a>
             <div id="fixed-navbar">
-                  <a class="nav-item" href="portfolio.html" data-text="works"><i class="bi bi-grid-3x3-gap"></i></a>
-                  <!-- <a class="nav-item active" href="about.html">ABOUT</a> -->
-                  <a class="nav-item" href="about.html" data-text="about"><i class="bi bi-info-circle"></i></a>
-                  <!-- <a class="nav-item" href="audio.html">audio</a> -->
-                  <a class="nav-item" href="audio.html" data-text="audio"><i class="bi bi-soundwave"></i></a>               
-                  <!-- <a class="nav-item" href="text.html">text</a> -->
-                  <a class="nav-item" href="text.html" data-text="text"><i class="bi bi-file-text"></i></a>               
-                  <!-- <a class="nav-item" href="links.html">links</a> -->
-                  <a class="nav-item active" href="links.html" data-text="links"><i class="bi bi-link-45deg"></i></a>               
-                  <!-- <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank">code</a> -->
-                  <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank" data-text="code"><i class="bi bi-code-slash"></i></a>  
-           </div>
+               <!-- <a class="nav-item" href="portfolio.html">works</a> -->
+               <a class="nav-item" href="portfolio.html"><i class="bi bi-grid-3x3-gap"></i><p class="nav-text" data-translate="menu:works">works</p></a>
+               <!-- <a class="nav-item active" href="about.html">ABOUT</a> -->
+               <a class="nav-item" href="about.html"><i class="bi bi-info-circle"></i><p class="nav-text" data-translate="menu:about" >about</p></a>
+               <!-- <a class="nav-item" href="audio.html">audio</a> -->
+               <a class="nav-item" href="audio.html"><i class="bi bi-soundwave"></i><p class="nav-text" data-translate="menu:audio" >audio</p></a>               
+               <!-- <a class="nav-item" href="text.html">text</a> -->
+               <a class="nav-item" href="text.html" ><i class="bi bi-file-text"></i><p class="nav-text" data-translate="menu:text">text</p></a>               
+               <!-- <a class="nav-item" href="links.html">links</a> -->
+               <a class="nav-item active" href="links.html" ><i class="bi bi-link-45deg"></i><p class="nav-text" data-translate="menu:links" >links</p></a>                   
+               <!-- <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank">code</a> -->
+               <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank"><i class="bi bi-code-slash"></i><p class="nav-text" data-translate="menu:code">code</p></a>                                                               
+            
+
+
+                  <div class="dropdown">
+                     <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButtonDesktop" data-bs-toggle="dropdown" aria-expanded="false" >
+                        Language
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDesktop">
+                        <li><a class="dropdown-item" href="#" data-lang="en">EN</a></li>
+                        <li><a class="dropdown-item" href="#" data-lang="es">ES</a></li>
+                     </ul>
+                  </div>         
+                  
+                  
+            
+            </div>
          </nav>
                   <!-- Collapsed navbar -->
          <nav id="collapsed-navbar" class="navbar navbar-default fixed-top">
@@ -54,12 +70,26 @@
             </a>
             <div class="nav-content hideNav hidden">
                <ul class="nav-list vcenter">
-                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">works</a><i class="bi bi-grid-3x3-gap"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="about.html">about</a><i class="bi bi-info-circle"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="audio.html">audio</a><i class="bi bi-soundwave"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="text.html">text </a><i class="bi bi-file-text"></i></li>
-                  <li class="nav-item active"><a class="item-anchor" href="links.html">links</a><i class="bi bi-link-45deg"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="https://github.com/ezequielabregu?tab=repositories" target="_blank">code </a><i class="bi bi-code-slash"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html" data-translate="menu:works">works</a><i class="bi bi-grid-3x3-gap"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="about.html" data-translate="menu:about">about</a><i class="bi bi-info-circle"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="audio.html" data-translate="menu:audio">audio</a><i class="bi bi-soundwave"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="text.html" data-translate="menu:text">text </a><i class="bi bi-file-text"></i></li>
+                  <li class="nav-item active"><a class="item-anchor" href="links.html" data-translate="menu:links">links</a><i class="bi bi-link-45deg"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="https://github.com/ezequielabregu?tab=repositories" target="_blank" data-translate="menu:code">code </a><i class="bi bi-code-slash"></i></li>
+            
+                  <li class="nav-item">
+                     <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButtonMobile" data-bs-toggle="dropdown" aria-expanded="false" >
+                           Language
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonMobile">
+                           <li><a class="dropdown-item" href="#" data-lang="en">EN</a></li>
+                           <li><a class="dropdown-item" href="#" data-lang="es">ES</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  
+            
                </ul>
             </div>
          </nav>
@@ -79,7 +109,7 @@
                
                <div class="row margin-top-45">
                   <div class="col-md-3">
-                     <h2>Email</h2>
+                     <h2 data-translate="links:email:title">Email</h2>
                   </div>
                   <div class="col-md-9">
                     <p><a href="mailto:ezequielabregu@gmail.com"><i class="far fa-envelope"></i> ezequielabregu [at] gmail.com</a></p>
@@ -89,7 +119,7 @@
 
                <div class="row margin-top-45">
                 <div class="col-md-3">
-                   <h2>Social</h2>
+                   <h2 data-translate="links:social:title">Social</h2>
                 </div>
                 <div class="col-md-9">
                   <p><a href="https://www.instagram.com/ezequielabreguok/" target="_blank"><i class="fab fa-instagram"></i> INSTAGRAM</a></p>
@@ -101,7 +131,7 @@
 
                 <div class="row margin-top-45">
                   <div class="col-md-3">
-                     <h2>Donations</h2>
+                     <h2 data-translate="links:donations:title">Donations</h2>
                   </div>
                   <div class="col-md-9">
                     <p><a href="https://www.paypal.com/donate/?hosted_button_id=DY2G6ZSGBVN58" target="_blank"><i class="fab fa-paypal"></i> PAYPAL</a></p>
@@ -110,7 +140,7 @@
 
                <div class="row margin-top-45">
                   <div class="col-md-3">
-                     <h2>License</h2>
+                     <h2 data-translate="links:license:title">License</h2>
                   </div>
                   <div class="col-md-9">
                      <p><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">
@@ -124,7 +154,8 @@
 
 
          <!-- script -->
-         <script src="../js/bootstrap.min.js"></script>
+      <!-- <script src="../js/bootstrap.min.js"></script> -->
+      <script src="../js/bootstrap.bundle.js"></script>
          <script src="../js/modernizr.js"></script>
          <script src="../js/script.js"></script>
          <script src="https://cdn.jsdelivr.net/npm/marked@2.0.0/marked.min.js"></script> <!-- Markdown marked library-->

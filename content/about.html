@@ -27,17 +27,32 @@
             </a>
             <div id="fixed-navbar">
                <!-- <a class="nav-item" href="portfolio.html">works</a> -->
-               <a class="nav-item" href="portfolio.html" data-text="works"><i class="bi bi-grid-3x3-gap"></i></a>
+               <a class="nav-item" href="portfolio.html"><i class="bi bi-grid-3x3-gap"></i><p class="nav-text" data-translate="menu:works">works</p></a>
                <!-- <a class="nav-item active" href="about.html">ABOUT</a> -->
-               <a class="nav-item active" href="about.html" data-text="about"><i class="bi bi-info-circle"></i></a>
+               <a class="nav-item active" href="about.html"><i class="bi bi-info-circle"></i><p class="nav-text" data-translate="menu:about" >about</p></a>
                <!-- <a class="nav-item" href="audio.html">audio</a> -->
-               <a class="nav-item" href="audio.html" data-text="audio"><i class="bi bi-soundwave"></i></a>               
+               <a class="nav-item" href="audio.html"><i class="bi bi-soundwave"></i><p class="nav-text" data-translate="menu:audio" >audio</p></a>               
                <!-- <a class="nav-item" href="text.html">text</a> -->
-               <a class="nav-item" href="text.html" data-text="text"><i class="bi bi-file-text"></i></a>               
+               <a class="nav-item" href="text.html" ><i class="bi bi-file-text"></i><p class="nav-text" data-translate="menu:text">text</p></a>               
                <!-- <a class="nav-item" href="links.html">links</a> -->
-               <a class="nav-item" href="links.html" data-text="links"><i class="bi bi-link-45deg"></i></a>                   
+               <a class="nav-item" href="links.html" ><i class="bi bi-link-45deg"></i><p class="nav-text" data-translate="menu:links" >links</p></a>                   
                <!-- <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank">code</a> -->
-               <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank" data-text="code"><i class="bi bi-code-slash"></i></a>                                                               
+               <a class="nav-item" href="https://github.com/ezequielabregu?tab=repositories" target="_blank"><i class="bi bi-code-slash"></i><p class="nav-text" data-translate="menu:code">code</p></a>                                                               
+            
+
+
+                  <div class="dropdown">
+                     <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButtonDesktop" data-bs-toggle="dropdown" aria-expanded="false" >
+                        Language
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDesktop">
+                        <li><a class="dropdown-item" href="#" data-lang="en">EN</a></li>
+                        <li><a class="dropdown-item" href="#" data-lang="es">ES</a></li>
+                     </ul>
+                  </div>         
+                  
+                  
+            
             </div>
          </nav>
 
@@ -57,12 +72,26 @@
             </a>
             <div class="nav-content hideNav hidden">
                <ul class="nav-list vcenter">
-                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">works</a><i class="bi bi-grid-3x3-gap"></i></li>
-                  <li class="nav-item active"><a class="item-anchor" href="about.html">about</a><i class="bi bi-info-circle"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="audio.html">audio</a><i class="bi bi-soundwave"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="text.html">text </a><i class="bi bi-file-text"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="links.html">links</a><i class="bi bi-link-45deg"></i></li>
-                  <li class="nav-item"><a class="item-anchor" href="https://github.com/ezequielabregu?tab=repositories" target="_blank">code </a><i class="bi bi-code-slash"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html" data-translate="menu:works">works</a><i class="bi bi-grid-3x3-gap"></i></li>
+                  <li class="nav-item active"><a class="item-anchor" href="about.html" data-translate="menu:about">about</a><i class="bi bi-info-circle"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="audio.html" data-translate="menu:audio">audio</a><i class="bi bi-soundwave"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="text.html" data-translate="menu:text">text </a><i class="bi bi-file-text"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="links.html" data-translate="menu:links">links</a><i class="bi bi-link-45deg"></i></li>
+                  <li class="nav-item"><a class="item-anchor" href="https://github.com/ezequielabregu?tab=repositories" target="_blank" data-translate="menu:code">code </a><i class="bi bi-code-slash"></i></li>
+            
+                  <li class="nav-item">
+                     <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButtonMobile" data-bs-toggle="dropdown" aria-expanded="false" >
+                           Language
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonMobile">
+                           <li><a class="dropdown-item" href="#" data-lang="en">EN</a></li>
+                           <li><a class="dropdown-item" href="#" data-lang="es">ES</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  
+            
                </ul>
             </div>
          </nav>
@@ -82,10 +111,10 @@
             <img class="img-fluid margin-top-05" src="../img/1.jpg" alt="me">
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Short Bio</h2>
+                  <h2 data-translate="about:short-bio:title">Short Bio</h2>
                </div>
                <div class="col-md-9">
-                  <p>
+                  <p data-translate="about:short-bio:text">
                      (Buenos Aires, Argentina) Sound artist, composer, multi-instrumentalist and researcher based in Berlin. His works include sound recordings, audio installations, performances, sound sculpture, sound design and scores for chamber music, choreography and theatre. His artistic interest focuses on the interaction among music, performance, sound art, live electronics, auditory and visual perception, interactive media and technology applied to art. He also holds a Ph.D. on the relationship between the visual and auditory perception in Sound Art. Degree in Composition with Electroacoustic Media (at UNQ). He is professor at the University of Quilmes (Computing Applied to Music area), at the National University of Arts (Multimedia Arts area) and at the University of Tres de Febrero (Electronic Arts area).
                   </p>
                </div>
@@ -93,10 +122,10 @@
 
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Programming</h2>
+                  <h2 data-translate="about:programming:title">Programming</h2>
                </div>
                <div class="col-md-9">
-                  <p>
+                  <p data-translate="about:programming:text">
 
                      Passionate about programming and digital applications in audio, my exploration of the programming world began two decades ago, encompassing languages like C, C++, Python, Pure Data and more. Advocating the open-source philosophy, I'm at home with Linux and host all my projects on publicly accessible repositories. Proficient in hardware development using microcontrollers and Single Board Computers, I bring a hands-on approach to my work. Recently, I've delved into web applications and cloud tools, particularly those integrating AI and ML into audio. Eager to contribute and collaborate in the ever-evolving landscape of audio programming, I am driven by a passion to push boundaries and explore innovative solutions.
                   </p>
@@ -105,10 +134,10 @@
 
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Music</h2>
+                  <h2 data-translate="about:music:title">Music</h2>
                </div>
                <div class="col-md-9">
-                  <p>
+                  <p data-translate="about:music:text">
                      My musical journey kicked off when I was just a kid, tinkering with instruments like the flute, piano, classical and electric guitar, French horn, and synthesizers. As time rolled on, I found myself drawn to the world of composing music, diving into various genres including classical, contemporary, electroacoustic, jazz, tango, and the vibrant sounds of Argentine folklore. I'm captivated by the magic of blending different instruments, crafting arrangements for groups that resonate, and immersing myself in the intriguing complexities of modern harmony.
                   </p>
                </div>
@@ -116,10 +145,10 @@
 
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Research</h2>
+                  <h2 data-translate="about:research:title">Research</h2>
                </div>
                <div class="col-md-9">
-                  <p>
+                  <p data-translate="about:research:text">
                      My interdisciplinary research gathers scientific, art and musical knowledge, devising new cognitive and compositional tools, conducting original research in the areas of psychophysics and sound art to contribute to sound production. In my doctoral research, the study of AudioVisual Distance Perception  (AVDP), both in sound art and psychophysics, involves a lot of cues not yet studied in depth. I am the co-author of a broad range of publications related to AVDP. Primarily, I have been focused on how the role of vision in auditory distance perception is. Multidisciplinary interaction is an important strategy for improving the detection of stimuli of different nature and reducing the variability of response.
                   </p>
                </div>
@@ -127,10 +156,10 @@
 
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Teaching</h2>
+                  <h2 data-translate="about:teaching:title">Teaching</h2>
                </div>
                <div class="col-md-9">
-                  <p>
+                  <p data-translate="about:teaching:text">
                      I have a broad range of teaching experience, from extensive tutoring to teaching undergraduate and postgraduate courses. I am especially interested in teaching courses in technology, sound and art. At the undergraduate level, I have taught courses in computing applied to music, sound synthesis, sound and multimedia workshops, sound post-production and digital signal processing. I am also comfortable working as a team with other professors to develop a highly collaborative and interdisciplinary educative environment that could discuss technology, music, sonic arts and science in the context of different artistic applications.
                   </p>
                </div>
@@ -138,75 +167,31 @@
 
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Creation</h2>
+                  <h2 data-translate="about:creation:title">Creation</h2>
                </div>
                <div class="col-md-9">
-                  <p>
+                  <p data-translate="about:creation:text">
                      Exploring the intricacies of sound art, I delve into unique realms beyond traditional confines. Within this creative sphere, sound design transforms into a dynamic playground, pushing boundaries and sculpting distinctive auditory experiences. Expanding further, my artistic motivations lead me into the world of sound installations, where crafted spaces amplify storytelling through sound. My fascination extends to soundscape works, weaving an interplay of sonic textures from natural and urban environments. Collaborating with choreography and performance, my compositions integrate with bodies, movement, and narrative, transforming the performative realm into an immersive and interconnected multisensory experience.
                   </p>
                </div>
             </div>
 
-
-            <!--             <div class="row margin-top-45">
-               <div class="col-md-3">
-                  <h2>Services</h2>
-               </div>
-               <div class="col-md-9">
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula libero auctor dolor vulputate varius. Nunc ac nisl non felis finibus ultricies. Donec at porttitor lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin volutpat augue ex. In hac habitasse platea dictumst. Suspendisse at ante ligula. Nulla facilisis velit egestas massa imperdiet, id posuere turpis feugiat.
-                  </p>
-               </div>
-            </div> -->
-
-
-            <!-- Embed Video -->
-<!--             <div class="row margin-top-45">
-               <div class="col-md-3">
-                  <h2>Video</h2>
-               </div>
-               <div class="col-md-9">
-                  <div class="embed-responsive embed-responsive-16by9">
-                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o3PhC_VJdXo" controls="0"></iframe>
-                  </div>
-               </div>
-            </div> -->
-
-
             <div class="row margin-top-45">
                <div class="col-md-3">
-                  <h2>Keywords</h2>
+                  <h2 data-translate="about:keywords:title">Keywords</h2>
                </div>
                <div class="col-md-9">
-                  <div class="row">
-                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                           <li>Sound</li>
-                           <li>Art</li>
-                           <li>Music</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                           <li>Audio</li>
-                           <li>Technology</li>
-                           <li>Code</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                           <li>Research</li>
-                           <li>PhD</li>
-                           <li>Experimental</li>
-                        </ul>
-                     </div>
-                  </div>
+                  <p data-translate="about:keywords:text">
+                     Exploring the intricacies of sound art, I delve into unique realms beyond traditional confines. Within this creative sphere, sound design transforms into a dynamic playground, pushing boundaries and sculpting distinctive auditory experiences. Expanding further, my artistic motivations lead me into the world of sound installations, where crafted spaces amplify storytelling through sound. My fascination extends to soundscape works, weaving an interplay of sonic textures from natural and urban environments. Collaborating with choreography and performance, my compositions integrate with bodies, movement, and narrative, transforming the performative realm into an immersive and interconnected multisensory experience.
+                  </p>
                </div>
             </div>
          </div>
       </section>
+
       <!-- script -->
-      <script src="../js/bootstrap.min.js"></script>
+      <!-- <script src="../js/bootstrap.min.js"></script> -->
+      <script src="../js/bootstrap.bundle.js"></script>
       <script src="../js/modernizr.js"></script>
       <script src="../js/script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/marked@2.0.0/marked.min.js"></script> <!-- Markdown marked library-->
