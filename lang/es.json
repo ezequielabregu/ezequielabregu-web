@@ -82,5 +82,82 @@
     "license": {
       "title": "Licencia"
     }
-  }
+  },
+  
+  "works": {
+    "cave-aquam": {
+      "title": "Cave Aquam",
+      "text-1": "CAVE AQUAM es el resultado de un proceso de investigación que se centra en temas relacionados con canteras y aguas sulfurosas en el territorio de Tivoli Guidonia. En torno a las canteras y el agua en el territorio de Tivoli y Guidonia. Un territorio que contiene una multitud de actores, problemas territoriales y ambientales, problemas ecosistémicos, burocráticos, legales, económicos y extractivos. Aquí está el marco general de la muestra.",
+      "text-2": "CAVE AQUAM es un proyecto colaborativo surgido al finalizar la edición 2023 de la Maestría en 'Humanidades Ambientales - Estudios Ambientales y Territoriales' (Universidad Roma Tre). \nCAVE AQUAM es la narrativa de lugares que contienen una pluralidad de actores, cuestiones territoriales y ambientales, problemas ecosistémicos, burocráticos y legales, económicos, y extractivos. CAVE AQUAM tiene como objetivo llamar la atención, como urgencia y emergencia, sobre los eventos que giran en torno a canteras y agua en la zona de Tivoli y Guidonia. \nCAVE AQUAM es un grupo de investigación multidisciplinario compuesto por cris martone, Paola Pietronave, Nasti Pelo, Arianna Cianetti, Davide Somatics, Cecilia Blanco, Laura Landi."
+    },
+    "eat-to-look-inside": {
+      "title": "Eat to Look Inside",
+      "text-1": "Eat to look inside (2020) es el primero de una serie de acciones de performance audiovisual que exploran el sonido, las imágenes y el potencial simbólico del acto de comer. Esta obra propone comer como un acto lúdico para obtener información e inspeccionar objetos de manera transdisciplinaria. Eat to look inside aborda una propuesta de comunicación no verbal y evolución libidinal, a través de la cual se expresa y organiza la relación con un objeto. Esta obra propone una distancia a través de un estímulo audiovisual único, cuya interacción ocurre solo a nivel perceptual a través de la observación. Nota: después de acceder al enlace, haz clic / toca en la pantalla.",
+      "text-2": " "
+    },
+    "one-line": {
+      "title": "One Line",
+      "text-1": "One Line es una performance sonora que explora el cuerpo y el movimiento como una sucesión continua de puntos trazando un espacio que no forma una figura particular. El cuerpo interactúa/interviene/activa un haz de luz láser que se curva por el sonido y se expande como un conjunto de puntos en el mismo plano. De esta manera, el cuerpo y la línea se convierten en una entidad indivisible.",
+      "text-2": "Cuando el resto del cuerpo-punto en movimiento en el plano se destruye, se mueve en el espacio, dando lugar a la línea. One Line representa la forma performativa más simple y pura que, al mismo tiempo, puede ser dinámica y variada. En esta actuación, los límites se difuminan y la periferia se convierte en un contorno y su contenedor.",
+      "text-3": "<b>Idea, concepto general y diseño del dispositivo:</b> Ezequiel Abregu \n <b>Performance:</b> Ezequiel Abregu, Florencia Staldecker"
+    },
+    "artificial-grandparents": {
+      "title": "Los Abuelos Artificiales",
+      "text-1": "Constanza (México, 1990) tiene una casa en su cabeza. Y no es exactamente la de la Calle Sáenz Peña 1041 en Zárate, la que construyeron sus bisabuelos y donde creció su madre antes del exilio de sus abuelos.",
+      "text-2": "Con la ayuda de la 'inteligencia artificial', cree que puede aprovechar esa casa interior, construida por la memoria familiar, para recuperar algo de valor que desapareció cuando perdió la casa. La acompañamos hasta la puerta de la casa hoy, pero parece ser más la arquitectura de otra memoria familiar. Si la memoria construye y sobrescribe de otras maneras, generando otras realidades, ¿qué valor tiene la verdad actual residente en esa casa?",
+      "text-3": "<b>Laboratorio de cuerpo interactivo</b> \nCentro Hipermedial Experimental Latinoamericano CheLA Buenos Aires, Argentina + Remap Ucla University of California, LA Performance: Constanza Casamadrid Diseño Multimedia: Myriam Beutelspacher Myri Alcántar Diseño de Interactividad: Juan Camilo León Sarmiento Dramaturgia y Puesta en escena: Ezequiel EC Steinman Diseño de Sonido y Música Original: Ezequiel Abregu Programación: Luciano Toledo TOLCH, Juan León Sarmiento Constanza Casamadrid Video: Ezequiel Steinman",
+      "text-4": "<b>Equipamiento del laboratorio OPEN P TRACK + TOUCH DESIGNER</b> \nJeff Burke – Director. \nSantiago Núñez – Co-Director. \nBelén Tondo – Productora. \nFrancisca Armando - Productora. \nJared J. Stein – Artista residente / mentor, escritor y dramaturgo. \nMatthew Ragan – Artista residente / mentor, medios interactivos. \nPeter Gusev – Artista residente / mentor, desarrollo de software. \nZoe Sandoval – Artista residente, medios interactivos. \nRandy Illum – Artista residente, estudios de información. \nSam Amin – Artista residente, desarrollo de software. \nRenee MacDonald – Coordinadora de proyectos REMAP. \nJael Díaz Vila – Diseño gráfico."
+    },
+    "urban-bosque": {
+      "title": "Bosque Urbano",
+      "text-1": "URBAN BOSQUE fue concebido en tres puntos poéticos: \n<b>Organicidad:</b> entendida como la extensión del propio gesto del cuerpo a través del discurso sonoro, \n<b>Espontaneidad:</b> tomada como la matriz de la composición artística, generando historias que unen las piezas,\n <b>Entorno Urbano:</b> considerado como influencia de la ciudad contemporánea en un contexto sonoro inmersivo.",
+      "text-2": "Los instrumentos elegidos consisten en una amplia gama de sintetizadores analógicos, voces, guitarra eléctrica, cítara y una variedad de instrumentos de viento nativos. URBAN BOSQUE intenta investigar la organicidad intrínseca del sonido eléctrico-analógico y el diálogo producido por instrumentos acústicos diversos.",
+      "text-3": "URBAN BOSQUE pretende establecer la relación entre la electricidad, como generadora de sonido, y la energía (mecánica, eólica, eléctrica) que proviene del cuerpo que excita los diversos instrumentos acústicos."
+    },
+    "mute": {
+      "title": "MUTE",
+      "text-1": "MUTE es un dúo de música experimental de Buenos Aires, Argentina, compuesto por Ezequiel Abregú y Martín Matus, donde la construcción del sonido emerge del procedimiento y el gesto. Nuestra estética ha sido influenciada por muchos estilos (contemporáneo, ambiental, electrónico y ruido experimental), tratando de hacer una propuesta personal y original.",
+      "text-2": " "
+    },
+    "500k": {
+      "title": "500K",
+      "text-1": "500k es un dúo de guitarra compuesto por Ezequiel Abregú y Pablo Chimenti, donde la construcción del sonido surge del procedimiento y el gesto. El proyecto genera retroalimentación saturando procesos analógicos y digitales como base para la expansión y contracción de la textura timbral. La improvisación, la música experimental y la composición se funden en la experiencia performativa.",
+      "text-2": " "
+    },
+    "chrysalis": {
+      "title": "Crísalis",
+      "text-1": "Crísalis es una Escultura Sonora Interactiva que relaciona la sostenibilidad, el vínculo humano con su entorno y los procesos que genera a lo largo del tiempo. Los autores de la escultura son Carla Colombini (escultora), Ezequiel Abregú y Martín Matus (artistas sonoros).",
+      "text-2": "Crísalis consiste en una escultura elaborada, en su mayor parte, utilizando una gran cantidad de residuos electrónicos. Desde un punto de vista simbólico, propone una posición crítica y reflexiva sobre el tratamiento de los residuos electrónicos, alentando a los espectadores a reflexionar sobre los problemas ambientales y la sostenibilidad desde el arte. \n En este marco, la obra propone una proyección simbólica del problema existente entre los humanos y sus desechos tecnológicos, revelando así un espacio de correlación directa entre el entorno urbano contemporáneo y sus vertederos. \nEl consumo excesivo de dispositivos de alta tecnología, la evolución cultural dependiente de la tecnología, las estrategias de obsolescencia programada y la falta de controles y políticas sobre el tratamiento de los desechos tecnológicos generan un nuevo tabú en las sociedades urbanas: los vertederos tecnológicos. Debido al aumento exponencial de estos sitios, tenemos, como consecuencia, la expansión de sus límites, invadiendo progresivamente nuestro espacio urbano.",
+      "text-3": "Crísalis pretende realizar, desde la perspectiva del arte, una mirada reflexiva sobre este problema, centrándose en tres temas principales: \n <ul><li> - Arte y tecnología, proponiendo una posible solución al problema reutilizando residuos tecnológicos como materiales para la realización de la escultura,</li><li> - Reflexión crítica, reafirmando los valores relacionados con la forma de relacionarse con la ciudad, el entorno natural y la tecnología, y </li><li>- Sostenibilidad, postulándonos como parte de una generación que actúa para satisfacer sus necesidades de manera consciente y sostenible.</ul>"
+    },
+    "lejos": {
+      "title": "LEJOS",
+      "text-1": "La actriz busca los cuerpos de representaciones biográfico-ficcionales del pasado en su memoria. A través de un viaje físico extremo que comienza con la respiración, los cuerpos del pasado aparecen y se actualizan en el presente. Lejos explora cómo habitar un espacio vacío y liberar al cuerpo de cierta memoria, en un intento de transformar los mecanismos de representación y experimentar cierta autonomía.",
+      "text-2": "LEJOS es una investigación multidisciplinaria, que combina teatro, performance, artes visuales y sonoras. Desde el inicio del proceso creativo, el desafío consistió en trabajar en los umbrales perceptivos de la respiración y el silencio, en el despliegue del espacio acústico-escénico y los puntos de transición donde un símbolo o sonido puede ser una cosa u otra dependiendo del contexto. En particular, desde el punto de vista del tratamiento sonoro de la obra, se abordó la idea de la memoria como ruido como un concepto clave para la composición del espacio sonoro. En este marco, el tratamiento del silencio y el ruido actúa como un marco espacial y temporal (que también se conecta con el pasado ficticio del personaje), constituyendo un eslabón crucial entre el aspecto simbólico de la obra y el pasado ficticio de la actriz.",
+      "text-3": "<b>Créditos</b> \nActriz: Florencia Bergallo / Diseño de sonido y música: Ezequiel Abregú / Foto: Mariana Roveda Escénica / Dramaturgia: Florencia Bergallo y Marina Sarmiento / Asesoría de dramaturgia: Ezequiel Steinman / Diseño y producción de vestuario: Belén Parra / Producción fotográfica del personaje: Néstor Burgos / Colaboración artística: Julieta Potenze / Producción: Cooperativa LEJOS / Asistente de producción: Julieta Benedetto / Asistente técnica: Selva Aimé / Asistente de dirección: Micaela Moreno / Concepto, coreografía y dirección: Marina Sarmiento"
+    },
+    "viajes-de-sarmiento": {
+      "title": "Los Viajes de Sarmiento",
+      "text-1": "Cuatro mujeres viajan a través de diferentes paisajes de su memoria a través de un pulso que construye su propia cartografía. Constelan espectros y paisajes que recuperan las voces de las piedras que los libros nombran como desierto. La experiencia física y emocional de Los Viajes de Sarmiento abre la posibilidad de inventar un cuerpo comunal, visceral y mestizo anclado en el presente.",
+      "text-2": "Diseño de sonido, música original y actuación en vivo para Los Viajes de Sarmiento, dirigida por Marina Sarmiento. \nLos Viajes de Sarmiento propone una apropiación contemporánea y bastarda de los viajes que D. F. Sarmiento realizó durante el siglo XIX. A través de un contraste estético en un viaje biográfico y singular, Marina Sarmiento junto con la bailarina M. Eugenia Roces, las actrices Cecilia Blanco y Florencia Bergallo y el músico Ezequiel Abregú, buscan poner en tensión la memoria del cuerpo y el paisaje en escena.",
+      "text-3": "<strong>Créditos</strong> \nIntérpretes/Creadores: Florencia Bergallo, Cecilia Blanco, María Eugenia Roces, Marina Sarmiento / Diseño de sonido y actuación en vivo: Ezequiel Abregú / Vestuario: Belén Parra / Dramaturgia: Ezequiel Steinman / Asesoría bibliográfica: Julieta Benedetto y Natalia Lerussi / Foto: Marcos Crapa / Diseño gráfico: Martín Molinaro / Diseñador de luces: Gonzalo Córdova / Asistencia de sonido: Exequiel Redchuk / Entrenador: Nicolas Delavanso / Asistencia coreográfica: Débora Diskin / Asistencia de dirección: María Eugenia Roces / Productora ejecutiva: Julieta Benedetto / Producción general: Cooperativa Los Viajes de Sarmiento / Concepto, coreógrafa y directora: Marina Sarmiento"
+    },
+    "bowl-of-secrets": {
+      "title": "Bowl of Secrets",
+      "text-1": "Bowl of secrets es una instalación sonora generativa creada por Damián Anache, Ezequiel Abregu y Martín Matus, para la apertura de la Nota al pie (librería de la Editorial Universidad Nacional de Quilmes), celebrada el 11 de abril de 2013.",
+      "text-2": "El enfoque de la composición se basa en la idea de la música generativa. Se diseñó un algoritmo computacional en el entorno Pure Data (también conocido como PD) utilizando un sistema de reglas para crear una estructura o textura sonora donde los resultados son únicos cada vez. Bowl of secrets utiliza un arreglo de 8 altavoces con una distribución uniforme y circular como dispositivo de reproducción. La obra articula texturas propias de la música electroacústica y textos de Erik Satie, utilizando criterios estéticos propios del género ambiental. En esta línea estética, el discurso sonoro intenta satisfacer al oyente en dos niveles: ofrece un ambiente de comodidad auditiva y, al mismo tiempo, proporciona un tema de interés en una situación de escucha atenta de la música. Ambas condiciones funcionan simultáneamente sin condicionar una recepción u otra."
+    },
+    "pieces-for-ensemble": {
+      "title": "Dos Piezas para Ensemble",
+      "text-1": "<b>Instrucciones para entrar en contacto con mundos suprafísicos / Los océanos tienen oídos.</b> \n En 2011, con el apoyo de la editorial musical MELOS (Bs. As., Argentina), Ezequiel Abregú tuvo la oportunidad de trabajar junto al conjunto Compañía Oblicua, dirigido por el Mtro. Marcelo Delgado. De esta colaboración surgieron dos piezas para ensemble llamadas “Instrucciones para entrar en contacto con mundos suprafísicos” y “Los océanos tienen oídos“. Estas piezas fueron estrenadas por la Compañía Oblicua el 4 de julio de 2012, en el auditorio de la Biblioteca Nacional (Buenos Aires, Argentina).",
+      "text-2": " "
+    },
+    "imaginarios-de-barrio": {
+      "title": "Imaginarios de < Barrio >",
+      "text-1": "Imaginarios de < barrio > (< Vecindario > imaginarios) es una instalación sonora generativa realizada en el marco de la convocatoria Arte y Política 2013 de Paternal. Se presentó originalmente en sistema de audio envolvente de varios canales. Imaginarios de ( imaginarios) propone repensar el concepto de vecindario y la experiencia individual en el lugar de pertenencia. Cruzar elementos del imaginario colectivo con el personal crea una textura de símbolos, anécdotas, emoción y experiencia. El entorno sonoro se construye a partir de un registro fragmentario y arbitrario que no jerarquiza sonidos o intervenciones, palabras o momentos, sino que elabora vínculos sin prejuicios en una banda sonora densa.",
+      "text-2": "Créditos Diseño de sonido y programación: Ezequiel Abregú / Martín Matus Lerner (MUTE) Entrevistas: Heliana Vera. Instalación sonora generativa para sonido envolvente presentada en noviembre de 2013 en La Noche de los Museos - Proyecto Espacio Paternal (Bs As, Argentina)."
+    }
+      
+  }    
+
 }

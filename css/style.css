@@ -926,6 +926,11 @@ html {
     color: #2980b9;
 }
 
+.modal-content b,
+.modal-content strong {
+    font-weight: bold;
+}
+
 .modal-content img {
     max-width: 100%;
     width: 100%;
@@ -953,6 +958,8 @@ html {
 .modal-content iframe {
     width: 100%;
 }
+
+
 
 .video-container {
     position: relative;
