@@ -52,12 +52,12 @@ var modal = document.getElementById("myModal");
 // Create a new event
 var contentLoadedEvent = new Event('contentLoaded');
 
-// Fetch the content of the works.md file and convert it to HTML
+// Fetch the content of the works.html file
 var html;
-fetch('../content/works.md')
+fetch('../content/works.html')
   .then(response => response.text())
   .then(text => {
-    html = marked(text, { sanitize: false });
+    html = text;
 
     // Get all images and add onclick event to each
     var imgs = document.querySelectorAll('.myImg');
@@ -76,23 +76,28 @@ fetch('../content/works.md')
         var sectionContent = getSectionContent(doc.body, 'h2[id="' + sectionId + '"]');
         
         // Insert the content into the modal
-        document.getElementById('modal-content').innerHTML = sectionContent;
-
-        // ---IMPORTANT---: Initialize WaveSurfer if the waveform div exists in the modal content
+        var modalContent = document.getElementById('modal-content');
+        modalContent.innerHTML = sectionContent;
+      
+        // Translate the modal content
+        var selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+        loadTranslations(selectedLanguage, modalContent);
+      
+        // Initialize WaveSurfer if the waveform div exists in the modal content
         initializeWaveSurfer();
-
+      
         // Delay the scroll to the top until after the new content is rendered
         setTimeout(function() {
           modal.scrollTop = 0;
         }, 0);
-
+      
         // Get the <div> element that closes the modal
         var closeButton = document.getElementsByClassName("close-button")[0];
-
+      
         // When the user clicks or touches on <div> (x), close the modal
         closeButton.addEventListener('click', closeModal);
         closeButton.addEventListener('touchstart', closeModal);
-
+      
         function closeModal(event) {
           event.preventDefault();
           event.stopPropagation();
@@ -211,11 +216,11 @@ function initializeWaveSurfer() {
 
 // Language switcher
 
-function loadTranslations(lang) {
+function loadTranslations(lang, parent = document) {
   fetch(`../lang/${lang}.json`)
     .then(response => response.json())
     .then(translations => {
-      document.querySelectorAll('[data-translate]').forEach(element => {
+      parent.querySelectorAll('[data-translate]').forEach(element => {
         const keys = element.dataset.translate.split(':');
         let text = translations;
         keys.forEach(key => {
@@ -224,7 +229,9 @@ function loadTranslations(lang) {
         element.textContent = text;
       });
       // Show the content after the translations have been loaded
-      document.body.style.visibility = 'visible';
+      if (parent === document) {
+        document.body.style.visibility = 'visible';
+      }
     });
 }
 
