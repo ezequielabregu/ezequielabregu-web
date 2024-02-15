@@ -43,7 +43,7 @@ window.addEventListener('scroll', function() {
 
 //-----------------------------------------------------------------------------------
 
-
+// prompt: "I have a modal that displays content from an external HTML file when an image is clicked. I also have a language switcher that translates the content of the page. However, the modal content is not being translated when the modal is opened. The translation works if I refresh the modal. How can I modify my language switcher script to also translate the modal content when an image is clicked and the modal is opened?"
 //This is the script for the modal in portfolio.html (added by me 5/02/2024)
 //This will scroll the modal content to the top every time an image is clicked and the modal opens. 
 // Get the modal
@@ -226,7 +226,9 @@ function loadTranslations(lang, parent = document) {
         keys.forEach(key => {
           text = text[key];
         });
-        element.textContent = text;
+        // Replace \n with <br>
+        text = text.replace(/\n/g, '<br>');
+        element.innerHTML = text;
       });
       // Show the content after the translations have been loaded
       if (parent === document) {
