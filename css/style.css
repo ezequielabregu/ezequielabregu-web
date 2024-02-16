@@ -237,7 +237,7 @@ a:visited {
     font-family: 'Roboto Mono', monospace;
     /* margin: 10px auto;  */
     margin: 0 10px; /* adjust space between fixed navbar icons */
-    text-align: center;
+    text-align: right;
     color: #222; /* #222; */
     padding-left: 10px; /* Adjust this value to match the padding of .item-anchor */
     padding-right: 10px;
@@ -825,6 +825,11 @@ html {
 #collapsed-navbar {
     margin-top: 95px; /* This will push the navbar down, reducing the space */
 }
+
+.container b,
+.container strong {
+    font-weight: bold;
+}
 /* ------------------------------------------------------------------------------- */
 
 
@@ -845,10 +850,10 @@ html {
     transition: opacity 0.3s; /* Transition effect for the opacity */
 }
 
-/* under nacbar icons style*/
+/* under navbar icons style*/
 .nav-text {
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     opacity: 1;
