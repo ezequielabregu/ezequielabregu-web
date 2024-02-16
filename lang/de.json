@@ -1,0 +1,169 @@
+{
+    "menu": {
+        "works": "arbeiten",
+        "about": "über",
+        "audio": "audio",
+        "text": "text",
+        "links": "links",
+        "code": "code"
+        },
+
+    "about": {
+        "short-bio": {
+        "title": "Kurzbiografie",
+        "text": "(Buenos Aires, Argentinien) Klangkünstler, Komponist, Multiinstrumentalist und Forscher mit Sitz in Berlin. Seine Werke umfassen Tonaufnahmen, Audioinstallationen, Aufführungen, Klangskulptur, Klangdesign und Partituren für Kammermusik, Choreografie und Theater. Sein künstlerisches Interesse konzentriert sich auf die Interaktion von Musik, Performance, Klangkunst, Live-Elektronik, auditive und visuelle Wahrnehmung, interaktive Medien und Technologie in der Kunst. Er hat auch einen Doktortitel über die Beziehung zwischen visueller und auditiver Wahrnehmung in der Klangkunst. Abschluss in Komposition mit elektroakustischen Medien (an der UNQ). Er ist Professor an der Universität Quilmes (Bereich Informatik angewendet auf Musik), an der Nationalen Universität der Künste (Bereich Multimedia-Kunst) und an der Universität Tres de Febrero (Bereich Elektronische Kunst)."
+        },
+        "programming": {
+        "title": "Programmierung",
+        "text": "Begeistert von Programmierung und digitalen Anwendungen im Audio begann meine Erkundung der Programmierwelt vor zwei Jahrzehnten und umfasste Sprachen wie C, C++, Python, Pure Data und mehr. Als Verfechter der Open-Source-Philosophie fühle ich mich mit Linux wohl und hoste alle meine Projekte in öffentlich zugänglichen Repositories. Versiert in der Hardwareentwicklung mit Mikrocontrollern und Einplatinencomputern bringe ich einen praktischen Ansatz in meine Arbeit ein. In letzter Zeit habe ich mich mit Webanwendungen und Cloud-Tools beschäftigt, insbesondere solchen, die KI und maschinelles Lernen in die Audiowelt integrieren. Ich freue mich darauf, zur sich ständig weiterentwickelnden Landschaft der Audioprogrammierung beizutragen und zusammenzuarbeiten, angetrieben von der Leidenschaft, Grenzen zu verschieben und innovative Lösungen zu erkunden."
+        },
+        "music": {
+        "title": "Musik",
+        "text": "Meine musikalische Reise begann schon in meiner Kindheit, als ich mit Instrumenten wie der Flöte, dem Klavier, der klassischen und elektrischen Gitarre, dem Waldhorn und Synthesizern experimentierte. Im Laufe der Zeit fand ich mich in der Welt der Musikkomposition wieder und tauchte in verschiedene Genres ein, darunter Klassik, zeitgenössische Musik, elektroakustische Musik, Jazz, Tango und die lebendigen Klänge des argentinischen Volkstanzes. Mich fasziniert die Magie, verschiedene Instrumente zu kombinieren, Arrangements für Gruppen zu gestalten, die resonieren, und mich in die faszinierenden Komplexitäten der modernen Harmonie zu vertiefen."
+        },
+        "research": {
+        "title": "Forschung",
+        "text": "Meine interdisziplinäre Forschung vereint wissenschaftliches, kunst- und musikalisches Wissen und entwickelt neue kognitive und kompositorische Werkzeuge. Ich führe originäre Forschung in den Bereichen Psychophysik und Klangkunst durch, um zur Klangerzeugung beizutragen. In meiner Doktorarbeit geht es um die Untersuchung der audiovisuellen Distanzwahrnehmung (AVDP), sowohl in der Klangkunst als auch in der Psychophysik, unter Einbeziehung vieler bisher nicht intensiv erforschter Hinweise. Ich bin Mitautor einer Vielzahl von Veröffentlichungen zu AVDP. In erster Linie habe ich mich darauf konzentriert, wie die Rolle der Vision in der auditiven Distanzwahrnehmung ist. Die multidisziplinäre Interaktion ist eine wichtige Strategie, um die Erkennung von Reizen unterschiedlicher Natur zu verbessern und die Variabilität der Reaktion zu reduzieren."
+        },
+        "teaching": {
+        "title": "Unterricht",
+        "text": "Ich habe umfangreiche Erfahrung im Unterrichten, von intensiver Betreuung bis hin zu Kursen für Bachelor- und Postgraduierte. Mich interessieren besonders Kurse in den Bereichen Technologie, Klang und Kunst. Auf Bachelor-Niveau habe ich Kurse in Informatik angewendet auf Musik, Klangsynthese, Klang- und Multimedia-Workshops, Klangnachbearbeitung und digitale Signalverarbeitung unterrichtet. Ich arbeite auch gerne im Team mit anderen Professoren zusammen, um eine hochgradig kollaborative und interdisziplinäre Lehrumgebung zu schaffen, die Technologie, Musik, Klangkunst und Wissenschaft im Kontext unterschiedlicher künstlerischer Anwendungen diskutieren könnte."
+        },
+        "creation": {
+        "title": "Kreation",
+        "text": "Bei der Erforschung der Feinheiten der Klangkunst tauche ich in einzigartige Bereiche jenseits traditioneller Grenzen ein. Innerhalb dieses kreativen Sphären wird Klangdesign zu einem dynamischen Spielplatz, der Grenzen verschiebt und einzigartige auditive Erlebnisse gestaltet. Meine künstlerischen Motivationen führen mich weiter in die Welt der Klanginstallationen, in denen gestaltete Räume Geschichtenerzählung durch Klang verstärken. Meine Faszination erstreckt sich auch auf Klanglandschaftsarbeiten, die ein Zusammenspiel von Klangtexturen aus natürlichen und städtischen Umgebungen weben. In Zusammenarbeit mit Choreografie und Performance integrieren sich meine Kompositionen mit Körpern, Bewegung und Erzählung und verwandeln den performativen Raum in ein immersives und vernetztes multisensorisches Erlebnis."
+        },
+        "keywords": {
+        "title": "Stichwörter",
+        "text": "Klang, Kunst, Musik, Audio, Technologie, Code, Forschung, Doktor, Experimentell"
+        }
+    },
+
+    "audio": {
+        "aproximacion": {
+        "title": "Annäherung / 500k",
+        "text": "500k Abregu / Chimenti APPROXIMATION ist auf allen Streaming-Plattformen verfügbar. Veröffentlicht am 9. August 2019 von Chancho Discos (AR) und LeRockPsicophonique (CL). In allen Phasen produziert von 500k / Coverfoto ® Ximena Martínez / 500k, Buenos Aires, 2019"
+        },
+        "2nd-body": {
+        "title": "2nd Body / URBAN BOSQUE",
+        "text": "2nd Body ist auf allen Streaming-Plattformen verfügbar. Veröffentlicht im Mai 2018 vom Silent Flow Netlabel. Credits / Künstlerische Produktion von Ezequiel Abregú & Vera Nois / Ezequiel Abregú: Analogsynthesizer, Gitarre, Gesang, Percussion & Flöte / Vera Nois: Analogsynthesizer, Gesang, Percussion & Sitar / Aufgenommen im Urban Bosque Studio von Ezequiel Abregú und Vera Nois im Januar 2016 / Gemischt von Marco Bailo im Templo Limón Studio / Gemastert von Daniel Ovie im Ovie Mastering Studio/ Coverdesign von Urban Bosque / Audio mit hohem Dynamikbereich."
+        },
+        "mute": {
+        "title": "MUTE / MUTE",
+        "text": "MUTE ist auf allen Streaming-Plattformen verfügbar. Veröffentlicht am 18. Februar 2017 von Zenapolae Net Label. Credits / Künstlerische Produktion Ezequiel Abregú & Martín Matus Lerner / Aufgenommen im Urban Bosque Studio von Ezequiel Abregú und Martín Matus Lerner zwischen Januar und März 2016 / Gemischt von Marco Bailo im Templo Limón Studio / Gemastert von Daniel Ovie im Ovie Mastering Studio / Cover von Mariana Rojas / Audio mit hohem Dynamikbereich / Dank an: Vera Nois – Universidad Nacional de Quilmes – Escuela Universitaria de Artes."
+        },
+        "500k": {
+        "title": "500K / 500K",
+        "text": "500k ist auf allen Streaming-Plattformen verfügbar. Veröffentlicht am 5. Oktober 2016 von Chancho Discos. Credits / Künstlerische Produktion Abregú & Chimenti / Aufgenommen im Taller Paternópolis und Urban Bosque Studio von Ezequiel Abregu und Pablo Chimenti zwischen Januar und März 2016 / Gemischt von Marco Bailo im Templo Limón Studio / Gemastert von Daniel Ovie im Ovie Mastering Studio / Cover ‘State of Time’ von Pablo Ziccarello / Audio mit hohem Dynamikbereich / Dank an: Ximena Martínez und Vera Nois"
+        },
+        "imaginarios-de-barrio": {
+        "title": "Imaginarios de <barrio>",
+        "text": "Veröffentlicht am 1. Januar 2014. Credits / Sounddesign & Programmierung: Ezequiel Abregú & Martín Matus Lerner / Interviews: Heliana Vera"
+        }
+    },
+
+    "text": {
+        "research": {
+        "title": "Forschung",
+        "text": ""
+        },
+        "thesis": {
+        "title": "Doktorarbeit",
+        "text": "Eines seiner Hauptinteressen besteht darin, die (akustischen und nicht-akustischen) Hinweise zu untersuchen, die an der audiovisuellen Distanzwahrnehmung (ADP / VDP) beim Menschen beteiligt sind. Im künstlerischen Bereich gibt es nur wenige Beispiele, in denen der Parameter der ADP / VDP als Organisator von Klangelementen verwendet wurde, um einen Raum zu schaffen, in dem der Zuhörer beispielsweise Muster von Trajektorien oder verschiedene Texturen und Ebenen in der Tiefe erkennen kann. Das allgemeine Ziel dieser Arbeit konzentriert sich darauf, eine Untersuchung mit einer doppelten Perspektive durchzuführen: zu untersuchen, wie die visuellen und auditiven Modalitäten interagieren, um die Distanzwahrnehmung beim Menschen zu modulieren, und die erzielten Ergebnisse als alternative kompositorische Anwendung auf die Klangproduktion anzuwenden."
+        }
+    },
+
+    "links": {
+        "email": {
+        "title": "E-Mail",
+        "text": ""
+        },
+        "social": {
+        "title": "Sozial",
+        "text": ""
+        },
+        "donations": {
+        "title": "Spenden",
+        "text": ""
+        },
+        "license": {
+        "title": "Lizenz",
+        "text": ""
+        }
+        },
+    "works": {
+    "cave-aquam": {
+        "title": "Cave Aquam",
+        "text-1": "CAVE AQUAM ist das Ergebnis eines Forschungsprozesses, der sich mit Fragen zu Steinbrüchen und schwefelhaltigem Wasser im Gebiet von Tivoli Guidonia befasst. Rund um die Steinbrüche und das Wasser im Gebiet von Tivoli und Guidonia. Ein Gebiet, das eine Vielzahl von Akteuren, territoriale und Umweltfragen, ökosystemische, bürokratische, rechtliche, wirtschaftliche und extraktive Fragen enthält. Hier ist der allgemeine Rahmen der Probe.",
+        "text-2": "CAVE AQUAM ist ein gemeinschaftliches Projekt, das am Ende der Ausgabe 2023 des Masterstudiengangs 'Environmental Humanities - Environmental and Territorial Studies' (Roma Tre University) entstanden ist. CAVE AQUAM ist die Erzählung von Orten, die eine Vielzahl von Akteuren, territorialen und Umweltfragen, ökosystemischen, bürokratischen und rechtlichen, wirtschaftlichen und extraktiven Fragen enthalten. CAVE AQUAM zielt darauf ab, die Ereignisse rund um Steinbrüche und Wasser in der Region Tivoli und Guidonia als Dringlichkeit und Notfall ins Bewusstsein zu rufen. CAVE AQUAM ist eine multidisziplinäre Forschungsgruppe, bestehend aus cris martone, Paola Pietronave, Nasti Pelo, Arianna Cianetti, Davide Somatics, Cecilia Blanco, Laura Landi."
+    },
+    "eat-to-look-inside": {
+        "title": "Essen, um nach innen zu schauen",
+        "text-1": "Eat to look inside (2020) ist das erste in einer Serie von audiovisuellen Performance-Aktionen, die Klang, Bilder und das symbolische Potenzial des Essens erforschen. Diese Arbeit schlägt Essen als spielerischen Akt vor, um Informationen zu erhalten und Objekte transdisziplinär zu inspizieren. Eat to look inside stellt einen Vorschlag für nonverbale Kommunikation und libidinöse Evolution dar, durch den die Beziehung zu einem Objekt auf spielerische Weise zum Ausdruck gebracht und organisiert wird. Diese Arbeit schlägt eine Distanz durch einen einzigen audiovisuellen Reiz vor, dessen Interaktion nur auf der Wahrnehmungsebene durch die Beobachtung erfolgt. Hinweis: Nach dem Zugriff auf den Link auf den Bildschirm klicken / tippen."
+    },
+    "one-line": {
+        "title": "Eine Linie",
+        "text-1": "One Line ist eine Klangperformance, die den Körper und die Bewegung als eine kontinuierliche Abfolge von Punkten erforscht, die einen Raum zeichnen, der keine bestimmte Figur bildet. Der Körper interagiert / interveniert / aktiviert einen Strahl aus Laserlicht, der durch Klang gebogen wird und sich als eine Reihe von Punkten auf derselben Ebene ausbreitet. Auf diese Weise werden der Körper und die Linie zu einer untrennbaren Einheit.",
+        "text-2": "Wenn der Rest des Punkt-Körpers in Bewegung auf der Ebene zerstört wird, bewegt er sich im Raum und erzeugt die Linie. One Line repräsentiert die einfachste und reinste performative Form, die gleichzeitig dynamisch und vielfältig sein kann. In dieser Performance verschwimmen die Grenzen, und die Peripherie wird zu einem Umriss und seinem Behälter.",
+        "text-3": "<b>Idee, allgemeines Konzept und Gerätedesign:</b> Ezequiel Abregu \n <b>Performance:</b> Ezequiel Abregu, Florencia Staldecker"
+    },
+    "artificial-grandparents": {
+        "title": "Die Künstlichen Großeltern",
+        "text-1": "Constanza (Mexiko, 1990) hat ein Haus in ihrem Kopf. Und es ist nicht genau das von der Sáenz Peña Street 1041 in Zárate, das ihre Urgroßeltern gebaut haben und wo ihre Mutter vor dem Exil ihrer Großeltern aufgewachsen ist.",
+        "text-2": "Mit Hilfe von künstlicher Intelligenz glaubt sie, dass sie dieses innere Haus, das durch familiäre Erinnerung erbaut wurde, nutzen kann, um etwas von Wert zurückzugewinnen, das verloren ging, als sie das Haus verlor. Wir begleiten sie heute zur Tür des Hauses, aber es scheint eher die Architektur einer anderen familiären Erinnerung zu sein. Wenn Erinnerung auf andere Weise aufbaut und überschreibt, andere Realitäten generiert, welchen Wert hat die Wahrheit, die in diesem Haus tatsächlich wohnt?",
+        "text-3": "<b>BODY INTERACTIVE LABORATORY </b> \nLateinamerikanisches Experimentelles Hypermediacenter CheLA Buenos Aires, Argentinien + Remap Ucla University of California, LA Performance: Constanza Casamadrid Multimedia Design: Myriam Beutelspacher Myri Alcántar Interactivity Design: Juan Camilo León Sarmiento Dramaturgie und Inszenierung: Ezequiel EC Steinman Sounddesign und Originalmusik: Ezequiel Abregu Programmierung: Luciano Toledo TOLCH, Juan León Sarmiento Constanza Casamadrid Video: Ezequiel Steinman",
+        "text-4": "<b>Laborgeräte OPEN P TRACK + TOUCH DESIGNER</b> \nJeff Burke – Direktor. \nSantiago Núñez – Co-Direktor. \nBelén Tondo – Produzentin. \nFrancisca Armando - Produzentin. \nJared J. Stein – Resident-Künstler / Mentor, Schriftsteller und Dramatiker. \nMatthew Ragan – Resident / Mentor-Künstler, interaktive Medien. \nPeter Gusev – Resident / Mentor-Künstler, Softwareentwicklung. \nZoe Sandoval – Resident-Künstlerin, interaktive Medien. \nRandy Illum – Resident-Künstler, Informationsstudien. \nSam Amin – Resident-Künstler, Softwareentwicklung. \nRenee MacDonald – REMAP-Projektkoordinator. \nJael Díaz Vila – Grafikdesign."
+    },
+    "urban-bosque": {
+        "title": "Stadtwald",
+        "text-1": "URBAN BOSQUE wurde auf drei poetischen Punkten konzipiert: \n<b>Organizität:</b> verstanden als Erweiterung der Geste des eigenen Körpers durch klanglichen Diskurs, \n<b>Spontaneität:</b> als Matrix künstlerischer Komposition, die Geschichten erzeugt, die die Stücke verbinden, \n<b>Stadtu mgebung:</b> betrachtet als Einfluss der zeitgenössischen Stadt in einem immersiven Klangkontext.",
+        "text-2": "Die gewählten Instrumente bestehen aus einer Vielzahl von analogen Synthesizern, Stimmen, E-Gitarre, Zither und verschiedenen einheimischen Blasinstrumenten. URBAN BOSQUE versucht, die intrinsische Organizität von elektrisch-analogem Klang und den Dialog zu erforschen, der durch akustische Instrumente erzeugt wird.",
+        "text-3": "URBAN BOSQUE beabsichtigt, die Beziehung zwischen Elektrizität, als Erzeuger von Klang, und der Energie (mechanisch, Wind, elektrisch), die vom Körper kommt und die verschiedenen akustischen Instrumente erregt, herzustellen."
+    },
+    "mute": {
+        "title": "STUMM",
+        "text-1": "MUTE ist ein experimentelles Musikduo aus Buenos Aires, Argentinien, bestehend aus Ezequiel Abregú und Martín Matus, bei dem der Klang durch Verfahren und Gesten entsteht. Unsere Ästhetik wurde von vielen Stilen beeinflusst (zeitgenössisch, ambient, elektronisch und experimenteller Lärm), in dem Versuch, einen persönlichen und originellen Vorschlag zu machen.",
+        "text-2": " "
+    },
+    "500k": {
+        "title": "500K",
+        "text-1": "500k ist ein Gitarrenduo, bestehend aus Ezequiel Abregú und Pablo Chimenti, bei dem der Klang durch Verfahren und Gesten entsteht. Das Projekt erzeugt Feedback, das analoge und digitale Prozesse sättigt, als Grundlage für die Ausdehnung und Kontraktion der klanglichen Textur. Improvisation, experimentelle Musik und Komposition verschmelzen zu einer performativen Erfahrung.",
+        "text-2": " "
+    },
+    "chrysalis": {
+        "title": "Puppe",
+        "text-1": "Chrysalis ist eine interaktive Klangskulptur, die Nachhaltigkeit, die menschliche Verbindung mit ihrer Umwelt und die Prozesse, die sie im Laufe der Zeit generiert, behandelt. Die Autoren der Skulptur sind Carla Colombini (Bildhauerin), Ezequiel Abregú & Martín Matus (Klangkünstler).",
+        "text-2": "Chrysalis besteht größtenteils aus einer Skulptur, die viel Elektronikschrott verwendet. Aus symbolischer Sicht schlägt sie eine kritische und nachdenkliche Position zum Umgang mit Elektronikschrott vor, indem sie die Zuschauer dazu anregt, über Umweltprobleme und Nachhaltigkeit nachzudenken, basierend auf Kunst. In diesem Rahmen schlägt die Arbeit eine symbolische Projektion des bestehenden Problems zwischen Menschen und ihrem technologischen Müll vor, wodurch ein direkter Zusammenhang zwischen der zeitgenössischen städtischen Umgebung und ihren Deponien offenbart wird. Der übermäßige Konsum von High-Tech-Geräten, die kulturelle Entwicklung, die von Technologie abhängt, die Strategien der geplanten Obsoleszenz und das Fehlen von Kontrollen und Richtlinien für die Behandlung von technologischem Müll erzeugen ein neues Tabu in städtischen Gesellschaften: Technologiemüllhalden. Aufgrund des exponentiellen Anstiegs dieser Standorte haben wir als Konsequenz eine Ausdehnung ihrer Grenzen, die allmählich unseren städtischen Raum überfluten.",
+        "text-3": "Chrysalis beabsichtigt, aus der Perspektive der Kunst einen reflektierenden Blick auf dieses Problem zu werfen und konzentriert sich dabei auf drei Hauptthemen: \n <ul><li> - Kunst und Technologie, indem sie eine mögliche Lösung für das Problem vorschlägt, indem sie Elektronikschrott als Materialien für die Realisierung der Skulptur wiederverwendet,</li><li> - Kritische Reflexion, indem sie die Werte in Bezug auf die Art und Weise, wie wir uns zur Stadt, zur natürlichen Umwelt und zur Technologie verhalten, erneut bekräftigt, und </li><li>- Nachhaltigkeit, indem sie uns als Teil einer Generation postuliert, die bestrebt ist, ihre Bedürfnisse auf eine bewusste und nachhaltige Weise zu befriedigen.</ul>"
+    },
+    "lejos": {
+        "title": "Weit weg",
+        "text-1": "Die Schauspielerin sucht die Körper biografisch-fiktiver Repräsentationen der Vergangenheit in ihrer Erinnerung. Durch eine extreme körperliche Reise, die mit dem Atmen beginnt, erscheinen und aktualisieren sich die Körper der Vergangenheit in der Gegenwart. Far away erforscht, wie man einen leeren Raum bewohnen und den Körper von bestimmten Erinnerungen befreien kann, in dem Versuch, die Mechanismen der Repräsentation zu transformieren und Autonomie zu experimentieren.",
+        "text-2": "LEJOS ist eine multidisziplinäre Forschung, die Theater, Performance, visuelle und Klangkünste kombiniert. Bereits zu Beginn des kreativen Prozesses bestand die Herausforderung darin, an den perzeptiven Schwellen des Atmens und der Stille zu arbeiten, in der Entfaltung des akustisch-bühnenräumlichen Raums und den Übergangspunkten, an denen ein Symbol oder Klang je nach Kontext eine Sache oder eine andere sein kann. Insbesondere aus der Sicht der Klangbehandlung des Werks wurde die Idee der Erinnerung als Lärm als Schlüsselkonzept für die Komposition des Klangraums angesprochen. In diesem Rahmen fungiert die Behandlung von Stille und Lärm als räumlicher und zeitlicher Rahmen (der auch mit der vergangenen Figur des Charakters verbunden ist) und bildet eine entscheidende Verbindung zwischen dem symbolischen Aspekt des Werks und der fiktiven Vergangenheit der Schauspielerin.",
+        "text-3": "<b>Credits</b> \nSchauspielerin: Florencia Bergallo / Sounddesign und Musik: Ezequiel Abregú / Foto: Mariana Roveda Bühne / Dramaturgie: Florencia Bergallo y Marina Sarmiento / Dramaturgische Beratung: Ezequiel Steinman / Kleiderdesign und Produktion: Belén Parra / Foto Charakterproduktion: Néstor Burgos / Künstlerische Zusammenarbeit: Julieta Potenze / Produktion: Cooperativa LEJOS / Produktionsassistentin: Julieta Benedetto / Technische Assistentin: Selva Aimé / Regieassistentin: Micaela Moreno / Konzept, Choreografie und Regie: Marina Sarmiento"
+    },
+    "viajes-de-sarmiento": {
+        "title": "Die Reisen von Sarmiento",
+        "text-1": "Vier Frauen reisen durch verschiedene Landschaften ihrer Erinnerung durch einen Puls, der ihre eigene Kartographie erstellt. Sie bilden Spektren und Landschaften, die die Stimmen aus den Steinen konstellieren, die die Bücher als Wüste bezeichnen. Die physische und emotionale Erfahrung von Sarmientos Reisen eröffnet die Möglichkeit, einen gemeinsamen, viszeralen und mestizen Körper zu erfinden, der in der Gegenwart verankert ist.",
+        "text-2": "Sounddesign, Originalmusik & Live-Performance für Sarmientos Reisen, inszeniert von Marina Sarmiento. \n Sarmientos Reisen schlagen eine zeitgenössische und bastardisierte Aneignung der Reisen vor, die D. F. Sarmiento im 19. Jahrhundert unternommen hat. Durch einen ästhetischen Kontrast in einer biografischen und einzigartigen Reise versuchen Marina Sarmiento zusammen mit der Tänzerin M. Eugenia Roces, den Schauspielerinnen Cecilia Blanco und Florencia Bergallo und dem Musiker Ezequiel Abregú, auf der Bühne die Erinnerung des Körpers und der Landschaft in Spannung zu setzen.",
+        "text-3": "<strong>Credits</strong> \nPerformer/Kreative: Florencia Bergallo, Cecilia Blanco, María Eugenia Roces, Marina Sarmiento / Sounddesign & Live-Performance: Ezequiel Abregú / Kostüme: Belén Parra / Dramaturgie: Ezequiel Steinman / Bibliografische Beratung: Julieta Benedetto y Natalia Lerussi / Foto: Marcos Crapa / Grafikdesign: Martín Molinaro / Lichtdesigner: Gonzalo Córdova / Klangassistenz: Exequiel Redchuk / Coach: Nicolas Delavanso / Choreographieassistenz: Débora Diskin / Regieassistenz: María Eugenia Roces / Executive Producer: Julieta Benedetto / General Production: Cooperativa Los viajes de Sarmiento / Konzept, Choreograf & Regisseur: Marina Sarmiento"
+    },
+    "bowl-of-secrets": {
+        "title": "Schale der Geheimnisse",
+        "text-1": "Bowl of Secrets ist eine generative Klanginstallation, die von Damián Anache, Ezequiel Abregu und Martín Matus für die Eröffnung von Nota al pie (Buchhandlung der Universidad Nacional de Quilmes) am 11. April 2013 erstellt wurde.",
+        "text-2": "Der Ansatz der Komposition basiert auf der Idee der generativen Musik. Ein algorithmischer Computercode wurde in der Pure Data (a.k.a. PD)-Umgebung entworfen, um mit einem Regelungssystem eine Struktur oder Klangtextur zu schaffen, bei der die Klangergebnisse jedes Mal einzigartig sind. Bowl of Secrets verwendet eine Anordnung von 8 Lautsprechern mit einer gleichmäßigen und kreisförmigen Verteilung als Wiedergabegerät. Die Arbeit verknüpft Texturen der elektroakustischen Musik und Texte von Erik Satie und verwendet ästhetische Kriterien des Ambient-Streams. In dieser ästhetischen Linie versucht der Klangdiskurs, den Zuhörer auf zwei Ebenen zufrieden zu stellen: Er bietet eine Umgebung des auditiven Komforts und liefert gleichzeitig ein Thema von Interesse in einer Situation aufmerksamen Zuhörens von Musik. Beide Bedingungen wirken gleichzeitig, ohne eine Rezeption oder eine andere zu beeinträchtigen."
+    },
+    "pieces-for-ensemble": {
+        "title": "Zwei Stücke für Ensemble",
+        "text-1": "<b>Anleitungen, um mit überphysischen Welten in Kontakt zu treten / Ozeane haben Ohren.</b> \n 2011 hatte Ezequiel Abregu dank der Unterstützung des Musikverlags MELOS (Bs. As., Argentinien) die Gelegenheit, mit dem Ensemble Compañía Oblicua unter der Leitung von Mtro. Marcelo Delgado zusammenzuarbeiten. Aus dieser Zusammenarbeit entstanden zwei Instrumentalensemble-Stücke namens 'Anleitungen, um mit überphysischen Welten in Kontakt zu treten' und 'Ozeane haben Ohren'. Diese Stücke wurden am 4. Juli 2012 vom Compañía Oblicua in der Nationalbibliothek (Buenos Aires, Argentinien) uraufgeführt.",
+        "text-2": " "
+    },
+    "imaginarios-de-barrio": {
+        "title": "Imaginarios de < Barrio >",
+        "text-1": "Imaginarios de < barrio > (< Viertel > Vorstellungen) ist eine generative Klanginstallation, die im Rahmen des Aufrufs Kunst und Politik 2013 des Viertels Paternal durchgeführt wurde. Ursprünglich wurde sie in einem Surround-Sound-Audiosystem präsentiert. Imaginarios de (barrio) wurde vom 11. bis 13. Dezember 2014 im Stadtzentrum von Paternal präsentiert.",
+        "text-2": "Das Werk wurde in einer modifizierten Version am 21. März 2015 beim Belladonna-Festival im Planetarium von Buenos Aires erneut präsentiert. Der Ansatz der Komposition basiert auf der Idee der generativen Musik. Ein algorithmischer Computercode wurde in der Pure Data (a.k.a. PD)-Umgebung entworfen, um mit einem Regelungssystem eine Struktur oder Klangtextur zu schaffen, bei der die Klangergebnisse jedes Mal einzigartig sind. Imaginarios de < barrio > verwendet eine Anordnung von 16 Lautsprechern mit einer gleichmäßigen Verteilung. Die Arbeit verknüpft Texturen der elektroakustischen Musik mit ästhetischen Kriterien des Ambient-Streams."
+    }
+    }
+}
+  
+
