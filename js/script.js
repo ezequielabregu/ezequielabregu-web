@@ -215,7 +215,7 @@ function initializeWaveSurfer() {
 //--------------------------------------------------------------------------------
 
 // Language switcher
-
+// This script is used to translate the content of the page when the user selects a different language from the dropdown menu.
 function loadTranslations(lang, parent = document) {
   fetch(`../lang/${lang}.json`)
     .then(response => response.json())
@@ -251,7 +251,16 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
 // Hide the content until the translations have been loaded
 document.body.style.visibility = 'hidden';
 
+const languageMap = {
+  'en': 'ENGLISH',
+  'es': 'ESPAÑOL',
+  'de': 'DEUTSCH'
+};
+
 const selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
 loadTranslations(selectedLanguage);
-document.getElementById('dropdownMenuButtonDesktop').textContent = selectedLanguage.toUpperCase();
-document.getElementById('dropdownMenuButtonMobile').textContent = selectedLanguage.toUpperCase();
+document.getElementById('dropdownMenuButtonDesktop').textContent = languageMap[selectedLanguage];
+document.getElementById('dropdownMenuButtonMobile').textContent = languageMap[selectedLanguage];
+
+//--------------------------------------------------------------------------------
+

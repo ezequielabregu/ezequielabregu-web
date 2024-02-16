@@ -1121,6 +1121,6 @@ html {
 /* Style for the dropdown menu buttom*/
 .btn-light.dropdown-toggle.btn-sm {
     font-family: 'Roboto Mono', monospace;
-    /* font-size: 12px; */
+    font-size: 12px; 
 }
 
