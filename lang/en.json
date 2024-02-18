@@ -40,6 +40,10 @@
   },
 
   "audio":{
+    "cave-aquam":{
+      "title": "Cave Aquam",
+      "text": "CAVE AQUAM (2023) is the result of a research process that focuses on issues related to quarries and sulfurous water in the territory of Tivoli Guidonia. A territory that contains a multitude of actors, territorial and environmental issues, ecosystemic, bureaucratic, legal, economic, and extractive issues."
+    },
     "aproximacion":{
       "title": "Aproximación / 500k",
       "text": "500k Abregu / Chimenti APROXIMACION is available on all streaming platforms. Released August 9, 2019 por Chancho Discos (AR) y LeRockPsicophonique (CL). Produced in all its stages by 500k / Cover photo ® Ximena Martínez / 500k, Buenos Aires, 2019"
@@ -57,8 +61,12 @@
       "text": "500k is available on all streaming platforms. \nReleased October 5, 2016 by Chancho Discos. Credits / Artistic Production Abregú & Chimenti / Recorded at Taller Paternópolis and Urban Bosque Studio by Ezequiel Abregu and Pablo Chimenti between January-March 2016 / Mixed by Marco Bailo at Templo Limón Studio / Mastered by Daniel Ovie at Ovie Mastering Studio / Cover ‘State of Time’ by Pablo Ziccarello / High dynamic range audio / Thanks to: Ximena Martínez y Vera Nois"
     },
     "imaginarios-de-barrio":{
-      "title": "Imaginarios de <barrio>",
+      "title": "Imaginarios de < barrio >",
       "text": "Released January 1, 2014. \nCréditos / Sound design & programing: Ezequiel Abregú & Martín Matus Lerner / Interviews: Heliana Vera"
+    },
+    "bowl-of-secrets":{
+      "title": "Bowl of Secrets",
+      "text": "Bowl of secrets is a generative sound installation created by Damián Anache, Ezequiel Abregu and Martín Matus, for the Nota al pie (Editorial Universidad Nacional de Quilme’s bookstore) opening, held on April 11, 2013."
     }
   },
 

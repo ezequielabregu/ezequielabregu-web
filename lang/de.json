@@ -40,6 +40,10 @@
     },
 
     "audio": {
+        "cave-aquam":{
+            "title": "Cave Aquam",
+            "text": "CAVE AQUAM (2023) ist das Ergebnis eines Forschungsprozesses, der sich mit Fragen zu Steinbrüchen und schwefelhaltigem Wasser im Gebiet von Tivoli Guidonia befasst. Ein Gebiet, das eine Vielzahl von Akteuren, territoriale und Umweltfragen, ökosystemische, bürokratische, rechtliche, wirtschaftliche und extraktive Fragen enthält."
+        },
         "aproximacion": {
         "title": "Annäherung / 500k",
         "text": "500k Abregu / Chimenti APPROXIMATION ist auf allen Streaming-Plattformen verfügbar. Veröffentlicht am 9. August 2019 von Chancho Discos (AR) und LeRockPsicophonique (CL). In allen Phasen produziert von 500k / Coverfoto ® Ximena Martínez / 500k, Buenos Aires, 2019"
@@ -59,6 +63,10 @@
         "imaginarios-de-barrio": {
         "title": "Imaginarios de <barrio>",
         "text": "Veröffentlicht am 1. Januar 2014. \nCredits / Sounddesign & Programmierung: Ezequiel Abregú & Martín Matus Lerner / Interviews: Heliana Vera"
+        },
+        "bowl-of-secrets":{
+          "title": "Schale der Geheimnisse",
+          "text": "Schale der Geheimnisse ist eine generative Klanginstallation, die von Damián Anache, Ezequiel Abregu und Martín Matus für die Eröffnung von Nota al pie (Buchhandlung der Universidad Nacional de Quilmes) am 11. April 2013 erstellt wurde."
         }
     },
 

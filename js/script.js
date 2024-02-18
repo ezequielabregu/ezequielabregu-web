@@ -264,3 +264,9 @@ document.getElementById('dropdownMenuButtonMobile').textContent = languageMap[se
 
 //--------------------------------------------------------------------------------
 
+// ensure that the initializ eWaveSurfer function is called after the DOM is fully loaded. 
+document.addEventListener('DOMContentLoaded', function() {
+  initializeWaveSurfer();
+});
+
+//--------------------------------------------------------------------------------

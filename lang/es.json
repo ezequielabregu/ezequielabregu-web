@@ -38,6 +38,10 @@
     }
   },
   "audio": {
+    "cave-aquam":{
+      "title": "Cave Aquam",
+      "text": "CAVE AQUAM (2023) es el resultado de un proceso de investigación que se centra en temas relacionados con canteras y aguas sulfurosas en el territorio de Tivoli Guidonia. Un territorio que contiene una multitud de actores, problemas territoriales y ambientales, problemas ecosistémicos, burocráticos, legales, económicos y extractivos."
+    },
     "aproximacion": {
       "title": "Aproximación / 500k",
       "text": "500k Abregu / Chimenti APROXIMACION está disponible en todas las plataformas de streaming. Lanzado el 9 de agosto de 2019 por Chancho Discos (AR) y LeRockPsicophonique (CL). Producido en todas sus etapas por 500k / Foto de portada ® Ximena Martínez / 500k, Buenos Aires, 2019"
@@ -57,6 +61,10 @@
     "imaginarios-de-barrio": {
       "title": "Imaginarios de <barrio>",
       "text": "Lanzado el 1 de enero de 2014. \nCréditos / Diseño de sonido y programación: Ezequiel Abregú y Martín Matus Lerner / Entrevistas: Heliana Vera"
+    },
+    "bowl-of-secrets":{
+      "title": "Búcaro de Secretos",
+      "text": "Búcaro de Secretos es una instalación sonora generativa creada por Damián Anache, Ezequiel Abregu y Martín Matus, para la apertura de Nota al pie (librería de la Editorial Universidad Nacional de Quilmes), celebrada el 11 de abril de 2013."
     }
   },
   "text": {

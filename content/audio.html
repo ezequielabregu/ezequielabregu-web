@@ -12,6 +12,7 @@
     <link href="../css/style.css" rel="stylesheet" />
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VSSEJGH9ES"></script>
     <script src="js/google-analitycs.js"></script>
@@ -109,6 +110,29 @@
             <h1>Audio</h1>
           </div>
         </div> -->
+
+        <div class="row margin-top-45">
+          <div class="col-md-3">
+            <h2 data-translate="audio:cave-aquam:title">Cave Aquam></h2>
+          </div>
+          <div class="col-md-9">
+              <div style="display: flex; align-items: center;">
+                <button id="playPauseButton" class="btn btn-outline-secondary" style="margin-right: 5px; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; padding: 0; line-height: 0;">
+                    <i id="playPauseIcon" class="bi bi-play-fill" style="font-size: 25px;"></i>
+                </button>
+                <div style="position: relative; flex-grow: 1;">
+                    <div id="time">0:00</div>
+                    <div id="duration">0:00</div>
+                    <div id="waveform" data-json="../audio/cave.json" audiofile="../audio/cave_mastered.mp3">
+                    </div>
+                </div>
+            </div>
+              <br>
+              <br>
+              <p data-translate="audio:cave-aquam:text">Released January 1, 2014 </p>
+          </div>
+        </div>
+
         <div class="row margin-top-45">
           <div class="col-md-3">
             <h2 data-translate="audio:aproximacion:title">Aproximación / 500k</h2>
@@ -122,6 +146,7 @@
             <p data-translate="audio:aproximacion:text">500k Abregu / Chimenti</p>
           </div>
         </div>
+
         <div class="row margin-top-45">
             <div class="col-md-3">
               <h2 data-translate="audio:2nd-body:title">2nd Body / URBAN BOSQUE</h2>
@@ -185,6 +210,28 @@
                 <br>
                 <br>
                 <p data-translate="audio:imaginarios-de-barrio:text">Released January 1, 2014 </p>
+            </div>
+          </div>
+
+          <div class="row margin-top-45">
+            <div class="col-md-3">
+              <h2 data-translate="audio:bowl-of-secrets:title">Bowl of secrets></h2>
+            </div>
+            <div class="col-md-9">
+                <div style="display: flex; align-items: center;">
+                  <button id="playPauseButton" class="btn btn-outline-secondary" style="margin-right: 5px; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; padding: 0; line-height: 0;">
+                      <i id="playPauseIcon" class="bi bi-play-fill" style="font-size: 25px;"></i>
+                  </button>
+                  <div style="position: relative; flex-grow: 1;">
+                      <div id="time">0:00</div>
+                      <div id="duration">0:00</div>
+                      <div id="waveform" data-json="../audio/bucaro.json" audiofile="../audio/bucaro_mastered.mp3">
+                      </div>
+                  </div>
+              </div>
+                <br>
+                <br>
+                <p data-translate="audio:bowl-of-secrets:text">Released January 1, 2014 </p>
             </div>
           </div>
 
