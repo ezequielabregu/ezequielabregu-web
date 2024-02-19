@@ -161,11 +161,13 @@ function initializeWaveSurfer() {
   // Check if the #waveform element exists
   var waveformDiv = document.getElementById('waveform');
   if (waveformDiv) {
+        // Get the waveColor from the data-wavecolor attribute
+    var waveColor = waveformDiv.getAttribute('data-wavecolor');
     // Initialize WaveSurfer
     var wavesurfer = WaveSurfer.create({
       container: '#waveform',
-      waveColor: 'rgba(0, 0, 0, 1)',
-      progressColor: 'rgba(0, 0, 0, 0.3)',
+      waveColor: waveColor,
+      progressColor: 'rgba(137, 137, 137, 0.9)',
       backend: 'MediaElement',
     
       barWidth: 1, // Set a bar width

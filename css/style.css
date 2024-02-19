@@ -1,14 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import 'https://fonts.googleapis.com/css?family=Fauna+One';
-@import '../fonts/RobotoMono-Thin.ttf';
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
 /*---------- Global Style ----------*/
 
 body {
-    color: #222;
-    font-family: 'Fauna One', serif;
-    font-size: 16px;
+    color: #e1e1e1;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 15px;
     line-height: 1.8!important;
+    background-color: #252525;
 }
 html {
     overflow-x: hidden;
@@ -21,7 +22,7 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
-    color: #111;
+    color: #e1e1e1;
     line-height: 1.5em;
     margin-top: 0;
 }
@@ -38,8 +39,10 @@ p,
 ul,
 li {
     font-family: 'Roboto Mono', monospace;
-    color: #666;
+    color: #e1e1e1;
+    font-weight: 300;
 }
+
 section {
     padding-top: 185px;
     padding-bottom: 185px;
@@ -51,15 +54,15 @@ section {
 a,
 a:link {
     /* color: #4b96bb; */
-    color: #759784; /* Changed by me */
+    color: #6fb3b8; /* Changed by me */
 }
 a:visited {
-    color: #4b96bb; /* Change this to the color of unvisited links */
+    color: #6fb3b8; /* Change this to the color of unvisited links */
 }
 a:hover,
 a:focus,
 a:visited {
-    color: #666;
+    color: #6fb3b8;
     text-decoration: none;
 }
 .vcenter {
@@ -133,8 +136,8 @@ a:visited {
     background-color: transparent;
     border-color: transparent;
 }
-.navbar-default.color-fill {
-    background-color: #fff;
+.navbar-default.color-fill { /* Change navbar background color */
+    background-color: #1A1A1A;
     border-color: transparent;
 }
 .btn-nav {
@@ -170,7 +173,7 @@ a:visited {
 }
 @media (max-width: 992px) {
     .icon-bar.inverted {
-        background-color: #222;
+        background-color: #e1e1e1;
     }
 }
 .opaque {
@@ -190,7 +193,7 @@ a:visited {
     bottom: 0;
     /* left: 0; */ /* remove to justify to the right */
     right: 0;
-    background-color: rgba(255, 255, 255, 1); /* Change mobile menu color and opacity*/
+    background-color: #1a1a1a; /* Change mobile menu color and opacity*/
     display: block;
     width: 42%;
     height: 100%;  /* Adjust mobile menu height */
@@ -204,7 +207,8 @@ a:visited {
 }
 .item-anchor {
     /* color: #fff; */
-    color: #666 !important; /* Change this to the text mobile menu color (#fff original) */
+    /* Change this to the text mobile menu color (#fff original) */
+    /* color: #e1e1e1 !important;  */
     font-size: 16px;
     font-weight: 100;
     position: relative;
@@ -236,7 +240,7 @@ a:visited {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto Mono', monospace;
     /* margin: 10px auto;  */
-    margin: 0 10px; /* adjust space between fixed navbar icons */
+    margin: 0 20px; /* adjust space distance between fixed navbar icons */
     text-align: right;
     color: #222; /* #222; */
     padding-left: 10px; /* Adjust this value to match the padding of .item-anchor */
@@ -250,7 +254,7 @@ a:visited {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border-bottom: 2px solid #222;
+    border-bottom: 2px solid #e1e1e1;
 }
 .animated {
     display: block;
@@ -277,7 +281,7 @@ a:visited {
 }
 .animated .icon-bar {
     z-index: 999999;
-    background-color: #222!important;
+    background-color: #e1e1e1!important;
 }
 .animated .top {
     -webkit-transform: translateY(7px) rotateZ(45deg);
@@ -458,7 +462,7 @@ a:visited {
     height: 50%;
     margin: 0 auto;
     position: relative;
-    color: #fff;
+    color: #252525;
     text-align: center;
     background-size: cover;
 }
@@ -569,7 +573,7 @@ a:visited {
 
 #fixed-navbar a {
     text-decoration: none;
-    color: #333;
+    color: #e1e1e1;
     margin-left: 10px;
     /* font-family: 'Open Sans', sans-serif;  */
     font-family: 'Roboto Mono', monospace;
@@ -603,11 +607,11 @@ a:visited {
 }
 
 #fixed-navbar .nav-item.active {
-    background-color: #ddece3; /* Change this to the desired color */
+    background-color: #292c33; /* Change this to the desired color */
 }
 
 .nav-item.active .item-anchor {
-    background-color: #ddece3; /* Change this to the desired color */
+    background-color: #292c33; /* Change this to the desired color */
 }
 
 
@@ -785,7 +789,7 @@ html {
     flex-direction: column; /* Add this line */
     align-items: center;
     justify-content: center; /* justified totaly to the rigth ( use "flex-end" for totally to the rigth )*/
-    background-color: #fff; 
+    background-color: #1A1A1A; 
     /*background-color: rgba(255, 255, 255, 0.7);*/ /* Adjust transparency */
     border-color: transparent;
     width: 100%;
@@ -801,7 +805,7 @@ html {
 
 #fixed-footer p {
     text-decoration: none;
-    color: #666;
+    color: #898989;
     margin-top: 0px; /* move icons horinzontally */
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0px;
@@ -810,7 +814,7 @@ html {
 
 #fixed-footer i {
     font-size: 20px; /* Adjust this value to change the icons size*/
-    color: #666;
+    color: #E1E1E1;
     letter-spacing: 10px;
 }
 
@@ -820,6 +824,7 @@ html {
 /*adjust the distance beetwee the navbar and the page content / container, both on desktop and mobile  */
 .container {
     margin-top: -100px; /* Default for small screens, adjust as needed */
+    background-color: #252525; /* Change this to your desired color */
 }
 
 #collapsed-navbar {
@@ -828,7 +833,7 @@ html {
 
 .container b,
 .container strong {
-    font-weight: bold;
+    font-weight: 700;
 }
 /* ------------------------------------------------------------------------------- */
 
@@ -887,10 +892,10 @@ html {
   
   .modal-content {
     font-family: 'Roboto Mono', monospace;
-    color: #333;
+    color: #e1e1e1;
     line-height: 1.6;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #252525;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 90%; 
@@ -910,13 +915,14 @@ html {
 .modal-content h4,
 .modal-content h5,
 .modal-content h6 {
-    color: #333;
+    color: #e1e1e1;
     margin-top: 1.4em;
 }
 
 .modal-content h2 {
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #1BEB9E !important;
 }
 
 .modal-content p {
@@ -949,13 +955,13 @@ html {
 
 .modal-content code {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f0f0f0;
+    background-color: #252525;
     padding: 2px 4px;
     border-radius: 3px;
 }
 
 .modal-content pre {
-    background-color: #f0f0f0;
+    background-color: #252525;
     padding: 10px;
     border-radius: 3px;
 }
@@ -1022,7 +1028,7 @@ html {
   
 .close {
     font-size: 30px;
-    color: #666;
+    color: #e1e1e1;
     opacity: 1;
 }
 
@@ -1043,7 +1049,7 @@ html {
   .modal-content h4,
   .modal-content h5,
   .modal-content h6 {
-      color: #333;
+      color: #e1e1e1;
       margin-top: 1.4em;
   }
   
@@ -1066,7 +1072,8 @@ html {
     position: absolute;
     bottom: -20px; /* Adjust as needed */
     left: 0;
-    color: #666;
+    /* color: #666; */
+    color: #1BEB9E;
     /* background: rgba(0, 0, 0, 0.5); */
     padding: 0px;
     width: 100%;
@@ -1106,7 +1113,7 @@ html {
         margin-top: -1px;
         transform: translateY(-50%);
         font-size: 11px;
-        background: rgba(0, 0, 0, 0.65);
+        background: rgba(0, 0, 0, 0.8);
         padding: 2px;
         color: #ddd;
       }
@@ -1119,12 +1126,57 @@ html {
 
 /* ------------------------------------------------------------------------------- */
 /* Style for the dropdown menu buttom*/
-.btn-light.dropdown-toggle.btn-sm {
+.btn-dark.dropdown-toggle.btn-sm {
     font-family: 'Roboto Mono', monospace;
-    font-size: 12px; 
+    font-size: 12px;
+    color: #E1E1E1; 
 }
 
 .dropdown-menu .dropdown-item {
     font-size: 12px; /* Adjust as needed */
+    color: #898989; 
+    background-color: #252525;
+    border: none;
   }
+  .dropdown-menu a.dropdown-item {
+    font-size: 12px; /* Adjust as needed */
+    color: #E1E1E1; /* Change this to the color you want for the text */
+    background-color: #252525;
+    border: none;
+}
+
 /* ------------------------------------------------------------------------------- */
+/* https://colorpeek.com/#1beb9e,e1e1e1,898989,dddd25,b462ff,18b6ff,ff9528,ff45b4,1a1a1a*/
+
+/* Main Color Palette */
+.works-color {
+    color: #1BEB9E !important; /* Red */
+  }
+  
+.about-color {
+    color: #B462FF !important; /* Green */
+  }
+  
+.audio-color {
+    color: #DDDD25 !important; /* Blue */
+  }
+  
+.text-color {
+    color: #18B6FF !important; /* Yellow */
+  }
+.links-color {
+    color: #FF45B4 !important; /* Yellow */
+  }
+.code-color {
+    color: #FF9528 !important; /* Yellow */
+  }
+/* extended Color Palette */
+.hyperlink-color{
+    color: #6fb3b8 !important; /* Yellow */
+  }
+.text-body-color{
+    color: #E1E1E1 !important; /* Yellow */
+  }
+.navbar-color{
+    color: #1A1A1A !important; 
+}    

@@ -1,0 +1,1130 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import 'https://fonts.googleapis.com/css?family=Fauna+One';
+@import '../fonts/RobotoMono-Thin.ttf';
+
+/*---------- Global Style ----------*/
+
+body {
+    color: #222;
+    font-family: 'Fauna One', serif;
+    font-size: 16px;
+    line-height: 1.8!important;
+}
+html {
+    overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #111;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+p {
+    /* font-family: 'Fauna One', serif; */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin-top: 1px;
+    /* space between letters */
+    letter-spacing: -1px;
+}
+p,
+ul,
+li {
+    font-family: 'Roboto Mono', monospace;
+    color: #666;
+}
+section {
+    padding-top: 185px;
+    padding-bottom: 185px;
+}
+.no-gutter {
+    padding-right: 0;
+    padding-left: 0;
+}
+a,
+a:link {
+    /* color: #4b96bb; */
+    color: #759784; /* Changed by me */
+}
+a:visited {
+    color: #4b96bb; /* Change this to the color of unvisited links */
+}
+a:hover,
+a:focus,
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.fill {
+    height: 100vh;
+}
+.margin-top-05 {
+    margin-top: 0.5em;
+}
+.margin-top-10 {
+    margin-top: 1.0em;
+}
+.margin-top-15 {
+    margin-top: 1.5em;
+}
+.margin-top-20 {
+    margin-top: 2.0em;
+}
+.margin-top-25 {
+    margin-top: 2.5em;
+}
+.margin-top-30 {
+    margin-top: 3.0em;
+}
+.margin-top-35 {
+    margin-top: 3.5em;
+}
+.margin-top-40 {
+    margin-top: 4.0em;
+}
+.margin-top-45 {
+    margin-top: 4.5em;
+}
+
+/*---------- Navbar ----------*/
+
+.nav {
+    position: relative;
+    width: auto;
+    display: flex; /* Change this from inline-block to flex */
+    justify-content: flex-end; /* Add this line */
+    border: none;
+    float: none;
+    z-index: 99999;
+}
+.fixed-top {
+    padding-top: 0px; /* Adjust menu bar vertical (Y) position*/
+    float: left; /* For older browsers */
+    justify-content: flex-start; /* For modern browsers */
+}
+.navbar-brand {
+    padding-top: 12px; /* Adjust navbar-brand vertical (Y) position*/
+    padding-left: 15px;
+}
+.navbar-brand > img {
+    max-width: 127px;
+    z-index: 9999;
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding-left: 15px;
+    }
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default.color-fill {
+    background-color: #fff;
+    border-color: transparent;
+}
+.btn-nav {
+    background: transparent;
+    border: none;
+    padding: 15px;
+    position: absolute;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    z-index: 99999;
+}
+@media (max-width: 768px) {
+    .btn-nav {
+        padding: 15px 0;
+    }
+}
+.btn-nav:focus {
+    outline: 0;
+}
+.icon-bar {
+    display: block;
+    margin: 6px 0;
+    width: 30px;
+    height: 3px;
+    background-color: #222;
+}
+.icon-bar.inverted {
+    background-color: #fff;
+}
+@media (max-width: 992px) {
+    .icon-bar.inverted {
+        background-color: #222;
+    }
+}
+.opaque {
+    background-color: #fff!important;
+}
+.btn-nav:hover .icon-bar {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #555;
+}
+.nav-content {
+    position: fixed;
+    top: -100%;
+    bottom: 0;
+    /* left: 0; */ /* remove to justify to the right */
+    right: 0;
+    background-color: rgba(255, 255, 255, 1); /* Change mobile menu color and opacity*/
+    display: block;
+    width: 42%;
+    height: 100%;  /* Adjust mobile menu height */
+    z-index: 9;
+}
+.nav-list {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /* padding-top: 60px;  */
+}
+.item-anchor {
+    /* color: #fff; */
+    color: #666 !important; /* Change this to the text mobile menu color (#fff original) */
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 3; /* Adjust vertical space beetween elements of mobile menu*/ 
+}
+
+.item-anchor:hover,
+.item-anchor:focus {
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.item-anchor:hover:after,
+.item-anchor:focus:after {
+    width: 100%;
+    background: #f7f7f7;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.nav-item {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+    /* margin: 10px auto;  */
+    margin: 0 10px; /* adjust space between fixed navbar icons */
+    text-align: right;
+    color: #222; /* #222; */
+    padding-left: 10px; /* Adjust this value to match the padding of .item-anchor */
+    padding-right: 10px;
+}
+
+.nav-item a:link,
+.nav-item a:hover,
+.nav-item a:focus {
+    color: #222; /* Change this to the text mobile menu color links (#222 original) */
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border-bottom: 2px solid #222;
+}
+.animated {
+    display: block;
+    margin: 0 auto;
+}
+.animated:hover .icon-bar,
+.animated:focus .icon-bar {
+    background-color: #fff;
+}
+.animated:focus {
+    cursor: pointer;
+    z-index: 9999;
+}
+.middle {
+    margin: 0 auto;
+}
+.icon-bar {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    z-index: 999999;
+}
+.animated .icon-bar {
+    z-index: 999999;
+    background-color: #222!important;
+}
+.animated .top {
+    -webkit-transform: translateY(7px) rotateZ(45deg);
+    -moz-transform: translateY(7px) rotateZ(45deg);
+    -ms-transform: translateY(7px) rotateZ(45deg);
+    -o-transform: translateY(7px) rotateZ(45deg);
+    transform: translateY(7px) rotateZ(45deg);
+}
+.animated .bottom {
+    -webkit-transform: translateY(-11px) rotateZ(-45deg);
+    -moz-transform: translateY(-11px) rotateZ(-45deg);
+    -ms-transform: translateY(-11px) rotateZ(-45deg);
+    -o-transform: translateY(-11px) rotateZ(-45deg);
+    transform: translateY(-11px) rotateZ(-45deg);
+}
+.animated .middle {
+    width: 0;
+}
+@keyframes showNav {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+@-webkit-keyframes showNav {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+@-moz-keyframes showNav {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+@-o-keyframes showNav {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+.showNav {
+    -webkit-animation: showNav 0.5s ease forwards;
+    -moz-animation: showNav 0.5s ease forwards;
+    -o-animation: showNav 0.5s ease forwards;
+    animation: showNav 0.5s ease forwards;
+}
+@keyframes hideNav {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
+}
+@-webkit-keyframes hideNav {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
+}
+@-moz-keyframes hideNav {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
+}
+@-o-keyframes hideNav {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
+}
+.hideNav {
+    -webkit-animation: hideNav 1s ease forwards;
+    -moz-animation: hideNav 1s ease forwards;
+    -o-animation: hideNav 1s ease forwards;
+    animation: hideNav 1s ease forwards;
+}
+.hidden {
+    display: none;
+}
+
+/*---------- Menu Icon Animation ----------*/
+
+.navbar-toggle * {
+    -ms-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.navbar-toggle {
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    padding: 16px;
+    width: 50px;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #fff;
+}
+.navbar-toggle span {
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #222;
+    display: block;
+}
+.navbar-toggle span.bar1 {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -ms-transform-origin: 1px 3px;
+    -webkit-transform-origin: 1px 3px;
+    -moz-transform-origin: 1px 3px;
+    -o-transform-origin: 1px 3px;
+    transform-origin: 1px 3px;
+    width: 31px;
+}
+.navbar-toggle span.bar2 {
+    -ms-transform: rotate(-360deg) scale(0);
+    -webkit-transform: rotate(-360deg) scale(0);
+    -moz-transform: rotate(-360deg) scale(0);
+    -o-transform: rotate(-360deg) scale(0);
+    transform: rotate(-360deg) scale(0);
+}
+.navbar-toggle span.bar3 {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -ms-transform-origin: 8px 2px;
+    -webkit-transform-origin: 8px 2px;
+    transform-origin: 8px 2px;
+    width: 31px;
+}
+.navbar-toggle.collapsed span.bar1,
+.navbar-toggle.collapsed span.bar2,
+.navbar-toggle.collapsed span.bar3,
+.navbar-toggle.collapsed span.bar4 {
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    width: 30px;
+}
+
+/*---------- Header ----------*/
+
+#header {
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+#headslide {
+    position: relative;
+}
+#headslide .img-responsive,
+#headslide .thumbnail > img,
+#headslide .thumbnail a > img,
+#headslide .carousel-inner > .item > img,
+#headslide .carousel-inner > .item > a > img {
+    height: 100vh;
+    max-width: none;
+    object-fit: cover;
+    width: 100%;
+}
+#header h1,
+#header p {
+    color: #fff;
+}
+#header h1 {
+    font-size: 3.5em;
+}
+#header p {
+    font-size: 1.5em;
+}
+
+/*---------- Portfolio ----------*/
+
+#portfolio {
+/*     padding-top: 185px; */
+    padding-top: 240px; 
+}
+.background-image-holder {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 50% 50% !important;
+    background-repeat: repeat;
+    background-size: cover !important;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.square-thumbs li {
+    height: auto;
+}
+.lightbox-grid li {
+    padding: 8px;
+    float: left;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+@media (max-width: 992px) {
+    .lightbox-grid li  {
+        padding: 8px 0;
+    }
+}
+.lightbox-grid,
+.lightbox-grid ul,
+.lightbox-grid li {
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-sorting {
+    padding-left: 15px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+}
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a.active {
+    border-bottom: 2px solid #222;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.item {
+    height: 100vh;
+}
+.item img {
+    width: 100%;
+    height: 100vh!important;
+    height: auto;
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+#fixed-navbar {
+    position: fixed;
+    right: 25px;
+    height: 50px; /* Adjust this value to match your logo's height */
+    display: flex;
+    align-items: center;
+    padding-top: 10px; /* Align with .navbar-brand */
+}
+
+#fixed-navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+    /* font-family: 'Open Sans', sans-serif;  */
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Hide the collapsed navbar by default */
+#collapsed-navbar {
+    display: none;
+}
+
+/* Show the fixed text navbar only on screens wider than 768px */
+@media (min-width: 768px) {
+    #fixed-navbar {
+        display: flex; /* Moved from the bottom */
+        justify-content: space-between; /* Align the language switch */
+    }
+}
+
+/* Show the collapsed navbar and hide the fixed text navbar on screens narrower than 768px */
+@media (max-width: 767px) {
+    #fixed-navbar {
+        display: none;
+    }
+    #collapsed-navbar {
+        display: block;
+    }
+    .btn-nav {
+        padding: 15px;
+    }
+}
+
+#fixed-navbar .nav-item.active {
+    background-color: #ddece3; /* Change this to the desired color */
+}
+
+.nav-item.active .item-anchor {
+    background-color: #ddece3; /* Change this to the desired color */
+}
+
+
+
+
+/* MARKDOWN CONTENT added by me on 29.02.2024 */
+
+#markdown-content {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    margin: auto;
+}
+/* Adjust width for screens larger than 768px */
+@media (min-width: 768px) {
+    #markdown-content {
+        width: 80%;
+    }
+}
+
+#markdown-content h1,
+#markdown-content h2,
+#markdown-content h3,
+#markdown-content h4,
+#markdown-content h5,
+#markdown-content h6 {
+    color: #333;
+    margin-top: 1.4em;
+}
+
+#markdown-content h2 {
+    margin-top: 100px; /* adjust margin to add space between sections */
+    margin-bottom: 20px; /* adjust margin as needed */
+}
+
+#markdown-content p {
+    margin-bottom: 1.4em;
+}
+
+#markdown-content a {
+    color: #3498db;
+}
+
+#markdown-content a:hover {
+    color: #2980b9;
+}
+
+#markdown-content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.4em;
+    margin-bottom: 40px; /* adjust as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#markdown-content code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+#markdown-content pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#markdown-content iframe {
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* for 16:9 aspect ratio */
+    margin-bottom: 40px; /* adjust as needed */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Adjust styles for screens smaller than 600px */
+/* @media (max-width: 767px) {
+    .video-container {
+        padding-bottom: 75%;
+    }
+}  */
+
+/*adding more breakpoints to handle different screen sizes*/
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .video-container {
+        padding-bottom: 70%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .video-container {
+        padding-bottom: 75%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .video-container {
+        padding-bottom: 80%;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .video-container {
+        padding-bottom: 85%;
+    }
+}
+
+/*scroll padding, to avoid markdown navigation colapse, added by me on 29.01.2024*/
+html {
+    scroll-padding-top: 70px; /* adjust as needed */
+}
+
+/*------------------------------------------------------------------------------- */
+
+#section-indicator {
+    position: absolute;
+    top: 6px; /* Adjust as needed */
+    left: 60px; 
+    font-size: 11px;  /* Adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* page-inidcator display text on mobile ONLY*/
+#page-indicator {
+    display: none; /* Hide by default */
+    position: absolute;
+    top: 36px; /* Adjust as needed */
+    font-size: 11px; /* Adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Show on screens smaller than 768px (mobile screens) */
+@media (max-width: 767px) {
+    #page-indicator {
+        display: block;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
+/* Footer added by me on 03.02.2024 */
+#fixed-footer {
+    position: relative; /* "fixed" for anchor footer allways on top */
+    bottom: 0px;
+    right: 0px; 
+    height: 20px; /* Adjust this value to make the footer narrower */
+    display: flex;
+    flex-direction: column; /* Add this line */
+    align-items: center;
+    justify-content: center; /* justified totaly to the rigth ( use "flex-end" for totally to the rigth )*/
+    background-color: #fff; 
+    /*background-color: rgba(255, 255, 255, 0.7);*/ /* Adjust transparency */
+    border-color: transparent;
+    width: 100%;
+    padding-top: 40px;
+
+}
+
+#fixed-footer a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#fixed-footer p {
+    text-decoration: none;
+    color: #666;
+    margin-top: 0px; /* move icons horinzontally */
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0px;
+    font-size: 12px
+}
+
+#fixed-footer i {
+    font-size: 20px; /* Adjust this value to change the icons size*/
+    color: #666;
+    letter-spacing: 10px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+/*adjust the distance beetwee the navbar and the page content / container, both on desktop and mobile  */
+.container {
+    margin-top: -100px; /* Default for small screens, adjust as needed */
+}
+
+#collapsed-navbar {
+    margin-top: 95px; /* This will push the navbar down, reducing the space */
+}
+
+.container b,
+.container strong {
+    font-weight: bold;
+}
+/* ------------------------------------------------------------------------------- */
+
+
+/* added by me --> ::after to create the text, and the :hover to show the text when the mouse pointer is over the navbar item*/
+.nav-item {
+    position: relative; /* Needed for the absolute positioning of the ::after pseudo-element */
+}
+
+.nav-item::after {
+    content: attr(data-text); /* Content is taken from the data-text attribute of the .nav-item */
+    position: absolute;
+    top: 15px; /* Position the text below the icon */
+    left: 50%; /* Move the text to the center of the icon */
+    transform: translateX(-50%); /* Shift the text to the left by half its width */
+    opacity: 1; /* Default opacity is 0, making the text invisible */
+    font-size: 12px;  /* Adjust as needed */
+    font-family: 'Roboto Mono', monospace;
+    transition: opacity 0.3s; /* Transition effect for the opacity */
+}
+
+/* under navbar icons style*/
+.nav-text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+#fixed-navbar:hover .nav-item::after {
+    opacity: 1; /* Opacity is set to 1 on hover, making the text visible */
+}
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+
+/* The Modal popup style (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    left: 0px;
+    top: 0px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%; 
+    margin: auto;
+
+}
+
+@media (min-width: 768px) {
+    .modal-content {
+        width: 80%;
+    }
+}
+
+.modal-content h1,
+.modal-content h2,
+.modal-content h3,
+.modal-content h4,
+.modal-content h5,
+.modal-content h6 {
+    color: #333;
+    margin-top: 1.4em;
+}
+
+.modal-content h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.modal-content p {
+    margin-bottom: 1.4em;
+}
+
+.modal-content a {
+    color: #3498db;
+}
+
+.modal-content a:hover {
+    color: #2980b9;
+}
+
+.modal-content b,
+.modal-content strong {
+    font-weight: bold;
+}
+
+.modal-content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.4em;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-content code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.modal-content pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.modal-content iframe {
+    width: 100%;
+}
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 40px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1199px) {
+    .video-container {
+        padding-bottom: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+    .video-container {
+        padding-bottom: 75%;
+    }
+}
+
+@media (max-width: 767px) {
+    .video-container {
+        padding-bottom: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    .video-container {
+        padding-bottom: 85%;
+    }
+}
+
+.close-button {
+    position: absolute;
+    top: 30px; /* adjust as needed */
+    right: 10px; /* adjust as needed */
+    width: 30px;
+    height: 50px;
+    padding: 0; /* remove padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.close {
+    font-size: 30px;
+    color: #666;
+    opacity: 1;
+}
+
+/*------------------------------------------------------------------------- */
+/*Style for the fade in when a Model is opening*/
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  #myModal {
+    animation: fadeIn 0.5s;
+  }
+  
+  .modal-content h1,
+  .modal-content h2,
+  .modal-content h3,
+  .modal-content h4,
+  .modal-content h5,
+  .modal-content h6 {
+      color: #333;
+      margin-top: 1.4em;
+  }
+  
+  .modal-content h2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .modal-content p {
+      margin-bottom: 1.4em;
+  }
+  
+  .modal-content a {
+      color: #3498db;
+  }
+
+    /*------------------------------------------------------------------------- */
+    /* Syle for image gallery captions in portfolio.html*/
+.image-caption {
+    position: absolute;
+    bottom: -20px; /* Adjust as needed */
+    left: 0;
+    color: #666;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 2px; 
+    }
+
+     /*------------------------------------------------------------------------- */
+
+/* 
+     audio {
+        width: 100%;
+        background-color: #759784;
+        border: 1px solid #666;
+        border-radius: 5px;
+        padding: 5px;
+      } */
+
+      audio {
+        width: 100%;
+        max-width: 100%; /* The audio player won't get wider than 600px */
+        margin: 20px auto; /* 20px vertical margin, and auto horizontal margin to center the player */
+        background-color: rgba(227, 226, 226, 0.5);
+        border: 1px solid #666;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7); /* A subtle shadow effect */
+      }
+
+      #time,
+      #duration {
+        position: absolute;
+        z-index: 11;
+        top: 50%;
+        margin-top: -1px;
+        transform: translateY(-50%);
+        font-size: 11px;
+        background: rgba(0, 0, 0, 0.65);
+        padding: 2px;
+        color: #ddd;
+      }
+      #time {
+        left: 0;
+      }
+      #duration {
+        right: 0;
+      }
+
+/* ------------------------------------------------------------------------------- */
+/* Style for the dropdown menu buttom*/
+.btn-light.dropdown-toggle.btn-sm {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; 
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 12px; /* Adjust as needed */
+  }
+/* ------------------------------------------------------------------------------- */
