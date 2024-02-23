@@ -1,6 +1,6 @@
 # Ezequiel Abregu Website 2024
 
-This repository contains the source code for the personal website of Ezequiel Abregu.
+This repository contains the source code for the Ezequiel Abregu's website 2024.
 
 ## Installation
 
@@ -47,9 +47,11 @@ If you want to contribute to this project, please create a new branch, make your
 
 ## To Do
 
-- [ ] Add Multilanguage (EN, ES, DE). Use Json method.
-- [ ] Add CAVE AQUAM and Bow of secrets to audio.html
-- [ ] Add Sound Performance article to text.html  
+- [x] Add Multilanguage (EN, ES, DE). Use Json method.
+- [x] Add CAVE AQUAM and Bow of secrets to audio.html
+- [ ] Add Sound Performance article to text.html
+- [ ] Button Theme Switch (ligth and dark)
+- [ ] Quit marked.js  
 
 ## License
 
