@@ -272,13 +272,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //--------------------------------------------------------------------------------
-// Footer
+// Footer script
 //This path starts with a /, which means it's relative to the root directory of your project, not the current directory. This way, it points to the same file no matter which page you're on.
 // Send a GET request to the server to fetch the 'footer.html' content
-fetch('/content/footer.html')
+fetch('/components/footer.html')
   // Parse the response as text
   .then(response => response.text())
   // Set the innerHTML of the element with the id 'footer' to the fetched data
   .then(data => {
     document.getElementById('footer').innerHTML = data;
   });
+
+//--------------------------------------------------------------------------------
