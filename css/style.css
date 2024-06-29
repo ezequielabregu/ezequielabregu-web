@@ -1146,37 +1146,36 @@ html {
 }
 
 /* ------------------------------------------------------------------------------- */
-/* https://colorpeek.com/#1beb9e,e1e1e1,898989,dddd25,b462ff,18b6ff,ff9528,ff45b4,1a1a1a*/
-
+/* https://colorpeek.com/#1beb9e,e1e1e1,898989,dddd25,b462ff,18b6ff,ff9528,ff45b4,1a1a1a */
 /* Main Color Palette */
 .works-color {
-    color: #1BEB9E !important; /* Red */
+    color: #1BEB9E !important; /* Green */
   }
   
 .about-color {
-    color: #B462FF !important; /* Green */
+    color: #B462FF !important; /* Purple */
   }
   
 .audio-color {
-    color: #DDDD25 !important; /* Blue */
+    color: #DDDD25 !important; /* Yellow */
   }
   
 .text-color {
-    color: #18B6FF !important; /* Yellow */
+    color: #18B6FF !important; /* Bluesky */
   }
 .links-color {
-    color: #FF45B4 !important; /* Yellow */
+    color: #FF45B4 !important; /* Magenta */
   }
 .code-color {
-    color: #FF9528 !important; /* Yellow */
+    color: #FF9528 !important; /* Orange */
   }
 /* extended Color Palette */
 .hyperlink-color{
-    color: #6fb3b8 !important; /* Yellow */
+    color: #6fb3b8 !important; /* Green soft */
   }
 .text-body-color{
-    color: #E1E1E1 !important; /* Yellow */
+    color: #E1E1E1 !important; /* Grey */
   }
 .navbar-color{
-    color: #1A1A1A !important; 
+    color: #1A1A1A !important; /* dark */
 }    
